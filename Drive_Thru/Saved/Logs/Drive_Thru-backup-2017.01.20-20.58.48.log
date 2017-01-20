@@ -1,0 +1,779 @@
+﻿Log file open, 01/20/17 20:18:34
+LogInit:Display: Running engine for game: Drive_Thru
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(797523483) SRandInit(797523483).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.082899
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin FMODStudio, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/FMODStudio/FMODStudio.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.01.20-20.18.34:868][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.20-20.18.34:868][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.01.20-20.18.34:877][  0]LogInit: Computer: DESKTOP-LDMGO10
+[2017.01.20-20.18.34:877][  0]LogInit: User: HarryHastonDougan
+[2017.01.20-20.18.34:877][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.01.20-20.18.34:877][  0]LogInit: High frequency timer resolution =3.328125 MHz
+[2017.01.20-20.18.34:877][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.01.20-20.18.34:877][  0]LogMemory: Platform Memory Stats for Windows
+[2017.01.20-20.18.34:877][  0]LogMemory: Process Physical Memory: 264.78 MB used, 264.78 MB peak
+[2017.01.20-20.18.34:877][  0]LogMemory: Process Virtual Memory: 262.76 MB used, 262.76 MB peak
+[2017.01.20-20.18.34:877][  0]LogMemory: Physical Memory: 6205.28 MB used,  10141.48 MB free, 16346.76 MB total
+[2017.01.20-20.18.34:877][  0]LogMemory: Virtual Memory: 676.41 MB used,  10141.48 MB free, 134217728.00 MB total
+[2017.01.20-20.18.34:900][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2017.01.20-20.18.35:456][  0]LogD3D11RHI: D3D11 adapters:
+[2017.01.20-20.18.35:952][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
+[2017.01.20-20.18.35:952][  0]LogD3D11RHI:       3035/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.01.20-20.18.35:954][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.01.20-20.18.35:954][  0]LogD3D11RHI:       0/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.01.20-20.18.35:954][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.01.20-20.18.35:959][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.01.20-20.18.35:959][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
+[2017.01.20-20.18.35:959][  0]LogWindows: EnumDisplayDevices:
+[2017.01.20-20.18.35:959][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
+[2017.01.20-20.18.35:959][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:1)
+[2017.01.20-20.18.35:960][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2017.01.20-20.18.35:960][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2017.01.20-20.18.35:960][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.01.20-20.18.35:960][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
+[2017.01.20-20.18.35:960][  0]LogD3D11RHI:   Driver Version: 376.19 (internal:21.21.13.7619, unified:376.19)
+[2017.01.20-20.18.35:960][  0]LogD3D11RHI:      Driver Date: 12-1-2016
+[2017.01.20-20.18.35:960][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.01.20-20.18.36:404][  0]LogD3D11RHI: Async texture creation enabled
+[2017.01.20-20.18.36:434][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.01.20-20.18.36:434][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Intermediate/Shaders/WorkingDirectory/588/).
+[2017.01.20-20.18.36:435][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Harry Haston-Dougan/AppData/Local/Temp/UnrealShaderWorkingDir/66B115DB4C02263FCB9C24B4019D63A9/'.
+[2017.01.20-20.18.36:435][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.01.20-20.18.37:337][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.01.20-20.18.37:386][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.01.20-20.18.37:435][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.01.20-20.18.37:484][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.01.20-20.18.37:532][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.01.20-20.18.37:578][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.01.20-20.18.37:626][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.01.20-20.18.37:672][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.01.20-20.18.37:708][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.01.20-20.18.37:753][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.01.20-20.18.37:797][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.01.20-20.18.37:841][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.01.20-20.18.37:886][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.01.20-20.18.37:933][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.01.20-20.18.37:980][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.01.20-20.18.38:079][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.01.20-20.18.38:079][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.01.20-20.18.38:111][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.01.20-20.18.38:186][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.01.20-20.18.38:216][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.01.20-20.18.38:260][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.01.20-20.18.38:304][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.01.20-20.18.38:348][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.01.20-20.18.38:392][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.01.20-20.18.38:392][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.01.20-20.18.38:743][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.01.20-20.18.38:786][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/Harry Haston-Dougan/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.01.20-20.18.38:786][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Harry Haston-Dougan/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.01.20-20.18.38:786][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.01.20-20.18.38:786][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.01.20-20.18.38:786][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.01.20-20.18.38:786][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.01.20-20.18.38:800][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.01.20-20.18.38:812][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Harry Haston-Dougan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.01.20-20.18.38:985][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.20-20.18.38:987][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.01.20-20.18.39:168][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.01.20-20.18.39:203][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.01.20-20.18.39:245][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.01.20-20.18.39:245][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.01.20-20.18.39:245][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.01.20-20.18.39:669][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: drive_thru, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3324528129
+[2017.01.20-20.18.39:720][  0]LogAssetRegistry: FAssetRegistry took 0.0215 seconds to start up
+[2017.01.20-20.18.39:788][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.043841 seconds
+[2017.01.20-20.18.39:794][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.01.20-20.18.39:794][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
+[2017.01.20-20.18.39:794][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.01.20-20.18.39:855][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.01.20-20.18.40:560][  0]LogSlate: Using Freetype 2.6.0
+[2017.01.20-20.18.40:560][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.20-20.18.40:560][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.20-20.18.41:269][  0]LogFMODOculus: StartupModule
+[2017.01.20-20.18.41:310][  0]LogFMOD: FFMODStudioModule startup
+[2017.01.20-20.18.41:310][  0]LogFMOD:  Lib path = '../../../Engine/Plugins/FMODStudio/Binaries'
+[2017.01.20-20.18.41:310][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../Engine/Plugins/FMODStudio/Binaries/Win64/fmodL64.dll
+[2017.01.20-20.18.41:314][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../Engine/Plugins/FMODStudio/Binaries/Win64/fmodstudioL64.dll
+[2017.01.20-20.18.41:320][  0]LogFMOD: Loading strings bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank
+[2017.01.20-20.18.41:322][  0]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2017.01.20-20.18.41:322][  0]LogFMOD:Warning: Failed to load strings bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank
+[2017.01.20-20.18.41:333][  0]LogFMOD: Default sample rate = 48000
+[2017.01.20-20.18.41:333][  0]LogFMOD: System sample rate = 44100
+[2017.01.20-20.18.41:333][  0]LogFMOD: Matching system sample rate 44100
+[2017.01.20-20.18.41:369][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.01.20-20.18.41:425][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.01.20-20.18.41:688][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.01.20-20.18.42:014][  0]SourceControl: Info Source control is disabled
+[2017.01.20-20.18.42:045][  0]SourceControl: Info Source control is disabled
+[2017.01.20-20.18.42:086][  0]SourceControl: Info Source control is disabled
+[2017.01.20-20.18.42:129][  0]SourceControl: Info Source control is disabled
+[2017.01.20-20.18.42:664][  0]LogFMOD: FFMODStudioEditorModule startup
+[2017.01.20-20.18.43:299][  0]LogEngine: Initializing Engine...
+[2017.01.20-20.18.43:327][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-4541EBFF
+[2017.01.20-20.18.43:537][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.01.20-20.18.43:542][  0]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.20-20.18.43:547][  0]LogInit: FAudioDevice initialized.
+[2017.01.20-20.18.43:570][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Harry Haston-Dougan/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.01.20-20.18.43:578][  0]LogInit: Texture streaming: Enabled
+[2017.01.20-20.18.43:738][  0]LogInit: Transaction tracking system initialized
+[2017.01.20-20.18.44:028][  0]BlueprintLog: New page: Editor Load
+[2017.01.20-20.18.44:896][  0]LocalizationService: Info Localization service is disabled
+[2017.01.20-20.18.45:467][  0]LogConsoleResponse:Display: 
+[2017.01.20-20.18.45:590][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.01.20-20.18.45:590][  0]LogCook:Display: Mobile HDR setting 1
+[2017.01.20-20.18.46:388][  0]LogFileCache: Scanning file cache for directory 'C:/Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/' took 0.01s
+[2017.01.20-20.18.46:426][  0]SourceControl: Info Source control is disabled
+[2017.01.20-20.18.46:427][  0]Cmd: MAP LOAD FILE="../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/VehicleBP/Maps/VehicleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.01.20-20.18.46:427][  0]LightingResults: New page: Lighting Build
+[2017.01.20-20.18.46:462][  0]MapCheck: New page: Map Check
+[2017.01.20-20.18.46:462][  0]LightingResults: New page: Lighting Build
+[2017.01.20-20.18.46:832][  0]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2017.01.20-20.18.46:840][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.01.20-20.18.46:841][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.01.20-20.18.46:873][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.137ms to complete.
+[2017.01.20-20.18.46:873][  0]LogFileHelpers: Loading map 'VehicleExampleMap' took 0.447
+[2017.01.20-20.18.46:930][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.01.20-20.18.46:992][  0]LogCollectionManager: Loaded 0 collections in 0.002120 seconds
+[2017.01.20-20.18.47:081][  0]LogFileCache: Scanning file cache for directory 'C:/Repos/Drive-Thru/Drive-Thru/Drive_Thru/Saved/Collections/' took 0.01s
+[2017.01.20-20.18.47:081][  0]LogFileCache: Scanning file cache for directory 'C:/Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/Developers/HarryHastonDougan/Collections/' took 0.01s
+[2017.01.20-20.18.47:081][  0]LogFileCache: Scanning file cache for directory 'C:/Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/Collections/' took 0.01s
+[2017.01.20-20.18.47:081][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.01.20-20.18.47:089][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2204 classes and 435 folders.
+[2017.01.20-20.18.47:124][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.01.20-20.18.47:124][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.01.20-20.18.47:125][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 13 classes and 0 folders.
+[2017.01.20-20.18.47:178][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.01.20-20.18.47:212][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.01.20-20.18.47:249][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2017.01.20-20.18.47:282][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.01.20-20.18.47:287][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.01.20-20.18.47:349][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.01.20-20.18.47:349][  0]LogLoad: (Engine Initialization) Total time: 14.02 seconds
+[2017.01.20-20.18.47:349][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.13 seconds
+[2017.01.20-20.18.47:349][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.01.20-20.18.47:349][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.01.20-20.18.47:358][  0]LogOcInput: OculusInput pre-init called
+[2017.01.20-20.18.47:379][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.01.20-20.18.47:516][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.01.20-20.18.47:566][  1]LogAssetRegistry: Asset discovery search completed in 7.8684 seconds
+[2017.01.20-20.18.47:567][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.01.20-20.18.47:567][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
+[2017.01.20-20.18.49:875][261]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.20-20.18.49:879][261]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.18.49:903][261]LogFMOD: Creating runtime Studio System
+[2017.01.20-20.18.49:904][261]LogFMOD: Default sample rate = 48000
+[2017.01.20-20.18.49:904][261]LogFMOD: System sample rate = 44100
+[2017.01.20-20.18.49:904][261]LogFMOD: Matching system sample rate 44100
+[2017.01.20-20.18.49:912][261]LogFMOD: Triggering Initialized on other modules
+[2017.01.20-20.18.49:912][261]LogFMOD: Loading Banks
+[2017.01.20-20.18.49:953][261]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank'
+
+[2017.01.20-20.18.49:953][261]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2017.01.20-20.18.49:953][261]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2017.01.20-20.18.49:953][261]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2017.01.20-20.18.49:953][261]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.20-20.18.49:954][261]PIE: New page: PIE session: VehicleExampleMap (20 Jan 2017 20:18:49)
+[2017.01.20-20.18.49:954][261]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2017.01.20-20.18.49:977][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023201s)
+[2017.01.20-20.18.49:977][261]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2017.01.20-20.18.49:978][261]LogPlayLevel: PIE: World Init took: (0.000778s)
+[2017.01.20-20.18.49:978][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.024292s)
+[2017.01.20-20.18.49:996][261]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.20-20.18.50:000][261]LogInit: FAudioDevice initialized.
+[2017.01.20-20.18.50:044][261]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.20-20.18.50:051][261]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2017.01.20-20.18.50
+[2017.01.20-20.18.50:051][261]LogWorld: Bringing up level for play took: 0.002147
+[2017.01.20-20.18.50:087][261]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.01.20-20.18.50:087][261]PIE: Info Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap -0.408
+[2017.01.20-20.18.50:088][261]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.18.50:124][262]LogRenderer: Reallocating scene render targets to support 1692x804 NumSamples 1 (Frame:255).
+[2017.01.20-20.20.45:006][ 28]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.20.45:166][ 28]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.27.21:981][518]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.20-20.27.21:991][518]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.27.22:023][518]LogFMOD: Creating runtime Studio System
+[2017.01.20-20.27.22:024][518]LogFMOD: Default sample rate = 48000
+[2017.01.20-20.27.22:024][518]LogFMOD: System sample rate = 44100
+[2017.01.20-20.27.22:024][518]LogFMOD: Matching system sample rate 44100
+[2017.01.20-20.27.22:035][518]LogFMOD: Triggering Initialized on other modules
+[2017.01.20-20.27.22:035][518]LogFMOD: Loading Banks
+[2017.01.20-20.27.22:074][518]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank'
+
+[2017.01.20-20.27.22:074][518]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2017.01.20-20.27.22:074][518]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2017.01.20-20.27.22:074][518]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2017.01.20-20.27.22:074][518]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.20-20.27.22:074][518]PIE: New page: PIE session: VehicleExampleMap (20 Jan 2017 20:27:22)
+[2017.01.20-20.27.22:074][518]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2017.01.20-20.27.22:095][518]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021236s)
+[2017.01.20-20.27.22:096][518]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2017.01.20-20.27.22:096][518]LogPlayLevel: PIE: World Init took: (0.001053s)
+[2017.01.20-20.27.22:096][518]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.022584s)
+[2017.01.20-20.27.22:111][518]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.20-20.27.22:117][518]LogInit: FAudioDevice initialized.
+[2017.01.20-20.27.22:145][518]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.20-20.27.22:153][518]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2017.01.20-20.27.22
+[2017.01.20-20.27.22:153][518]LogWorld: Bringing up level for play took: 0.003153
+[2017.01.20-20.27.22:154][518]PIE: Info Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap -0.342
+[2017.01.20-20.27.22:154][518]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.28.14:602][809]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.28.14:745][809]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.28.15:510][898]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.20-20.28.15:515][898]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.28.15:545][898]LogFMOD: Creating runtime Studio System
+[2017.01.20-20.28.15:546][898]LogFMOD: Default sample rate = 48000
+[2017.01.20-20.28.15:546][898]LogFMOD: System sample rate = 44100
+[2017.01.20-20.28.15:546][898]LogFMOD: Matching system sample rate 44100
+[2017.01.20-20.28.15:555][898]LogFMOD: Triggering Initialized on other modules
+[2017.01.20-20.28.15:555][898]LogFMOD: Loading Banks
+[2017.01.20-20.28.15:593][898]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank'
+
+[2017.01.20-20.28.15:593][898]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2017.01.20-20.28.15:593][898]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2017.01.20-20.28.15:593][898]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2017.01.20-20.28.15:593][898]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.20-20.28.15:593][898]PIE: New page: PIE session: VehicleExampleMap (20 Jan 2017 20:28:15)
+[2017.01.20-20.28.15:593][898]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2017.01.20-20.28.15:610][898]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017226s)
+[2017.01.20-20.28.15:611][898]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2017.01.20-20.28.15:611][898]LogPlayLevel: PIE: World Init took: (0.000724s)
+[2017.01.20-20.28.15:611][898]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.018146s)
+[2017.01.20-20.28.15:626][898]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.20-20.28.15:632][898]LogInit: FAudioDevice initialized.
+[2017.01.20-20.28.15:665][898]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.20-20.28.15:673][898]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2017.01.20-20.28.15
+[2017.01.20-20.28.15:673][898]LogWorld: Bringing up level for play took: 0.003102
+[2017.01.20-20.28.15:675][898]PIE: Info Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap -0.821
+[2017.01.20-20.28.15:675][898]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.28.17:867][159]Cmd: LevelEditor.ToggleImmersive
+[2017.01.20-20.28.18:008][160]LogRenderer: Reallocating scene render targets to support 1900x940 NumSamples 1 (Frame:22007).
+[2017.01.20-20.28.18:048][161]LogRenderer: Reallocating scene render targets to support 2688x1456 NumSamples 1 (Frame:22009).
+[2017.01.20-20.30.16:728][849]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.30.16:884][849]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.30.30:763][ 28]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.30.30:803][ 28]LogFMOD: Creating runtime Studio System
+[2017.01.20-20.30.30:805][ 28]LogFMOD: Default sample rate = 48000
+[2017.01.20-20.30.30:805][ 28]LogFMOD: System sample rate = 44100
+[2017.01.20-20.30.30:805][ 28]LogFMOD: Matching system sample rate 44100
+[2017.01.20-20.30.30:814][ 28]LogFMOD: Triggering Initialized on other modules
+[2017.01.20-20.30.30:814][ 28]LogFMOD: Loading Banks
+[2017.01.20-20.30.30:854][ 28]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank'
+
+[2017.01.20-20.30.30:854][ 28]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2017.01.20-20.30.30:854][ 28]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2017.01.20-20.30.30:854][ 28]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2017.01.20-20.30.30:854][ 28]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.20-20.30.30:854][ 28]PIE: New page: PIE session: VehicleExampleMap (20 Jan 2017 20:30:30)
+[2017.01.20-20.30.30:854][ 28]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2017.01.20-20.30.30:872][ 28]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018068s)
+[2017.01.20-20.30.30:873][ 28]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2017.01.20-20.30.30:873][ 28]LogPlayLevel: PIE: World Init took: (0.001361s)
+[2017.01.20-20.30.30:874][ 28]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.019778s)
+[2017.01.20-20.30.30:890][ 28]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.20-20.30.30:896][ 28]LogInit: FAudioDevice initialized.
+[2017.01.20-20.30.30:990][ 28]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.20-20.30.30:996][ 28]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2017.01.20-20.30.30
+[2017.01.20-20.30.30:997][ 28]LogWorld: Bringing up level for play took: 0.002284
+[2017.01.20-20.30.31:001][ 28]PIE: Info Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap 0.506
+[2017.01.20-20.30.31:001][ 28]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.30.31:082][ 30]LogRenderer: Reallocating scene render targets to support 3024x1680 NumSamples 1 (Frame:31911).
+[2017.01.20-20.31.57:707][153]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.31.57:927][153]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.32.54:034][874]LogTemp: Repeting last play command: VR Preview
+[2017.01.20-20.32.54:038][874]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.32.54:063][874]LogFMOD: Creating runtime Studio System
+[2017.01.20-20.32.54:065][874]LogFMOD: Default sample rate = 48000
+[2017.01.20-20.32.54:065][874]LogFMOD: System sample rate = 44100
+[2017.01.20-20.32.54:065][874]LogFMOD: Matching system sample rate 44100
+[2017.01.20-20.32.54:075][874]LogFMOD: Triggering Initialized on other modules
+[2017.01.20-20.32.54:075][874]LogFMOD: Loading Banks
+[2017.01.20-20.32.54:113][874]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank'
+
+[2017.01.20-20.32.54:113][874]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2017.01.20-20.32.54:113][874]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2017.01.20-20.32.54:113][874]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2017.01.20-20.32.54:113][874]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.20-20.32.54:113][874]PIE: New page: PIE session: VehicleExampleMap (20 Jan 2017 20:32:54)
+[2017.01.20-20.32.54:113][874]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2017.01.20-20.32.54:132][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018176s)
+[2017.01.20-20.32.54:133][874]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2017.01.20-20.32.54:133][874]LogPlayLevel: PIE: World Init took: (0.001116s)
+[2017.01.20-20.32.54:133][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.019553s)
+[2017.01.20-20.32.54:148][874]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.20-20.32.54:152][874]LogInit: FAudioDevice initialized.
+[2017.01.20-20.32.54:237][874]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.20-20.32.54:243][874]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2017.01.20-20.32.54
+[2017.01.20-20.32.54:243][874]LogWorld: Bringing up level for play took: 0.002388
+[2017.01.20-20.32.54:248][874]PIE: Info Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap -0.248
+[2017.01.20-20.32.54:248][874]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.35.18:842][347]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.35.19:060][347]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.35.20:771][537]LogTemp: Repeting last play command: VR Preview
+[2017.01.20-20.35.20:776][537]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.35.20:814][537]LogFMOD: Creating runtime Studio System
+[2017.01.20-20.35.20:815][537]LogFMOD: Default sample rate = 48000
+[2017.01.20-20.35.20:815][537]LogFMOD: System sample rate = 44100
+[2017.01.20-20.35.20:815][537]LogFMOD: Matching system sample rate 44100
+[2017.01.20-20.35.20:823][537]LogFMOD: Triggering Initialized on other modules
+[2017.01.20-20.35.20:823][537]LogFMOD: Loading Banks
+[2017.01.20-20.35.20:865][537]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank'
+
+[2017.01.20-20.35.20:865][537]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2017.01.20-20.35.20:865][537]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2017.01.20-20.35.20:865][537]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2017.01.20-20.35.20:865][537]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.20-20.35.20:865][537]PIE: New page: PIE session: VehicleExampleMap (20 Jan 2017 20:35:20)
+[2017.01.20-20.35.20:865][537]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2017.01.20-20.35.20:880][537]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014810s)
+[2017.01.20-20.35.20:880][537]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2017.01.20-20.35.20:881][537]LogPlayLevel: PIE: World Init took: (0.000906s)
+[2017.01.20-20.35.20:881][537]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.015901s)
+[2017.01.20-20.35.20:896][537]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.20-20.35.20:902][537]LogInit: FAudioDevice initialized.
+[2017.01.20-20.35.20:992][537]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.20-20.35.20:998][537]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2017.01.20-20.35.20
+[2017.01.20-20.35.20:998][537]LogWorld: Bringing up level for play took: 0.002160
+[2017.01.20-20.35.21:002][537]PIE: Info Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap 0.506
+[2017.01.20-20.35.21:002][537]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.36.00:514][306]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.36.00:734][306]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.36.19:869][574]LogTemp: Repeting last play command: VR Preview
+[2017.01.20-20.36.19:873][574]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.36.19:914][574]LogFMOD: Creating runtime Studio System
+[2017.01.20-20.36.19:915][574]LogFMOD: Default sample rate = 48000
+[2017.01.20-20.36.19:915][574]LogFMOD: System sample rate = 44100
+[2017.01.20-20.36.19:915][574]LogFMOD: Matching system sample rate 44100
+[2017.01.20-20.36.19:924][574]LogFMOD: Triggering Initialized on other modules
+[2017.01.20-20.36.19:924][574]LogFMOD: Loading Banks
+[2017.01.20-20.36.19:964][574]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank'
+
+[2017.01.20-20.36.19:964][574]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2017.01.20-20.36.19:964][574]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2017.01.20-20.36.19:964][574]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2017.01.20-20.36.19:964][574]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.20-20.36.19:964][574]PIE: New page: PIE session: VehicleExampleMap (20 Jan 2017 20:36:19)
+[2017.01.20-20.36.19:964][574]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2017.01.20-20.36.19:979][574]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015409s)
+[2017.01.20-20.36.19:980][574]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2017.01.20-20.36.19:980][574]LogPlayLevel: PIE: World Init took: (0.000607s)
+[2017.01.20-20.36.19:980][574]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.016198s)
+[2017.01.20-20.36.19:996][574]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.20-20.36.20:001][574]LogInit: FAudioDevice initialized.
+[2017.01.20-20.36.20:090][574]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.20-20.36.20:097][574]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2017.01.20-20.36.20
+[2017.01.20-20.36.20:097][574]LogWorld: Bringing up level for play took: 0.002241
+[2017.01.20-20.36.20:101][574]PIE: Info Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap -0.394
+[2017.01.20-20.36.20:101][574]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.37.35:715][959]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.37.35:944][959]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.37.39:775][408]LogTemp: Repeting last play command: VR Preview
+[2017.01.20-20.37.39:780][408]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.37.39:814][408]LogFMOD: Creating runtime Studio System
+[2017.01.20-20.37.39:815][408]LogFMOD: Default sample rate = 48000
+[2017.01.20-20.37.39:815][408]LogFMOD: System sample rate = 44100
+[2017.01.20-20.37.39:815][408]LogFMOD: Matching system sample rate 44100
+[2017.01.20-20.37.39:822][408]LogFMOD: Triggering Initialized on other modules
+[2017.01.20-20.37.39:822][408]LogFMOD: Loading Banks
+[2017.01.20-20.37.39:865][408]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank'
+
+[2017.01.20-20.37.39:865][408]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2017.01.20-20.37.39:865][408]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2017.01.20-20.37.39:865][408]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2017.01.20-20.37.39:865][408]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.20-20.37.39:865][408]PIE: New page: PIE session: VehicleExampleMap (20 Jan 2017 20:37:39)
+[2017.01.20-20.37.39:865][408]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2017.01.20-20.37.39:880][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015404s)
+[2017.01.20-20.37.39:881][408]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2017.01.20-20.37.39:881][408]LogPlayLevel: PIE: World Init took: (0.001001s)
+[2017.01.20-20.37.39:882][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.016682s)
+[2017.01.20-20.37.39:896][408]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.20-20.37.39:901][408]LogInit: FAudioDevice initialized.
+[2017.01.20-20.37.39:988][408]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.20-20.37.39:994][408]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2017.01.20-20.37.39
+[2017.01.20-20.37.39:995][408]LogWorld: Bringing up level for play took: 0.002245
+[2017.01.20-20.37.39:998][408]PIE: Info Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap -0.497
+[2017.01.20-20.37.39:998][408]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.38.58:818][937]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.38.59:029][937]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.39.28:953][507]LogTemp: Repeting last play command: VR Preview
+[2017.01.20-20.39.28:958][507]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.39.28:994][507]LogFMOD: Creating runtime Studio System
+[2017.01.20-20.39.28:995][507]LogFMOD: Default sample rate = 48000
+[2017.01.20-20.39.28:995][507]LogFMOD: System sample rate = 44100
+[2017.01.20-20.39.28:995][507]LogFMOD: Matching system sample rate 44100
+[2017.01.20-20.39.29:004][507]LogFMOD: Triggering Initialized on other modules
+[2017.01.20-20.39.29:004][507]LogFMOD: Loading Banks
+[2017.01.20-20.39.29:045][507]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank'
+
+[2017.01.20-20.39.29:045][507]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2017.01.20-20.39.29:045][507]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2017.01.20-20.39.29:045][507]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2017.01.20-20.39.29:045][507]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.20-20.39.29:045][507]PIE: New page: PIE session: VehicleExampleMap (20 Jan 2017 20:39:29)
+[2017.01.20-20.39.29:045][507]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2017.01.20-20.39.29:061][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015981s)
+[2017.01.20-20.39.29:062][507]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2017.01.20-20.39.29:062][507]LogPlayLevel: PIE: World Init took: (0.001124s)
+[2017.01.20-20.39.29:062][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.017388s)
+[2017.01.20-20.39.29:080][507]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.20-20.39.29:085][507]LogInit: FAudioDevice initialized.
+[2017.01.20-20.39.29:176][507]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.20-20.39.29:182][507]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2017.01.20-20.39.29
+[2017.01.20-20.39.29:183][507]LogWorld: Bringing up level for play took: 0.002257
+[2017.01.20-20.39.29:187][507]PIE: Info Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap 0.691
+[2017.01.20-20.39.29:187][507]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.41.02:556][687]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.41.02:769][687]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.41.05:183][957]LogTemp: Repeting last play command: VR Preview
+[2017.01.20-20.41.05:187][957]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.41.05:215][957]LogFMOD: Creating runtime Studio System
+[2017.01.20-20.41.05:216][957]LogFMOD: Default sample rate = 48000
+[2017.01.20-20.41.05:216][957]LogFMOD: System sample rate = 44100
+[2017.01.20-20.41.05:216][957]LogFMOD: Matching system sample rate 44100
+[2017.01.20-20.41.05:224][957]LogFMOD: Triggering Initialized on other modules
+[2017.01.20-20.41.05:224][957]LogFMOD: Loading Banks
+[2017.01.20-20.41.05:264][957]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank'
+
+[2017.01.20-20.41.05:264][957]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2017.01.20-20.41.05:264][957]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2017.01.20-20.41.05:264][957]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2017.01.20-20.41.05:264][957]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.20-20.41.05:264][957]PIE: New page: PIE session: VehicleExampleMap (20 Jan 2017 20:41:05)
+[2017.01.20-20.41.05:264][957]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2017.01.20-20.41.05:280][957]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015610s)
+[2017.01.20-20.41.05:280][957]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2017.01.20-20.41.05:281][957]LogPlayLevel: PIE: World Init took: (0.001085s)
+[2017.01.20-20.41.05:281][957]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.017050s)
+[2017.01.20-20.41.05:296][957]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.20-20.41.05:302][957]LogInit: FAudioDevice initialized.
+[2017.01.20-20.41.05:387][957]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.20-20.41.05:393][957]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2017.01.20-20.41.05
+[2017.01.20-20.41.05:393][957]LogWorld: Bringing up level for play took: 0.002508
+[2017.01.20-20.41.05:397][957]PIE: Info Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap 0.902
+[2017.01.20-20.41.05:397][957]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.42.30:417][763]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.42.30:627][763]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.42.32:859][983]LogTemp: Repeting last play command: VR Preview
+[2017.01.20-20.42.32:863][983]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.42.32:894][983]LogFMOD: Creating runtime Studio System
+[2017.01.20-20.42.32:895][983]LogFMOD: Default sample rate = 48000
+[2017.01.20-20.42.32:895][983]LogFMOD: System sample rate = 44100
+[2017.01.20-20.42.32:895][983]LogFMOD: Matching system sample rate 44100
+[2017.01.20-20.42.32:902][983]LogFMOD: Triggering Initialized on other modules
+[2017.01.20-20.42.32:902][983]LogFMOD: Loading Banks
+[2017.01.20-20.42.32:944][983]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank'
+
+[2017.01.20-20.42.32:944][983]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2017.01.20-20.42.32:944][983]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2017.01.20-20.42.32:944][983]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2017.01.20-20.42.32:944][983]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.20-20.42.32:944][983]PIE: New page: PIE session: VehicleExampleMap (20 Jan 2017 20:42:32)
+[2017.01.20-20.42.32:944][983]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2017.01.20-20.42.32:959][983]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014467s)
+[2017.01.20-20.42.32:959][983]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2017.01.20-20.42.32:959][983]LogPlayLevel: PIE: World Init took: (0.000593s)
+[2017.01.20-20.42.32:960][983]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.015285s)
+[2017.01.20-20.42.32:973][983]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.20-20.42.32:979][983]LogInit: FAudioDevice initialized.
+[2017.01.20-20.42.33:070][983]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.20-20.42.33:076][983]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2017.01.20-20.42.33
+[2017.01.20-20.42.33:076][983]LogWorld: Bringing up level for play took: 0.002138
+[2017.01.20-20.42.33:080][983]PIE: Info Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap 0.585
+[2017.01.20-20.42.33:080][983]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.44.20:538][793]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.44.20:761][793]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.44.21:916][903]LogTemp: Repeting last play command: VR Preview
+[2017.01.20-20.44.21:920][903]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.44.21:963][903]LogFMOD: Creating runtime Studio System
+[2017.01.20-20.44.21:964][903]LogFMOD: Default sample rate = 48000
+[2017.01.20-20.44.21:964][903]LogFMOD: System sample rate = 44100
+[2017.01.20-20.44.21:964][903]LogFMOD: Matching system sample rate 44100
+[2017.01.20-20.44.21:971][903]LogFMOD: Triggering Initialized on other modules
+[2017.01.20-20.44.21:971][903]LogFMOD: Loading Banks
+[2017.01.20-20.44.22:014][903]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank'
+
+[2017.01.20-20.44.22:014][903]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2017.01.20-20.44.22:014][903]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2017.01.20-20.44.22:014][903]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2017.01.20-20.44.22:014][903]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.20-20.44.22:014][903]PIE: New page: PIE session: VehicleExampleMap (20 Jan 2017 20:44:22)
+[2017.01.20-20.44.22:014][903]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2017.01.20-20.44.22:029][903]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015006s)
+[2017.01.20-20.44.22:030][903]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2017.01.20-20.44.22:030][903]LogPlayLevel: PIE: World Init took: (0.000823s)
+[2017.01.20-20.44.22:031][903]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.016111s)
+[2017.01.20-20.44.22:046][903]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.20-20.44.22:051][903]LogInit: FAudioDevice initialized.
+[2017.01.20-20.44.22:140][903]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.20-20.44.22:146][903]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2017.01.20-20.44.22
+[2017.01.20-20.44.22:147][903]LogWorld: Bringing up level for play took: 0.002172
+[2017.01.20-20.44.22:150][903]PIE: Info Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap -0.345
+[2017.01.20-20.44.22:151][903]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.44.44:201][890]LogFMOD:Warning: e:\jk\workspace\1. Build_UE4_1.8_Libs\lowlevel_api\src\fmod_systemi_driver.cpp(325) - Output requires a sample rate of 48000Hz, resampling will occur.
+
+[2017.01.20-20.44.51:992][238]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.44.52:200][238]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.44.53:264][337]LogTemp: Repeting last play command: VR Preview
+[2017.01.20-20.44.53:268][337]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.44.53:295][337]LogFMOD: Creating runtime Studio System
+[2017.01.20-20.44.53:296][337]LogFMOD: Default sample rate = 48000
+[2017.01.20-20.44.53:296][337]LogFMOD: System sample rate = 48000
+[2017.01.20-20.44.53:296][337]LogFMOD: Matching system sample rate 48000
+[2017.01.20-20.44.53:305][337]LogFMOD: Triggering Initialized on other modules
+[2017.01.20-20.44.53:305][337]LogFMOD: Loading Banks
+[2017.01.20-20.44.53:345][337]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank'
+
+[2017.01.20-20.44.53:345][337]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2017.01.20-20.44.53:345][337]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2017.01.20-20.44.53:345][337]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2017.01.20-20.44.53:345][337]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.20-20.44.53:345][337]PIE: New page: PIE session: VehicleExampleMap (20 Jan 2017 20:44:53)
+[2017.01.20-20.44.53:345][337]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2017.01.20-20.44.53:360][337]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015389s)
+[2017.01.20-20.44.53:361][337]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2017.01.20-20.44.53:361][337]LogPlayLevel: PIE: World Init took: (0.000928s)
+[2017.01.20-20.44.53:361][337]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.016566s)
+[2017.01.20-20.44.53:377][337]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.20-20.44.53:383][337]LogInit: FAudioDevice initialized.
+[2017.01.20-20.44.53:470][337]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.20-20.44.53:476][337]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2017.01.20-20.44.53
+[2017.01.20-20.44.53:476][337]LogWorld: Bringing up level for play took: 0.002036
+[2017.01.20-20.44.53:480][337]PIE: Info Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap 0.985
+[2017.01.20-20.44.53:480][337]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.46.33:692][823]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.46.33:893][823]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.46.35:214][948]LogTemp: Repeting last play command: VR Preview
+[2017.01.20-20.46.35:218][948]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.46.35:255][948]LogFMOD: Creating runtime Studio System
+[2017.01.20-20.46.35:256][948]LogFMOD: Default sample rate = 48000
+[2017.01.20-20.46.35:256][948]LogFMOD: System sample rate = 48000
+[2017.01.20-20.46.35:256][948]LogFMOD: Matching system sample rate 48000
+[2017.01.20-20.46.35:266][948]LogFMOD: Triggering Initialized on other modules
+[2017.01.20-20.46.35:266][948]LogFMOD: Loading Banks
+[2017.01.20-20.46.35:304][948]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank'
+
+[2017.01.20-20.46.35:304][948]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2017.01.20-20.46.35:304][948]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2017.01.20-20.46.35:304][948]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2017.01.20-20.46.35:304][948]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.20-20.46.35:304][948]PIE: New page: PIE session: VehicleExampleMap (20 Jan 2017 20:46:35)
+[2017.01.20-20.46.35:304][948]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2017.01.20-20.46.35:320][948]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015532s)
+[2017.01.20-20.46.35:321][948]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2017.01.20-20.46.35:321][948]LogPlayLevel: PIE: World Init took: (0.000882s)
+[2017.01.20-20.46.35:321][948]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.016698s)
+[2017.01.20-20.46.35:338][948]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.20-20.46.35:345][948]LogInit: FAudioDevice initialized.
+[2017.01.20-20.46.35:432][948]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.20-20.46.35:438][948]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2017.01.20-20.46.35
+[2017.01.20-20.46.35:439][948]LogWorld: Bringing up level for play took: 0.002214
+[2017.01.20-20.46.35:442][948]PIE: Info Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap 0.947
+[2017.01.20-20.46.35:442][948]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.48.31:612][148]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.48.31:804][148]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.20-20.57.41:179][166]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2017.01.20-20.57.44:361][353]LogEditorViewport: Clicking on Actor (LMB): Sedan_C (Sedan)
+[2017.01.20-20.57.45:538][401]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.01.20-20.57.49:428][539]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 111 classes and 0 folders.
+[2017.01.20-20.58.16:973][225]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.01.20-20.58.17:473][225]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.01.20-20.58.17:973][225]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.01.20-20.58.18:473][225]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.01.20-20.58.18:974][225]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.01.20-20.58.19:473][225]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.01.20-20.58.19:973][225]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.01.20-20.58.20:473][225]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.01.20-20.58.20:973][225]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.01.20-20.58.21:473][225]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.01.20-20.58.21:974][225]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.01.20-20.58.22:473][225]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.01.20-20.58.22:974][225]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.01.20-20.58.23:473][225]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.01.20-20.58.23:973][225]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.01.20-20.58.24:473][225]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.01.20-20.58.24:973][225]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.01.20-20.58.25:473][225]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.01.20-20.58.25:974][225]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.01.20-20.58.26:474][225]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.01.20-20.58.26:973][225]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.01.20-20.58.27:474][225]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.01.20-20.58.27:521][225]LogD3D11RHI:Error: Result failed 
+ at D:\Build\++UE4+Release-4.14+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Query.cpp:134 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_HUNG
+[2017.01.20-20.58.27:626][225]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2017.01.20-20.58.42:330][225]LogFMOD:Warning: e:\jk\workspace\1. Build_UE4_1.8_Libs\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(531) - Starvation detected in WASAPI output buffer!
+
+[2017.01.20-20.58.42:330][225]LogCrashTracker: 
+
+
+[2017.01.20-20.58.42:346][225]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2017.01.20-20.58.42:358][225]LogCrashTracker: 
+
+
+[2017.01.20-20.58.42:358][225]LogWindows:Error: === Critical error: ===
+[2017.01.20-20.58.42:358][225]LogWindows:Error: 
+[2017.01.20-20.58.42:358][225]LogWindows:Error: Assertion failed: (GIsCriticalError || !NumMarks) [File:D:\Build\++UE4+Release-4.14+Compile\Sync\Engine\Source\Runtime\Core\Public\Misc\MemStack.h] [Line: 80] 
+[2017.01.20-20.58.42:358][225]LogWindows:Error: 
+[2017.01.20-20.58.42:358][225]LogWindows:Error: 
+[2017.01.20-20.58.42:358][225]LogWindows:Error: 
+[2017.01.20-20.58.42:358][225]LogWindows:Error: 
+[2017.01.20-20.58.42:389][225]LogExit: Executing StaticShutdownAfterError
+[2017.01.20-20.58.42:394][225]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.01.20-20.58.42:394][225]Log file closed, 01/20/17 20:58:42
