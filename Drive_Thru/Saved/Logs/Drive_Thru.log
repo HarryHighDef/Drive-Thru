@@ -963,3 +963,123 @@ LogInit: Object subsystem initialized
 [2017.01.21-20.15.31:158][147]LogSavePackage: Save=14.54ms
 [2017.01.21-20.15.31:158][147]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Window_01420FE33F45997D7C8ED0A0A46B3FCD5D.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Geometry/Window_01.uasset'
 [2017.01.21-20.15.31:161][147]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Geometry/Window_01.uasset
+[2017.01.21-20.15.31:325][147]LogSavePackage: Save=104.63ms
+[2017.01.21-20.15.31:325][147]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/VehicleExampleMapDFA4929A45DF7D6CD610E2957A464073.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Maps/VehicleExampleMap.umap'
+[2017.01.21-20.15.31:328][147]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Maps/VehicleExampleMap.umap
+[2017.01.21-20.15.31:356][147]LogFileHelpers: Saving map 'VehicleExampleMap' took 0.192
+[2017.01.21-20.16.08:469][106]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Mark Cully\Desktop\Textures\Landscape.png)
+[2017.01.21-20.16.08:477][106]LogTexture:Display: Building textures: Landscape (AutoDXT)
+[2017.01.21-20.16.18:646][995]LogMaterial: Missing cached shader map for material Neon_MAT2, compiling. 
+[2017.01.21-20.16.27:720][816]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Landscape_MAT" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Geometry/Landscape_MAT.uasset" SILENT=true
+[2017.01.21-20.16.27:734][816]LogSavePackage: Save=11.71ms
+[2017.01.21-20.16.27:734][816]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Landscape_MATDA0510344B464E3D4CF285AC2E83D274.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Geometry/Landscape_MAT.uasset'
+[2017.01.21-20.16.27:735][816]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Geometry/Landscape_MAT.uasset
+[2017.01.21-20.16.29:268][956]LogMaterial: Missing cached shader map for material Landscape_MAT, compiling. 
+[2017.01.21-20.16.29:337][956]LogMaterial: Missing cached shader map for material Landscape_MAT, compiling. 
+[2017.01.21-20.16.29:346][956]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.21-20.16.29:370][956]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.01.21-20.16.29:375][956]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.01.21-20.16.29:379][956]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2017.01.21-20.16.29:383][956]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.01.21-20.16.30:586][ 21]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 355 instructions
+[2017.01.21-20.16.30:586][ 21]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.01.21-20.16.30:586][ 21]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.01.21-20.16.33:210][242]LogMaterial: Missing cached shader map for material Landscape_MAT, compiling. 
+[2017.01.21-20.16.33:218][242]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.21-20.16.33:219][242]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.01.21-20.16.33:247][242]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.01.21-20.16.33:252][242]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.01.21-20.16.33:257][242]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2017.01.21-20.16.33:262][242]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.01.21-20.16.33:266][242]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.01.21-20.16.34:351][309]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 355 instructions
+[2017.01.21-20.16.34:351][309]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.01.21-20.16.34:351][309]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.01.21-20.16.37:250][558]LogMaterial: Missing cached shader map for material Landscape_MAT, compiling. 
+[2017.01.21-20.16.37:258][558]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.21-20.16.37:288][558]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.01.21-20.16.38:345][624]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 356 instructions
+[2017.01.21-20.16.38:345][624]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.01.21-20.16.38:345][624]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.01.21-20.16.40:109][768]LogMaterial: Missing cached shader map for material Landscape_MAT, compiling. 
+[2017.01.21-20.16.40:117][768]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.21-20.16.41:525][879]LogMaterial: Missing cached shader map for material Landscape_MAT, compiling. 
+[2017.01.21-20.16.41:533][879]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.21-20.16.42:598][948]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 352 instructions
+[2017.01.21-20.16.42:598][948]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.01.21-20.16.42:598][948]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.01.21-20.16.43:495][ 21]LogMaterial: Missing cached shader map for material Landscape_MAT, compiling. 
+[2017.01.21-20.16.43:503][ 21]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.21-20.16.44:211][ 63]LogMaterialEditor: Applying material Landscape_MAT
+[2017.01.21-20.16.44:647][ 63]LogMaterial: Missing cached shader map for material Landscape_MAT, compiling. 
+[2017.01.21-20.16.44:663][ 63]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.21-20.16.44:678][ 63]LogMaterial: Missing cached shader map for material Landscape_MAT, compiling. 
+[2017.01.21-20.16.44:700][ 63]LogMaterial: Missing cached shader map for material Landscape_MAT, compiling. 
+[2017.01.21-20.16.44:718][ 63]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.21-20.16.45:562][112]LogMaterialEditor: Saving and Compiling material Landscape_MAT
+[2017.01.21-20.16.48:084][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Landscape_MAT" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Geometry/Landscape_MAT.uasset" SILENT=true
+[2017.01.21-20.16.48:104][112]LogSavePackage: Save=12.31ms
+[2017.01.21-20.16.48:104][112]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Landscape_MAT678F0AB0447C3561071C3CAEDD14A6AB.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Geometry/Landscape_MAT.uasset'
+[2017.01.21-20.16.48:107][112]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Geometry/Landscape_MAT.uasset
+[2017.01.21-20.16.48:112][112]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 393 instructions
+[2017.01.21-20.16.48:112][112]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.01.21-20.16.48:112][112]MaterialEditorStats: Info Texture samplers: 7/16
+[2017.01.21-20.16.51:453][405]LogMaterialEditor: Saving and Compiling material Landscape_MAT
+[2017.01.21-20.16.51:816][405]LogMaterial: Missing cached shader map for material Landscape_MAT, compiling. 
+[2017.01.21-20.16.51:832][405]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.21-20.16.51:845][405]LogMaterial: Missing cached shader map for material Landscape_MAT, compiling. 
+[2017.01.21-20.16.51:864][405]LogMaterial: Missing cached shader map for material Landscape_MAT, compiling. 
+[2017.01.21-20.16.51:881][405]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.21-20.16.55:054][405]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Landscape_MAT" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Geometry/Landscape_MAT.uasset" SILENT=true
+[2017.01.21-20.16.55:071][405]LogSavePackage: Save=13.32ms
+[2017.01.21-20.16.55:071][405]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Landscape_MATF344395F47B506666BB970A35473099A.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Geometry/Landscape_MAT.uasset'
+[2017.01.21-20.16.55:073][405]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Geometry/Landscape_MAT.uasset
+[2017.01.21-20.16.58:451][546]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Landscape" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Geometry/Landscape.uasset" SILENT=true
+[2017.01.21-20.16.58:467][546]LogSavePackage: Save=14.59ms
+[2017.01.21-20.16.58:467][546]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Landscape6F0EA8E24CA327CFB75F179DE60A1F3C.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Geometry/Landscape.uasset'
+[2017.01.21-20.16.58:470][546]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Geometry/Landscape.uasset
+[2017.01.21-20.16.58:472][546]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Neon_MAT2" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Geometry/Neon_MAT2.uasset" SILENT=true
+[2017.01.21-20.16.58:478][546]LogSavePackage: Save=3.50ms
+[2017.01.21-20.16.58:478][546]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Neon_MAT24C84BA57465351431865ADB442DC4F36.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Geometry/Neon_MAT2.uasset'
+[2017.01.21-20.16.58:480][546]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Geometry/Neon_MAT2.uasset
+[2017.01.21-20.17.46:003][137]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall8)
+[2017.01.21-20.17.48:557][348]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2017.01.21-20.17.49:193][398]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2017.01.21-20.17.54:100][784]LogMaterial:Warning: Material /Game/Geometry/Landscape_MAT.Landscape_MAT needed to have new flag set bUsedWithStaticLighting !
+[2017.01.21-20.17.54:100][784]LogMaterial:Warning: Material /Engine/Transient.Landscape_MAT needed to have new flag set bUsedWithStaticLighting !
+[2017.01.21-20.17.54:102][784]LogMaterial: Missing cached shader map for material Landscape_MAT, compiling. 
+[2017.01.21-20.17.54:113][784]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.21-20.17.54:114][784]LogMaterial: Missing cached shader map for material Landscape_MAT, compiling. 
+[2017.01.21-20.17.54:136][784]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.21-20.18.02:341][413]MaterialEditorStats: Info Base pass shader with static lighting: 421 instructions
+[2017.01.21-20.18.02:341][413]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 393 instructions
+[2017.01.21-20.18.02:341][413]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.01.21-20.18.02:341][413]MaterialEditorStats: Info Texture samplers: 7/16
+[2017.01.21-20.18.08:684][959]LogMaterial:Warning: Material /Game/Geometry/Neon_MAT.Neon_MAT needed to have new flag set bUsedWithStaticLighting !
+[2017.01.21-20.18.08:684][959]LogMaterial:Warning: Material /Engine/Transient.PreviewMaterial_0 needed to have new flag set bUsedWithStaticLighting !
+[2017.01.21-20.18.08:686][959]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.01.21-20.18.08:696][959]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.21-20.18.08:698][959]LogMaterial: Missing cached shader map for material Neon_MAT, compiling. 
+[2017.01.21-20.18.08:714][959]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.21-20.18.15:280][564]MaterialEditorStats: Info Base pass shader with static lighting: 424 instructions
+[2017.01.21-20.18.15:280][564]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 396 instructions
+[2017.01.21-20.18.15:280][564]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.01.21-20.18.15:280][564]MaterialEditorStats: Info Texture samplers: 7/16
+[2017.01.21-20.18.16:514][681]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Building_Base_A_01)
+[2017.01.21-20.18.16:985][725]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2017.01.21-20.18.33:817][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Landscape_Inst" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Geometry/Landscape_Inst.uasset" SILENT=true
+[2017.01.21-20.18.33:831][310]LogSavePackage: Save=11.48ms
+[2017.01.21-20.18.33:831][310]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Landscape_Inst8AE4E76241FF5E2C5896E9B8F4A88978.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Geometry/Landscape_Inst.uasset'
+[2017.01.21-20.18.33:833][310]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Geometry/Landscape_Inst.uasset
+[2017.01.21-20.18.39:577][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Landscape_MAT" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Geometry/Landscape_MAT.uasset" SILENT=true
+[2017.01.21-20.18.39:587][710]LogSavePackage: Save=6.63ms
+[2017.01.21-20.18.39:587][710]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Landscape_MAT3F0CF27F49DB990C4C4E909CB9CC70FD.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Geometry/Landscape_MAT.uasset'
+[2017.01.21-20.18.39:590][710]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Geometry/Landscape_MAT.uasset
+[2017.01.21-20.18.39:592][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Neon_MAT" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Geometry/Neon_MAT.uasset" SILENT=true
+[2017.01.21-20.18.39:602][710]LogSavePackage: Save=6.06ms
+[2017.01.21-20.18.39:602][710]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Neon_MATC54869CB4DFD069B896592A10FC700B4.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Geometry/Neon_MAT.uasset'
+[2017.01.21-20.18.39:605][710]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Geometry/Neon_MAT.uasset
+[2017.01.21-20.18.39:761][710]LogSavePackage: Save=97.41ms
+[2017.01.21-20.18.39:761][710]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/VehicleExampleMap8C920FC6467C685D636E3CA486E6A0D3.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Maps/VehicleExampleMap.umap'
+[2017.01.21-20.18.39:764][710]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Maps/VehicleExampleMap.umap
+[2017.01.21-20.18.39:797][710]LogFileHelpers: Saving map 'VehicleExampleMap' took 0.190
