@@ -6167,3 +6167,639 @@ LogInit: Object subsystem initialized
 [2017.01.21-12.14.02:190][136]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
 [2017.01.21-12.14.02:441][136]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
 [2017.01.21-12.15.37:143][924]LogEditorViewport: Clicking on Actor (LMB): Sedan_C (Sedan)
+[2017.01.21-12.16.16:733][285]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2017.01.21-12.28.19:094][151]LogTemp: Repeting last play command: VR Preview
+[2017.01.21-12.28.19:109][151]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.21-12.28.19:131][151]LogFMOD: Creating runtime Studio System
+[2017.01.21-12.28.19:132][151]LogFMOD: Default sample rate = 48000
+[2017.01.21-12.28.19:132][151]LogFMOD: System sample rate = 48000
+[2017.01.21-12.28.19:132][151]LogFMOD: Matching system sample rate 48000
+[2017.01.21-12.28.19:143][151]LogFMOD: Triggering Initialized on other modules
+[2017.01.21-12.28.19:143][151]LogFMOD: Loading Banks
+[2017.01.21-12.28.19:182][151]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank'
+
+[2017.01.21-12.28.19:182][151]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2017.01.21-12.28.19:182][151]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2017.01.21-12.28.19:182][151]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2017.01.21-12.28.19:182][151]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.21-12.28.19:182][151]PIE: New page: PIE session: VehicleExampleMap (21 Jan 2017 12:28:19)
+[2017.01.21-12.28.19:182][151]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2017.01.21-12.28.19:201][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017764s)
+[2017.01.21-12.28.19:201][151]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2017.01.21-12.28.19:202][151]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2017.01.21-12.28.19:202][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.019149s)
+[2017.01.21-12.28.19:226][151]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.21-12.28.19:232][151]LogInit: FAudioDevice initialized.
+[2017.01.21-12.28.19:334][151]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.21-12.28.19:340][151]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2017.01.21-12.28.19
+[2017.01.21-12.28.19:340][151]LogWorld: Bringing up level for play took: 0.002329
+[2017.01.21-12.28.19:356][151]PIE: Info Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap 0.323
+[2017.01.21-12.28.19:357][151]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.21-12.28.22:844][458]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.21-12.28.23:090][458]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.21-12.28.32:087][ 51]LogTemp: Repeting last play command: VR Preview
+[2017.01.21-12.28.32:101][ 51]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.21-12.28.32:141][ 51]LogFMOD: Creating runtime Studio System
+[2017.01.21-12.28.32:142][ 51]LogFMOD: Default sample rate = 48000
+[2017.01.21-12.28.32:142][ 51]LogFMOD: System sample rate = 48000
+[2017.01.21-12.28.32:142][ 51]LogFMOD: Matching system sample rate 48000
+[2017.01.21-12.28.32:152][ 51]LogFMOD: Triggering Initialized on other modules
+[2017.01.21-12.28.32:152][ 51]LogFMOD: Loading Banks
+[2017.01.21-12.28.32:191][ 51]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank'
+
+[2017.01.21-12.28.32:191][ 51]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2017.01.21-12.28.32:191][ 51]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2017.01.21-12.28.32:191][ 51]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2017.01.21-12.28.32:191][ 51]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.21-12.28.32:196][ 51]PIE: New page: PIE session: VehicleExampleMap (21 Jan 2017 12:28:32)
+[2017.01.21-12.28.32:196][ 51]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_1_VehicleExampleMap
+[2017.01.21-12.28.32:212][ 51]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015928s)
+[2017.01.21-12.28.32:213][ 51]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2017.01.21-12.28.32:213][ 51]LogPlayLevel: PIE: World Init took: (0.000780s)
+[2017.01.21-12.28.32:213][ 51]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_1_VehicleExampleMap.VehicleExampleMap (0.016928s)
+[2017.01.21-12.28.32:235][ 51]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.21-12.28.32:241][ 51]LogInit: FAudioDevice initialized.
+[2017.01.21-12.28.32:348][ 51]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.21-12.28.32:354][ 51]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_1_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2017.01.21-12.28.32
+[2017.01.21-12.28.32:355][ 51]LogWorld: Bringing up level for play took: 0.002013
+[2017.01.21-12.28.32:412][ 51]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.01.21-12.28.32:423][ 51]LogInit: WinSock: I am DESKTOP-LDMGO10 (172.16.3.166:0)
+[2017.01.21-12.28.32:424][ 51]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.01.21-12.28.32:425][ 51]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2017.01.21-12.28.32:443][ 51]PIE: Info Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_1_VehicleExampleMap -0.591
+[2017.01.21-12.28.32:447][ 51]PIE: New page: PIE session: VehicleExampleMap (21 Jan 2017 12:28:32)
+[2017.01.21-12.28.32:508][ 51]LogNet: Browse: 127.0.0.1//Game/VehicleBP/Maps/VehicleExampleMap
+[2017.01.21-12.28.32:508][ 51]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.01.21-12.28.32:508][ 51]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.01.21-12.28.32:522][ 51]LogNet: Game client on port 7777, rate 10000
+[2017.01.21-12.28.32:532][ 51]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: drive_thru, ProjectVersion: 1.0.0.0, EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 506046272
+[2017.01.21-12.28.32:546][ 51]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL
+[2017.01.21-12.28.32:573][ 51]PIE: Info Play in editor start time for /Game/VehicleBP/Maps/VehicleExampleMap -0.461
+[2017.01.21-12.28.32:597][ 51]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.21-12.28.32:598][ 51]LogHandshake: SendConnectChallenge. Timestamp: 0.014972, Cookie: 075157188109181244254151228023151182201063214186002184251193
+[2017.01.21-12.28.32:637][ 51]LogHandshake: SendChallengeResponse. Timestamp: 0.014972, Cookie: 075157188109181244254151228023151182201063214186002184251193
+[2017.01.21-12.28.32:725][ 52]LogNet: Server accepting post-challenge connection from: 127.0.0.1:57764
+[2017.01.21-12.28.32:725][ 52]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.01.21-12.28.32:725][ 52]LogNet: NotifyAcceptedConnection: Name: VehicleExampleMap, TimeStamp: 01/21/17 12:28:32, [UNetConnection] RemoteAddr: 127.0.0.1:57764, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.01.21-12.28.32:735][ 52]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:57764, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.01.21-12.28.32:753][ 54]LogNet: NotifyAcceptingChannel Control 0 server World /Game/VehicleBP/Maps/UEDPIE_1_VehicleExampleMap.VehicleExampleMap: Accepted
+[2017.01.21-12.28.32:753][ 54]LogNet: Remote platform little endian=1
+[2017.01.21-12.28.32:753][ 54]LogNet: This platform little endian=1
+[2017.01.21-12.28.32:761][ 55]LogNet: Login request: /Game/VehicleBP/Maps/VehicleExampleMap userId: Invalid
+[2017.01.21-12.28.32:771][ 55]LogNet: Welcomed by server (Level: /Game/VehicleBP/Maps/UEDPIE_1_VehicleExampleMap, Game: /Game/VehicleBP/Blueprints/VehicleGameMode.VehicleGameMode_C)
+[2017.01.21-12.28.32:771][ 55]LogLoad: LoadMap: 127.0.0.1//Game/VehicleBP/Maps/UEDPIE_1_VehicleExampleMap?game=/Game/VehicleBP/Blueprints/VehicleGameMode.VehicleGameMode_C
+[2017.01.21-12.28.32:794][ 55]Cmd: MEM
+[2017.01.21-12.28.32:808][ 55]LogMemory: Platform Memory Stats for Windows
+[2017.01.21-12.28.32:808][ 55]LogMemory: Process Physical Memory: 1401.45 MB used, 1917.34 MB peak
+[2017.01.21-12.28.32:808][ 55]LogMemory: Process Virtual Memory: 3058.68 MB used, 3273.59 MB peak
+[2017.01.21-12.28.32:808][ 55]LogMemory: Physical Memory: 6443.33 MB used,  9903.43 MB free, 16346.76 MB total
+[2017.01.21-12.28.32:808][ 55]LogMemory: Virtual Memory: 4159.88 MB used,  9903.43 MB free, 134217728.00 MB total
+[2017.01.21-12.28.32:808][ 55]LogMemory: 
+[2017.01.21-12.28.32:808][ 55]Allocator Stats for TBB: (not implemented)
+[2017.01.21-12.28.32:827][ 55]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2017.01.21-12.28.32:840][ 55]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_2_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2017.01.21-12.28.32
+[2017.01.21-12.28.32:841][ 55]LogWorld: Bringing up level for play took: 0.008580
+[2017.01.21-12.28.32:841][ 55]LogLoad: Took 0.069927 seconds to LoadMap(/Game/VehicleBP/Maps/UEDPIE_1_VehicleExampleMap)
+[2017.01.21-12.28.32:849][ 56]LogNet: Client netspeed is 10000
+[2017.01.21-12.28.32:849][ 56]LogNet: Join request: /Game/VehicleBP/Maps/VehicleExampleMap?SplitscreenCount=1
+[2017.01.21-12.28.32:890][ 56]LogNet: Join succeeded: 266
+[2017.01.21-12.28.33:454][ 79]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.21-12.28.33:677][ 79]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.21-12.28.33:690][ 79]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:57764, Name: IpConnection_1, Driver: GameNetDriver None, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
+[2017.01.21-12.28.33:690][ 79]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:57764, Name: IpConnection_1, Driver: GameNetDriver None, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, Channels: 11, Time: 2017.01.21-12.28.33
+[2017.01.21-12.28.33:690][ 79]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:57764, Name: IpConnection_1, Driver: GameNetDriver None, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
+[2017.01.21-12.28.33:690][ 79]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1
+[2017.01.21-12.28.33:690][ 79]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, Channels: 11, Time: 2017.01.21-12.28.33
+[2017.01.21-12.28.33:690][ 79]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1
+[2017.01.21-12.28.33:694][ 79]LogExit: GameNetDriver None shut down
+[2017.01.21-12.28.33:694][ 79]LogExit: GameNetDriver None shut down
+[2017.01.21-12.28.38:378][323]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.21-12.28.38:422][323]LogFMOD: Creating runtime Studio System
+[2017.01.21-12.28.38:423][323]LogFMOD: Default sample rate = 48000
+[2017.01.21-12.28.38:423][323]LogFMOD: System sample rate = 48000
+[2017.01.21-12.28.38:423][323]LogFMOD: Matching system sample rate 48000
+[2017.01.21-12.28.38:432][323]LogFMOD: Triggering Initialized on other modules
+[2017.01.21-12.28.38:433][323]LogFMOD: Loading Banks
+[2017.01.21-12.28.38:472][323]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank'
+
+[2017.01.21-12.28.38:472][323]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2017.01.21-12.28.38:472][323]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2017.01.21-12.28.38:472][323]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2017.01.21-12.28.38:472][323]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.21-12.28.38:472][323]PIE: New page: PIE session: VehicleExampleMap (21 Jan 2017 12:28:38)
+[2017.01.21-12.28.38:472][323]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2017.01.21-12.28.38:488][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016534s)
+[2017.01.21-12.28.38:489][323]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2017.01.21-12.28.38:489][323]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2017.01.21-12.28.38:489][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.017603s)
+[2017.01.21-12.28.38:512][323]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.21-12.28.38:518][323]LogInit: FAudioDevice initialized.
+[2017.01.21-12.28.38:587][323]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.21-12.28.38:594][323]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2017.01.21-12.28.38
+[2017.01.21-12.28.38:594][323]LogWorld: Bringing up level for play took: 0.002125
+[2017.01.21-12.28.38:595][323]PIE: Info Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap -0.439
+[2017.01.21-12.28.38:595][323]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.21-12.28.39:793][402]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.21-12.28.39:960][402]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.21-12.28.42:177][513]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.21-12.28.42:192][513]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.21-12.28.42:233][513]LogFMOD: Creating runtime Studio System
+[2017.01.21-12.28.42:234][513]LogFMOD: Default sample rate = 48000
+[2017.01.21-12.28.42:234][513]LogFMOD: System sample rate = 48000
+[2017.01.21-12.28.42:234][513]LogFMOD: Matching system sample rate 48000
+[2017.01.21-12.28.42:243][513]LogFMOD: Triggering Initialized on other modules
+[2017.01.21-12.28.42:243][513]LogFMOD: Loading Banks
+[2017.01.21-12.28.42:282][513]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank'
+
+[2017.01.21-12.28.42:282][513]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2017.01.21-12.28.42:282][513]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2017.01.21-12.28.42:282][513]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2017.01.21-12.28.42:282][513]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.21-12.28.42:282][513]PIE: New page: PIE session: VehicleExampleMap (21 Jan 2017 12:28:42)
+[2017.01.21-12.28.42:282][513]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2017.01.21-12.28.42:297][513]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015522s)
+[2017.01.21-12.28.42:298][513]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2017.01.21-12.28.42:298][513]LogPlayLevel: PIE: World Init took: (0.000871s)
+[2017.01.21-12.28.42:299][513]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.016704s)
+[2017.01.21-12.28.42:322][513]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.21-12.28.42:328][513]LogInit: FAudioDevice initialized.
+[2017.01.21-12.28.42:362][513]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.21-12.28.42:368][513]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2017.01.21-12.28.42
+[2017.01.21-12.28.42:368][513]LogWorld: Bringing up level for play took: 0.002173
+[2017.01.21-12.28.42:369][513]PIE: Info Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap -0.665
+[2017.01.21-12.28.42:369][513]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.21-12.29.20:864][590]LogNet: Browse: /Game/Maps/Gamelevel?listen
+[2017.01.21-12.29.20:864][590]LogLoad: LoadMap: /Game/Maps/Gamelevel?listen
+[2017.01.21-12.29.20:882][590]Cmd: MEM
+[2017.01.21-12.29.20:896][590]LogMemory: Platform Memory Stats for Windows
+[2017.01.21-12.29.20:896][590]LogMemory: Process Physical Memory: 1583.80 MB used, 1917.34 MB peak
+[2017.01.21-12.29.20:896][590]LogMemory: Process Virtual Memory: 2736.14 MB used, 3308.52 MB peak
+[2017.01.21-12.29.20:896][590]LogMemory: Physical Memory: 6616.70 MB used,  9730.05 MB free, 16346.76 MB total
+[2017.01.21-12.29.20:896][590]LogMemory: Virtual Memory: 4076.69 MB used,  9730.05 MB free, 134217728.00 MB total
+[2017.01.21-12.29.20:896][590]LogMemory: 
+[2017.01.21-12.29.20:896][590]Allocator Stats for TBB: (not implemented)
+[2017.01.21-12.29.20:934][590]LogStaticMesh: Building static mesh Crossroads...
+[2017.01.21-12.29.21:183][590]LogStaticMesh: Built static mesh [0.25s] /Game/Geometry/Meshes/Crossroads.Crossroads
+[2017.01.21-12.29.21:184][590]LogStaticMesh: Building static mesh Road_Block...
+[2017.01.21-12.29.21:208][590]LogStaticMesh: Built static mesh [0.02s] /Game/Geometry/Meshes/Road_Block.Road_Block
+[2017.01.21-12.29.22:124][590]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.21-12.29.22:125][590]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.21-12.29.22:125][590]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.01.21-12.29.22:126][590]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.01.21-12.29.22:126][590]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7777
+[2017.01.21-12.29.22:135][590]PIE:Warning: Warning Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2017.01.21-12.29.22:136][590]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.21-12.29.22
+[2017.01.21-12.29.22:144][590]LogWorld: Bringing up level for play took: 0.014656
+[2017.01.21-12.29.22:145][590]LogLoad: Took 1.281354 seconds to LoadMap(/Game/Maps/Gamelevel)
+[2017.01.21-12.35.36:977][176]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.21-12.35.37:102][176]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.21-12.35.37:118][176]LogExit: GameNetDriver None shut down
+[2017.01.21-12.35.42:901][474]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.21-12.35.42:931][474]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.21-12.35.42:971][474]LogFMOD: Creating runtime Studio System
+[2017.01.21-12.35.42:972][474]LogFMOD: Default sample rate = 48000
+[2017.01.21-12.35.42:972][474]LogFMOD: System sample rate = 48000
+[2017.01.21-12.35.42:972][474]LogFMOD: Matching system sample rate 48000
+[2017.01.21-12.35.42:982][474]LogFMOD: Triggering Initialized on other modules
+[2017.01.21-12.35.42:982][474]LogFMOD: Loading Banks
+[2017.01.21-12.35.43:021][474]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank'
+
+[2017.01.21-12.35.43:021][474]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2017.01.21-12.35.43:021][474]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2017.01.21-12.35.43:021][474]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2017.01.21-12.35.43:021][474]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.21-12.35.43:021][474]PIE: New page: PIE session: VehicleExampleMap (21 Jan 2017 12:35:43)
+[2017.01.21-12.35.43:022][474]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2017.01.21-12.35.43:037][474]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015502s)
+[2017.01.21-12.35.43:038][474]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2017.01.21-12.35.43:038][474]LogPlayLevel: PIE: World Init took: (0.000944s)
+[2017.01.21-12.35.43:038][474]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.016721s)
+[2017.01.21-12.35.43:062][474]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.21-12.35.43:068][474]LogInit: FAudioDevice initialized.
+[2017.01.21-12.35.43:098][474]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.21-12.35.43:106][474]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2017.01.21-12.35.43
+[2017.01.21-12.35.43:106][474]LogWorld: Bringing up level for play took: 0.002501
+[2017.01.21-12.35.43:107][474]PIE: Info Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap 0.073
+[2017.01.21-12.35.43:107][474]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.21-12.35.46:263][688]LogNet: Browse: /Game/Maps/Gamelevel?listen
+[2017.01.21-12.35.46:263][688]LogLoad: LoadMap: /Game/Maps/Gamelevel?listen
+[2017.01.21-12.35.46:281][688]Cmd: MEM
+[2017.01.21-12.35.46:294][688]LogMemory: Platform Memory Stats for Windows
+[2017.01.21-12.35.46:294][688]LogMemory: Process Physical Memory: 1599.20 MB used, 1917.34 MB peak
+[2017.01.21-12.35.46:294][688]LogMemory: Process Virtual Memory: 2982.03 MB used, 3308.52 MB peak
+[2017.01.21-12.35.46:294][688]LogMemory: Physical Memory: 6840.94 MB used,  9505.82 MB free, 16346.76 MB total
+[2017.01.21-12.35.46:294][688]LogMemory: Virtual Memory: 4220.19 MB used,  9505.82 MB free, 134217728.00 MB total
+[2017.01.21-12.35.46:294][688]LogMemory: 
+[2017.01.21-12.35.46:294][688]Allocator Stats for TBB: (not implemented)
+[2017.01.21-12.35.46:366][688]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.21-12.35.46:367][688]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.21-12.35.46:367][688]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.01.21-12.35.46:367][688]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.01.21-12.35.46:367][688]LogNet: GameNetDriver IpNetDriver_3 IpNetDriver listening on port 7777
+[2017.01.21-12.35.46:377][688]PIE:Warning: Warning Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2017.01.21-12.35.46:378][688]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.21-12.35.46
+[2017.01.21-12.35.46:379][688]LogWorld: Bringing up level for play took: 0.007378
+[2017.01.21-12.35.46:379][688]LogLoad: Took 0.116143 seconds to LoadMap(/Game/Maps/Gamelevel)
+[2017.01.21-12.35.51:319][ 48]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.21-12.35.51:443][ 48]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.21-12.35.51:461][ 48]LogExit: GameNetDriver None shut down
+[2017.01.21-12.35.53:683][164]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.21-12.35.53:713][164]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.21-12.35.53:741][164]LogFMOD: Creating runtime Studio System
+[2017.01.21-12.35.53:742][164]LogFMOD: Default sample rate = 48000
+[2017.01.21-12.35.53:742][164]LogFMOD: System sample rate = 48000
+[2017.01.21-12.35.53:742][164]LogFMOD: Matching system sample rate 48000
+[2017.01.21-12.35.53:753][164]LogFMOD: Triggering Initialized on other modules
+[2017.01.21-12.35.53:753][164]LogFMOD: Loading Banks
+[2017.01.21-12.35.53:791][164]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank'
+
+[2017.01.21-12.35.53:791][164]LogFMOD:Error: e:\jk\workspace\1. Build_UE4_1.8_Libs\studio_api\src\fmod_bankmodel.cpp(346) - Failed to open file '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2017.01.21-12.35.53:791][164]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2017.01.21-12.35.53:791][164]LogFMOD:Warning: Failed to bank: ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2017.01.21-12.35.53:791][164]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.21-12.35.53:791][164]PIE: New page: PIE session: VehicleExampleMap (21 Jan 2017 12:35:53)
+[2017.01.21-12.35.53:791][164]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2017.01.21-12.35.53:806][164]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014467s)
+[2017.01.21-12.35.53:806][164]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2017.01.21-12.35.53:807][164]LogPlayLevel: PIE: World Init took: (0.000697s)
+[2017.01.21-12.35.53:807][164]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.015428s)
+[2017.01.21-12.35.53:831][164]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.21-12.35.53:838][164]LogInit: FAudioDevice initialized.
+[2017.01.21-12.35.53:870][164]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.21-12.35.53:878][164]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2017.01.21-12.35.53
+[2017.01.21-12.35.53:878][164]LogWorld: Bringing up level for play took: 0.002058
+[2017.01.21-12.35.53:879][164]PIE: Info Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap 0.845
+[2017.01.21-12.35.53:879][164]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.21-12.36.06:993][ 88]LogNet: Browse: /Game/VehicleBP/Maps/VehicleExampleMap?Listen
+[2017.01.21-12.36.06:994][ 88]LogLoad: LoadMap: /Game/VehicleBP/Maps/VehicleExampleMap?Listen
+[2017.01.21-12.36.07:011][ 88]Cmd: MEM
+[2017.01.21-12.36.07:026][ 88]LogMemory: Platform Memory Stats for Windows
+[2017.01.21-12.36.07:026][ 88]LogMemory: Process Physical Memory: 1691.80 MB used, 1917.34 MB peak
+[2017.01.21-12.36.07:026][ 88]LogMemory: Process Virtual Memory: 2971.75 MB used, 3308.52 MB peak
+[2017.01.21-12.36.07:026][ 88]LogMemory: Physical Memory: 6935.95 MB used,  9410.81 MB free, 16346.76 MB total
+[2017.01.21-12.36.07:026][ 88]LogMemory: Virtual Memory: 4251.00 MB used,  9410.81 MB free, 134217728.00 MB total
+[2017.01.21-12.36.07:026][ 88]LogMemory: 
+[2017.01.21-12.36.07:026][ 88]Allocator Stats for TBB: (not implemented)
+[2017.01.21-12.36.07:026][ 88]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2017.01.21-12.36.07:042][ 88]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015334s)
+[2017.01.21-12.36.07:042][ 88]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2017.01.21-12.36.07:043][ 88]LogPlayLevel: PIE: World Init took: (0.000942s)
+[2017.01.21-12.36.07:043][ 88]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.016584s)
+[2017.01.21-12.36.07:043][ 88]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.21-12.36.07:044][ 88]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.01.21-12.36.07:044][ 88]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.01.21-12.36.07:044][ 88]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 7777
+[2017.01.21-12.36.07:053][ 88]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2017.01.21-12.36.07
+[2017.01.21-12.36.07:054][ 88]LogWorld: Bringing up level for play took: 0.003348
+[2017.01.21-12.36.07:055][ 88]LogLoad: Took 0.060847 seconds to LoadMap(/Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap)
+[2017.01.21-12.37.16:706][ 97]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.01.21-12.37.16:772][ 99]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.DriveThru
+
+[2017.01.21-12.37.16:772][ 99]LogTemp:Display: CWD: C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\DotNet\IOS
+
+[2017.01.21-12.37.16:772][ 99]LogTemp:Display: Initial Dir: C:\Program Files (x86)\Epic Games\4.14
+
+[2017.01.21-12.37.16:772][ 99]LogTemp:Display: Env CWD: C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\DotNet\IOS
+
+[2017.01.21-12.37.16:788][100]LogTemp:Display: BranchPath = DESKTOP-LDMGO10/C/Program Files (x86)/Epic Games/4.14/Engine/Binaries --- GameBranchPath = DESKTOP-LDMGO10/C/Program Files (x86)/Epic Games/4.14/Engine/Binaries
+
+[2017.01.21-12.37.16:806][101]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Harry Haston-Dougan\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.01.21-12.37.16:806][101]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.01.21-12.37.16:806][101]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.01.21-12.37.16:806][101]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.01.21-12.37.16:806][101]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.01.21-12.37.16:806][101]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.01.21-12.38.41:766][229]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.21-12.38.41:893][229]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2017.01.21-12.38.41:910][229]LogExit: GameNetDriver None shut down
+[2017.01.21-12.39.08:877][917]LogEditorFactories: Performing atomic reimport of [C:/Users/Harry Haston-Dougan/Downloads/SM_Car_01.fbx]
+[2017.01.21-12.39.08:899][917]LogFbx: Loading FBX Scene from C:/Users/Harry Haston-Dougan/Downloads/SM_Car_01.fbx
+[2017.01.21-12.39.08:938][917]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.21-12.39.08:947][917]LogFbx:Warning: Triangulating static mesh pCube5
+[2017.01.21-12.39.09:058][917]LogFbx:Warning: Triangulating static mesh pCube6
+[2017.01.21-12.39.09:063][917]LogFbx:Warning: Triangulating static mesh pCube8
+[2017.01.21-12.39.09:069][917]LogFbx:Warning: Triangulating static mesh pCube12
+[2017.01.21-12.39.09:086][917]LogFbx:Warning: Triangulating static mesh pCube17
+[2017.01.21-12.39.09:088][917]LogFbx:Warning: Triangulating static mesh pCube109
+[2017.01.21-12.39.09:120][917]LogFbx:Warning: Triangulating static mesh pCube112
+[2017.01.21-12.39.09:125][917]LogFbx:Warning: Triangulating static mesh pCube122
+[2017.01.21-12.39.09:127][917]LogFbx:Warning: Triangulating static mesh pCube124
+[2017.01.21-12.39.09:134][917]LogFbx:Warning: Triangulating static mesh pCube142
+[2017.01.21-12.39.09:135][917]LogFbx:Warning: Triangulating static mesh pCube147
+[2017.01.21-12.39.09:140][917]LogFbx:Warning: Triangulating static mesh pCube150
+[2017.01.21-12.39.09:145][917]LogFbx:Warning: Triangulating static mesh pCube152
+[2017.01.21-12.39.09:150][917]LogFbx:Warning: Triangulating static mesh pPlane5
+[2017.01.21-12.39.09:166][917]LogFbx:Warning: Triangulating static mesh polySurface1
+[2017.01.21-12.39.09:169][917]LogFbx:Warning: Triangulating static mesh polySurface2
+[2017.01.21-12.39.09:170][917]LogFbx:Warning: Triangulating static mesh polySurface3
+[2017.01.21-12.39.09:174][917]LogFbx:Warning: Triangulating static mesh polySurface4
+[2017.01.21-12.39.09:176][917]LogFbx:Warning: Triangulating static mesh pCube154
+[2017.01.21-12.39.09:181][917]LogFbx:Warning: Triangulating static mesh pCube155
+[2017.01.21-12.39.09:194][917]LogFbx:Warning: Triangulating static mesh pCube156
+[2017.01.21-12.39.09:210][917]LogStaticMesh: Building static mesh SM_Car_01...
+[2017.01.21-12.39.09:316][917]LogStaticMesh: Built static mesh [0.11s] /Game/VehicleBP/Sedan/SM_Car_01.SM_Car_01
+[2017.01.21-12.39.09:324][917]LogStaticMesh:Warning: SM_Car_01 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.01.21-12.39.09:327][917]LogFbx:Warning: Warning SM_Car_01 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.01.21-12.39.09:339][917]LogEditorFactories: -- imported successfully
+[2017.01.21-12.39.56:438][916]BlueprintLog: New page: Compile Sedan
+[2017.01.21-12.39.57:675][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Sedan" FILE="../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset" SILENT=true
+[2017.01.21-12.39.57:775][966]LogSavePackage: Save=89.05ms
+[2017.01.21-12.39.57:775][966]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Saved/Sedan9CF0F5F842E2450EE19EF9AE08B85653.tmp' to '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset'
+[2017.01.21-12.39.57:777][966]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset
+[2017.01.21-12.40.06:661][554]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Sedan" FILE="../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset" SILENT=true
+[2017.01.21-12.40.06:755][554]LogSavePackage: Save=89.38ms
+[2017.01.21-12.40.06:755][554]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Saved/Sedan22406BCC473781EECFE8D09E6745115D.tmp' to '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset'
+[2017.01.21-12.40.06:757][554]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset
+[2017.01.21-12.40.10:357][778]LogSavePackage: Save=120.96ms
+[2017.01.21-12.40.10:357][778]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Saved/VehicleExampleMap1301BEBF4E4469ED0D8F0CACDD13FCED.tmp' to '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/VehicleBP/Maps/VehicleExampleMap.umap'
+[2017.01.21-12.40.10:360][778]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/VehicleBP/Maps/VehicleExampleMap.umap
+[2017.01.21-12.40.10:952][778]LogSavePackage: Save=544.19ms
+[2017.01.21-12.40.10:952][778]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Saved/VehicleExampleMap_BuiltData16EF4CD942CA7E507AA6DABDD0F470F2.tmp' to '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/VehicleBP/Maps/VehicleExampleMap_BuiltData.uasset'
+[2017.01.21-12.40.10:954][778]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/VehicleBP/Maps/VehicleExampleMap_BuiltData.uasset
+[2017.01.21-12.40.23:650][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/SM_Car_01" FILE="../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_01.uasset" SILENT=true
+[2017.01.21-12.40.23:672][903]LogSavePackage: Save=13.43ms
+[2017.01.21-12.40.23:672][903]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Saved/SM_Car_01FC4CB3E0456FA4CE7E2806A51578B8EC.tmp' to '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_01.uasset'
+[2017.01.21-12.40.23:674][903]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_01.uasset
+[2017.01.21-12.40.24:592][945]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.01.21-12.40.24:773][946]Cmd: QUIT_EDITOR
+[2017.01.21-12.40.25:019][946]LogExit: Preparing to exit.
+[2017.01.21-12.40.25:699][946]LogDirectoryWatcher: A directory notification for 'C:/Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/' was aborted.
+[2017.01.21-12.40.25:728][946]LogExit: Editor shut down
+[2017.01.21-12.40.25:729][946]LogExit: Transaction tracking system shut down
+[2017.01.21-12.40.25:832][946]LogObj: Freed 0b from 0 cluster array pools.
+[2017.01.21-12.40.25:832][946]LogExit: Object subsystem successfully closed.
+[2017.01.21-12.40.25:847][946]LogD3D11RHI: Shutdown
+[2017.01.21-12.40.25:847][946]LogD3D11RHI: CleanupD3DDevice
+[2017.01.21-12.40.25:850][946]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.01.21-12.40.25:861][946]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.01.21-12.40.25:861][946]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD090F807-444D-281B-2ABE-D4949F3D42FF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=02679f464868a2d455ee52b5b207064f%7C8956a5310d7f4720b67a468e29f48bf9%7C648b644c-15e4-4597-a629-e2a0e7b6ec04&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.01.21-12.40.25:871][946]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (250)
+[2017.01.21-12.40.25:871][946]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (248)
+[2017.01.21-12.40.25:871][946]LogModuleManager: Shutting down and abandoning module BlueprintGraph (247)
+[2017.01.21-12.40.25:871][946]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (246)
+[2017.01.21-12.40.25:871][946]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (245)
+[2017.01.21-12.40.25:871][946]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (244)
+[2017.01.21-12.40.25:871][946]LogModuleManager: Shutting down and abandoning module CrashTracker (243)
+[2017.01.21-12.40.25:871][946]LogModuleManager: Shutting down and abandoning module SceneOutliner (242)
+[2017.01.21-12.40.25:871][946]LogModuleManager: Shutting down and abandoning module WidgetCarousel (241)
+[2017.01.21-12.40.25:871][946]LogModuleManager: Shutting down and abandoning module AddContentDialog (240)
+[2017.01.21-12.40.25:871][946]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.14/FeaturePacks/' was aborted.
+[2017.01.21-12.40.25:874][946]LogModuleManager: Shutting down and abandoning module GameplayTags (239)
+[2017.01.21-12.40.25:874][946]LogModuleManager: Shutting down and abandoning module EditorWidgets (238)
+[2017.01.21-12.40.25:874][946]LogModuleManager: Shutting down and abandoning module CollectionManager (237)
+[2017.01.21-12.40.25:874][946]LogDirectoryWatcher: A directory notification for 'C:/Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/Collections/' was aborted.
+[2017.01.21-12.40.25:874][946]LogDirectoryWatcher: A directory notification for 'C:/Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/Developers/HarryHastonDougan/Collections/' was aborted.
+[2017.01.21-12.40.25:874][946]LogDirectoryWatcher: A directory notification for 'C:/Repos/Drive-Thru/Drive-Thru/Drive_Thru/Saved/Collections/' was aborted.
+[2017.01.21-12.40.25:874][946]LogModuleManager: Shutting down and abandoning module StatsViewer (236)
+[2017.01.21-12.40.25:874][946]LogModuleManager: Shutting down and abandoning module FoliageEdit (235)
+[2017.01.21-12.40.25:874][946]LogModuleManager: Shutting down and abandoning module LandscapeEditor (234)
+[2017.01.21-12.40.25:874][946]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (233)
+[2017.01.21-12.40.25:874][946]LogModuleManager: Shutting down and abandoning module ActorPickerMode (232)
+[2017.01.21-12.40.25:874][946]LogModuleManager: Shutting down and abandoning module GeometryMode (231)
+[2017.01.21-12.40.25:874][946]LogModuleManager: Shutting down and abandoning module TextureAlignMode (230)
+[2017.01.21-12.40.25:874][946]LogModuleManager: Shutting down and abandoning module BspMode (229)
+[2017.01.21-12.40.25:874][946]LogModuleManager: Shutting down and abandoning module HardwareSurvey (228)
+[2017.01.21-12.40.25:874][946]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (227)
+[2017.01.21-12.40.25:874][946]LogModuleManager: Shutting down and abandoning module AutomationWorker (226)
+[2017.01.21-12.40.25:874][946]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (225)
+[2017.01.21-12.40.25:874][946]LogModuleManager: Shutting down and abandoning module PlacementMode (224)
+[2017.01.21-12.40.25:874][946]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (223)
+[2017.01.21-12.40.25:874][946]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (222)
+[2017.01.21-12.40.25:874][946]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (221)
+[2017.01.21-12.40.25:874][946]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (220)
+[2017.01.21-12.40.25:874][946]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (219)
+[2017.01.21-12.40.25:874][946]LogModuleManager: Shutting down and abandoning module Media (218)
+[2017.01.21-12.40.25:874][946]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (217)
+[2017.01.21-12.40.25:874][946]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (216)
+[2017.01.21-12.40.25:874][946]LogModuleManager: Shutting down and abandoning module CharacterAI (215)
+[2017.01.21-12.40.25:875][946]LogModuleManager: Shutting down and abandoning module SequenceRecorder (214)
+[2017.01.21-12.40.25:875][946]LogModuleManager: Shutting down and abandoning module AudioCapture (213)
+[2017.01.21-12.40.25:875][946]LogModuleManager: Shutting down and abandoning module SmartSnapping (212)
+[2017.01.21-12.40.25:875][946]LogModuleManager: Shutting down and abandoning module SessionServices (211)
+[2017.01.21-12.40.25:875][946]LogModuleManager: Shutting down and abandoning module ViewportSnapping (210)
+[2017.01.21-12.40.25:875][946]LogModuleManager: Shutting down and abandoning module ViewportInteraction (209)
+[2017.01.21-12.40.25:875][946]LogModuleManager: Shutting down and abandoning module LogVisualizer (208)
+[2017.01.21-12.40.25:875][946]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (207)
+[2017.01.21-12.40.25:875][946]LogModuleManager: Shutting down and abandoning module IntroTutorials (206)
+[2017.01.21-12.40.25:875][946]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (205)
+[2017.01.21-12.40.25:875][946]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (204)
+[2017.01.21-12.40.25:875][946]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (203)
+[2017.01.21-12.40.25:875][946]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (202)
+[2017.01.21-12.40.26:459][946]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (201)
+[2017.01.21-12.40.26:459][946]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (200)
+[2017.01.21-12.40.26:459][946]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (199)
+[2017.01.21-12.40.26:459][946]LogModuleManager: Shutting down and abandoning module InputBindingEditor (198)
+[2017.01.21-12.40.26:459][946]LogModuleManager: Shutting down and abandoning module NiagaraEditor (197)
+[2017.01.21-12.40.26:460][946]LogModuleManager: Shutting down and abandoning module MergeActors (196)
+[2017.01.21-12.40.26:460][946]LogModuleManager: Shutting down and abandoning module SizeMap (195)
+[2017.01.21-12.40.26:460][946]LogModuleManager: Shutting down and abandoning module TreeMap (194)
+[2017.01.21-12.40.26:460][946]LogModuleManager: Shutting down and abandoning module ReferenceViewer (193)
+[2017.01.21-12.40.26:460][946]LogModuleManager: Shutting down and abandoning module LocalizationService (192)
+[2017.01.21-12.40.26:460][946]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (191)
+[2017.01.21-12.40.26:460][946]LogModuleManager: Shutting down and abandoning module HardwareTargeting (190)
+[2017.01.21-12.40.26:460][946]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (189)
+[2017.01.21-12.40.26:460][946]LogModuleManager: Shutting down and abandoning module UndoHistory (188)
+[2017.01.21-12.40.26:460][946]LogModuleManager: Shutting down and abandoning module UserFeedback (187)
+[2017.01.21-12.40.26:460][946]LogModuleManager: Shutting down and abandoning module XmlParser (186)
+[2017.01.21-12.40.26:460][946]LogModuleManager: Shutting down and abandoning module Blutility (185)
+[2017.01.21-12.40.26:460][946]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (184)
+[2017.01.21-12.40.26:460][946]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (183)
+[2017.01.21-12.40.26:460][946]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (182)
+[2017.01.21-12.40.26:460][946]LogModuleManager: Shutting down and abandoning module SettingsEditor (181)
+[2017.01.21-12.40.26:460][946]LogModuleManager: Shutting down and abandoning module ProjectLauncher (180)
+[2017.01.21-12.40.26:460][946]LogModuleManager: Shutting down and abandoning module SessionFrontend (179)
+[2017.01.21-12.40.26:460][946]LogModuleManager: Shutting down and abandoning module ProfilerClient (178)
+[2017.01.21-12.40.26:460][946]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (177)
+[2017.01.21-12.40.26:460][946]LogModuleManager: Shutting down and abandoning module DeviceManager (176)
+[2017.01.21-12.40.26:502][946]LogModuleManager: Shutting down and abandoning module AutomationController (175)
+[2017.01.21-12.40.26:502][946]LogModuleManager: Shutting down and abandoning module AutomationWindow (174)
+[2017.01.21-12.40.26:502][946]LogModuleManager: Shutting down and abandoning module Layers (173)
+[2017.01.21-12.40.26:502][946]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (172)
+[2017.01.21-12.40.26:502][946]LogModuleManager: Shutting down and abandoning module DetailCustomizations (171)
+[2017.01.21-12.40.26:502][946]LogModuleManager: Shutting down and abandoning module PackagesDialog (170)
+[2017.01.21-12.40.26:502][946]LogModuleManager: Shutting down and abandoning module AnimGraph (169)
+[2017.01.21-12.40.26:502][946]LogModuleManager: Shutting down and abandoning module Persona (168)
+[2017.01.21-12.40.26:502][946]LogModuleManager: Shutting down and abandoning module Kismet (167)
+[2017.01.21-12.40.26:508][946]LogModuleManager: Shutting down and abandoning module GraphEditor (166)
+[2017.01.21-12.40.26:508][946]LogModuleManager: Shutting down and abandoning module ClassViewer (165)
+[2017.01.21-12.40.26:508][946]LogModuleManager: Shutting down and abandoning module Toolbox (164)
+[2017.01.21-12.40.26:508][946]LogModuleManager: Shutting down and abandoning module ModuleUI (163)
+[2017.01.21-12.40.26:508][946]LogModuleManager: Shutting down and abandoning module MovieSceneTools (162)
+[2017.01.21-12.40.26:508][946]LogModuleManager: Shutting down and abandoning module OutputLog (161)
+[2017.01.21-12.40.26:508][946]LogModuleManager: Shutting down and abandoning module GammaUI (160)
+[2017.01.21-12.40.26:508][946]LogModuleManager: Shutting down and abandoning module Documentation (159)
+[2017.01.21-12.40.26:508][946]LogModuleManager: Shutting down and abandoning module Niagara (158)
+[2017.01.21-12.40.26:508][946]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (157)
+[2017.01.21-12.40.26:508][946]LogModuleManager: Shutting down and abandoning module AnalyticsET (156)
+[2017.01.21-12.40.26:508][946]LogModuleManager: Shutting down and abandoning module PortalServices (155)
+[2017.01.21-12.40.26:508][946]LogModuleManager: Shutting down and abandoning module PortalRpc (154)
+[2017.01.21-12.40.26:508][946]LogModuleManager: Shutting down and abandoning module MessagingRpc (153)
+[2017.01.21-12.40.26:508][946]LogModuleManager: Shutting down and abandoning module GameplayDebugger (152)
+[2017.01.21-12.40.26:508][946]LogModuleManager: Shutting down and abandoning module AITestSuite (151)
+[2017.01.21-12.40.26:508][946]LogModuleManager: Shutting down and abandoning module AIModule (150)
+[2017.01.21-12.40.26:508][946]LogModuleManager: Shutting down and abandoning module ProfilerService (149)
+[2017.01.21-12.40.26:682][946]LogModuleManager: Shutting down and abandoning module TaskGraph (148)
+[2017.01.21-12.40.26:682][946]LogModuleManager: Shutting down and abandoning module SlateRemote (147)
+[2017.01.21-12.40.26:682][946]LogModuleManager: Shutting down and abandoning module SteamVRController (146)
+[2017.01.21-12.40.26:682][946]LogModuleManager: Shutting down and abandoning module SteamVR (145)
+[2017.01.21-12.40.26:682][946]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (144)
+[2017.01.21-12.40.26:682][946]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (143)
+[2017.01.21-12.40.26:682][946]LogModuleManager: Shutting down and abandoning module OculusLibrary (142)
+[2017.01.21-12.40.26:682][946]LogModuleManager: Shutting down and abandoning module OculusInput (141)
+[2017.01.21-12.40.26:682][946]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (140)
+[2017.01.21-12.40.26:682][946]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (139)
+[2017.01.21-12.40.26:682][946]LogModuleManager: Shutting down and abandoning module CableComponent (138)
+[2017.01.21-12.40.26:682][946]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (137)
+[2017.01.21-12.40.26:682][946]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (135)
+[2017.01.21-12.40.26:682][946]LogModuleManager: Shutting down and abandoning module FMODStudioEditor (134)
+[2017.01.21-12.40.26:682][946]LogModuleManager: Shutting down and abandoning module HTML5Networking (133)
+[2017.01.21-12.40.26:682][946]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (132)
+[2017.01.21-12.40.26:682][946]LogModuleManager: Shutting down and abandoning module GeometryCache (131)
+[2017.01.21-12.40.26:682][946]LogModuleManager: Shutting down and abandoning module AlembicLibrary (130)
+[2017.01.21-12.40.26:682][946]LogModuleManager: Shutting down and abandoning module AlembicImporter (129)
+[2017.01.21-12.40.26:682][946]LogModuleManager: Shutting down and abandoning module SuperSearch (128)
+[2017.01.21-12.40.26:682][946]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (127)
+[2017.01.21-12.40.26:682][946]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (126)
+[2017.01.21-12.40.26:682][946]LogModuleManager: Shutting down and abandoning module PluginBrowser (125)
+[2017.01.21-12.40.26:682][946]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (124)
+[2017.01.21-12.40.26:682][946]LogModuleManager: Shutting down and abandoning module EpicSurvey (123)
+[2017.01.21-12.40.26:682][946]LogModuleManager: Shutting down and abandoning module DesktopPlatform (122)
+[2017.01.21-12.40.26:682][946]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (121)
+[2017.01.21-12.40.26:682][946]LogModuleManager: Shutting down and abandoning module UObjectPlugin (120)
+[2017.01.21-12.40.26:682][946]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (119)
+[2017.01.21-12.40.26:682][946]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (118)
+[2017.01.21-12.40.26:682][946]LogModuleManager: Shutting down and abandoning module SourceControl (117)
+[2017.01.21-12.40.26:683][946]LogModuleManager: Shutting down and abandoning module GitSourceControl (116)
+[2017.01.21-12.40.26:683][946]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (115)
+[2017.01.21-12.40.26:683][946]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (114)
+[2017.01.21-12.40.26:683][946]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (113)
+[2017.01.21-12.40.26:683][946]LogModuleManager: Shutting down and abandoning module MeshPaint (112)
+[2017.01.21-12.40.26:683][946]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (111)
+[2017.01.21-12.40.26:683][946]LogModuleManager: Shutting down and abandoning module HotReload (110)
+[2017.01.21-12.40.26:683][946]LogModuleManager: Shutting down and abandoning module MainFrame (109)
+[2017.01.21-12.40.26:683][946]LogModuleManager: Shutting down and abandoning module LevelEditor (108)
+[2017.01.21-12.40.26:685][946]LogModuleManager: Shutting down and abandoning module ContentBrowser (107)
+[2017.01.21-12.40.26:686][946]LogModuleManager: Shutting down and abandoning module Paper2DEditor (106)
+[2017.01.21-12.40.26:686][946]LogModuleManager: Shutting down and abandoning module UdpMessaging (105)
+[2017.01.21-12.40.26:787][946]LogModuleManager: Shutting down and abandoning module TcpMessaging (104)
+[2017.01.21-12.40.26:887][946]LogModuleManager: Shutting down and abandoning module FMODStudio (103)
+[2017.01.21-12.40.26:996][946]LogModuleManager: Shutting down and abandoning module FMODStudioOculus (102)
+[2017.01.21-12.40.26:996][946]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2017.01.21-12.40.26:996][946]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2017.01.21-12.40.26:996][946]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2017.01.21-12.40.26:996][946]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2017.01.21-12.40.26:996][946]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2017.01.21-12.40.26:996][946]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2017.01.21-12.40.26:996][946]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2017.01.21-12.40.26:996][946]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2017.01.21-12.40.26:996][946]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2017.01.21-12.40.26:996][946]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2017.01.21-12.40.26:996][946]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2017.01.21-12.40.26:996][946]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2017.01.21-12.40.26:996][946]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2017.01.21-12.40.26:996][946]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2017.01.21-12.40.26:996][946]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2017.01.21-12.40.26:996][946]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2017.01.21-12.40.26:996][946]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2017.01.21-12.40.26:996][946]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2017.01.21-12.40.26:996][946]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2017.01.21-12.40.26:996][946]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2017.01.21-12.40.26:996][946]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2017.01.21-12.40.26:998][946]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2017.01.21-12.40.26:998][946]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2017.01.21-12.40.26:998][946]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2017.01.21-12.40.26:998][946]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2017.01.21-12.40.26:998][946]LogModuleManager: Shutting down and abandoning module Core (75)
+[2017.01.21-12.40.26:998][946]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2017.01.21-12.40.26:998][946]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.01.21-12.40.26:998][946]LogDirectoryWatcher: A directory notification for '../../../../../../Repos/Drive-Thru/Drive-Thru/Drive_Thru/Content/' was aborted.
+[2017.01.21-12.40.26:998][946]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.01.21-12.40.26:999][946]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/FMODStudio/Content/' was aborted.
+[2017.01.21-12.40.26:999][946]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2017.01.21-12.40.27:174][946]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2017.01.21-12.40.27:174][946]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2017.01.21-12.40.27:174][946]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2017.01.21-12.40.27:174][946]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2017.01.21-12.40.27:174][946]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2017.01.21-12.40.27:174][946]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2017.01.21-12.40.27:174][946]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2017.01.21-12.40.27:174][946]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2017.01.21-12.40.27:250][946]LogDerivedDataCache: Shutdown
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.01.21-12.40.27:250][946]LogOnline:Display: Unloading online subsystem: NULL
+[2017.01.21-12.40.27:250][946]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.01.21-12.40.27:251][946]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.01.21-12.40.27:251][946]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.01.21-12.40.27:252][946]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.01.21-12.40.27:252][946]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.01.21-12.40.27:252][946]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.01.21-12.40.27:252][946]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.01.21-12.40.27:253][946]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.01.21-12.40.27:253][946]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.01.21-12.40.27:253][946]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.01.21-12.40.27:253][946]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.01.21-12.40.27:253][946]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.01.21-12.40.27:253][946]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.01.21-12.40.27:253][946]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.01.21-12.40.27:253][946]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.01.21-12.40.27:253][946]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.01.21-12.40.27:253][946]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.01.21-12.40.27:255][946]LogExit: Exiting.
+[2017.01.21-12.40.27:270][946]Log file closed, 01/21/17 12:40:27
