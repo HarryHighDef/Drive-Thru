@@ -1,11 +1,10 @@
-﻿Log file open, 01/21/17 23:04:56
+﻿Log file open, 01/22/17 00:03:36
 LogInit:Display: Running engine for game: Drive_Thru
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1652946095) SRandInit(1652946095).
+LogInit:Display: RandInit(-498729291) SRandInit(-498729291).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.081989
+LogStats: Stats thread started at 0.073423
 LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
-LogPluginManager: Loaded Plugin AdvancedSessions, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/AdvancedSessions/AdvancedSessions.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
 LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
@@ -118,6 +117,11 @@ LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
 LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.10.2(build = 321138) feature version = 0. Client runs version (prod = 1).1.10.2(build = 321138) feature version = 0
+OCULUS: Debug: [HMDState] Using default profile default
+OCULUS: Info: IAD changed to 61.6mm
+OCULUS: Debug: [SharedMemory] Creating factory
 LogInit: Build: ++UE4+Release-4.14-CL-3249277
 LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
 LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
@@ -140,423 +144,1179 @@ LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.14
-LogInit: Command line:  
+LogInit: Command line: -EpicPortal 
 LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.01.21-23.04.57:247][  0]LogInit: Selected Device Profile: [Windows]
-[2017.01.21-23.04.57:247][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.01.21-23.04.57:259][  0]LogInit: Computer: DESKTOP-LDMGO10
-[2017.01.21-23.04.57:259][  0]LogInit: User: HarryHastonDougan
-[2017.01.21-23.04.57:259][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.01.21-23.04.57:259][  0]LogInit: High frequency timer resolution =3.328126 MHz
-[2017.01.21-23.04.57:259][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2017.01.21-23.04.57:259][  0]LogMemory: Platform Memory Stats for Windows
-[2017.01.21-23.04.57:259][  0]LogMemory: Process Physical Memory: 264.11 MB used, 264.11 MB peak
-[2017.01.21-23.04.57:259][  0]LogMemory: Process Virtual Memory: 262.69 MB used, 262.69 MB peak
-[2017.01.21-23.04.57:259][  0]LogMemory: Physical Memory: 5196.82 MB used,  11149.93 MB free, 16346.76 MB total
-[2017.01.21-23.04.57:259][  0]LogMemory: Virtual Memory: 676.41 MB used,  11149.93 MB free, 134217728.00 MB total
-[2017.01.21-23.04.57:286][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
-[2017.01.21-23.04.57:830][  0]LogD3D11RHI: D3D11 adapters:
-[2017.01.21-23.04.58:306][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
-[2017.01.21-23.04.58:306][  0]LogD3D11RHI:       3035/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.01.21-23.04.58:307][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.01.21-23.04.58:308][  0]LogD3D11RHI:       0/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.01.21-23.04.58:308][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.01.21-23.04.58:312][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.01.21-23.04.58:312][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
-[2017.01.21-23.04.58:312][  0]LogWindows: EnumDisplayDevices:
-[2017.01.21-23.04.58:312][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
-[2017.01.21-23.04.58:312][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:1)
-[2017.01.21-23.04.58:312][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
-[2017.01.21-23.04.58:312][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
-[2017.01.21-23.04.58:312][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.01.21-23.04.58:312][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
-[2017.01.21-23.04.58:312][  0]LogD3D11RHI:   Driver Version: 376.19 (internal:21.21.13.7619, unified:376.19)
-[2017.01.21-23.04.58:312][  0]LogD3D11RHI:      Driver Date: 12-1-2016
-[2017.01.21-23.04.58:312][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.01.21-23.04.58:756][  0]LogD3D11RHI: Async texture creation enabled
-[2017.01.21-23.05.03:776][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.01.21-23.05.03:777][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Repos/Drive-Thru/Drive_Thru/Intermediate/Shaders/WorkingDirectory/13004/).
-[2017.01.21-23.05.03:777][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Harry Haston-Dougan/AppData/Local/Temp/UnrealShaderWorkingDir/55A62BBF49B036A5FB1F2CAAC70E6DFB/'.
-[2017.01.21-23.05.03:777][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.01.21-23.05.04:674][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.01.21-23.05.04:722][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.01.21-23.05.04:770][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.01.21-23.05.04:818][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.01.21-23.05.04:865][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.01.21-23.05.04:912][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.01.21-23.05.04:960][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.01.21-23.05.05:007][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.01.21-23.05.05:045][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.01.21-23.05.05:090][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.01.21-23.05.05:135][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.01.21-23.05.05:181][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.01.21-23.05.05:227][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.01.21-23.05.05:272][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.01.21-23.05.05:318][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.01.21-23.05.05:410][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.01.21-23.05.05:410][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.01.21-23.05.05:440][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.01.21-23.05.05:515][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.01.21-23.05.05:551][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.01.21-23.05.05:603][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.01.21-23.05.05:652][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.01.21-23.05.05:698][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.01.21-23.05.05:750][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.01.21-23.05.05:750][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.01.21-23.05.06:143][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.01.21-23.05.06:192][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Harry Haston-Dougan/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.01.21-23.05.06:192][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Harry Haston-Dougan/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
-[2017.01.21-23.05.06:193][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Repos/Drive-Thru/Drive_Thru/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.01.21-23.05.06:193][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.01.21-23.05.06:193][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Repos/Drive-Thru/Drive_Thru/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.01.21-23.05.06:193][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.01.21-23.05.06:207][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.01.21-23.05.06:219][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Harry Haston-Dougan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.01.21-23.05.06:392][  0]LogInit: Selected Device Profile: [Windows]
-[2017.01.21-23.05.06:394][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.01.21-23.05.06:570][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.01.21-23.05.06:607][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.01.21-23.05.06:649][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.01.21-23.05.06:649][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.01.21-23.05.06:649][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.01.21-23.05.07:079][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: drive_thru, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3324528129
-[2017.01.21-23.05.07:129][  0]LogAssetRegistry: FAssetRegistry took 0.0212 seconds to start up
-[2017.01.21-23.05.07:178][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.028855 seconds
-[2017.01.21-23.05.07:183][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
-[2017.01.21-23.05.07:183][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
-[2017.01.21-23.05.07:183][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.01.21-23.05.07:236][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.01.21-23.05.07:868][  0]LogSlate: Using Freetype 2.6.0
-[2017.01.21-23.05.07:868][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.01.21-23.05.07:868][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.01.21-23.05.08:536][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.01.21-23.05.08:574][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.01.21-23.05.08:842][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.01.21-23.05.09:182][  0]SourceControl: Info Source control is disabled
-[2017.01.21-23.05.09:214][  0]SourceControl: Info Source control is disabled
-[2017.01.21-23.05.09:255][  0]SourceControl: Info Source control is disabled
-[2017.01.21-23.05.09:295][  0]SourceControl: Info Source control is disabled
-[2017.01.21-23.05.10:391][  0]LogEngine: Initializing Engine...
-[2017.01.21-23.05.10:412][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-4541EBFF
-[2017.01.21-23.05.10:622][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.01.21-23.05.10:632][  0]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.01.21-23.05.10:642][  0]LogInit: FAudioDevice initialized.
-[2017.01.21-23.05.10:663][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Harry Haston-Dougan/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.01.21-23.05.10:670][  0]LogInit: Texture streaming: Enabled
-[2017.01.21-23.05.10:828][  0]LogInit: Transaction tracking system initialized
-[2017.01.21-23.05.11:111][  0]BlueprintLog: New page: Editor Load
-[2017.01.21-23.05.11:856][  0]LocalizationService: Info Localization service is disabled
-[2017.01.21-23.05.12:411][  0]LogConsoleResponse:Display: 
-[2017.01.21-23.05.12:536][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.01.21-23.05.12:536][  0]LogCook:Display: Mobile HDR setting 1
-[2017.01.21-23.05.12:770][  0]LogFileCache: Scanning file cache for directory 'C:/Repos/Drive-Thru/Drive_Thru/Content/' took 0.01s
-[2017.01.21-23.05.13:382][  0]SourceControl: Info Source control is disabled
-[2017.01.21-23.05.13:382][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.01.21-23.05.13:382][  0]LightingResults: New page: Lighting Build
-[2017.01.21-23.05.13:416][  0]MapCheck: New page: Map Check
-[2017.01.21-23.05.13:416][  0]LightingResults: New page: Lighting Build
-[2017.01.21-23.05.13:591][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2017.01.21-23.05.13:592][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
-[2017.01.21-23.05.13:597][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.01.21-23.05.13:601][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.01.21-23.05.13:632][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.126ms to complete.
-[2017.01.21-23.05.13:632][  0]LogFileHelpers: Loading map 'Template_Default' took 0.250
-[2017.01.21-23.05.13:701][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.01.21-23.05.13:765][  0]LogCollectionManager: Loaded 0 collections in 0.002159 seconds
-[2017.01.21-23.05.13:839][  0]LogFileCache: Scanning file cache for directory 'C:/Repos/Drive-Thru/Drive_Thru/Saved/Collections/' took 0.01s
-[2017.01.21-23.05.13:839][  0]LogFileCache: Scanning file cache for directory 'C:/Repos/Drive-Thru/Drive_Thru/Content/Developers/HarryHastonDougan/Collections/' took 0.01s
-[2017.01.21-23.05.13:839][  0]LogFileCache: Scanning file cache for directory 'C:/Repos/Drive-Thru/Drive_Thru/Content/Collections/' took 0.01s
-[2017.01.21-23.05.13:839][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.01.21-23.05.13:847][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2190 classes and 428 folders.
-[2017.01.21-23.05.13:883][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.01.21-23.05.13:883][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.01.21-23.05.13:884][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 13 classes and 0 folders.
-[2017.01.21-23.05.13:936][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2017.01.21-23.05.13:969][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.01.21-23.05.14:005][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2017.01.21-23.05.14:040][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.01.21-23.05.14:045][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.01.21-23.05.14:105][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2017.01.21-23.05.14:105][  0]LogLoad: (Engine Initialization) Total time: 18.23 seconds
-[2017.01.21-23.05.14:105][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
-[2017.01.21-23.05.14:105][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.01.21-23.05.14:105][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.01.21-23.05.14:114][  0]LogOcInput: OculusInput pre-init called
-[2017.01.21-23.05.14:130][  0]LogAssetRegistry: Asset discovery search completed in 7.0225 seconds
-[2017.01.21-23.05.14:130][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.01.21-23.05.14:130][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
-[2017.01.21-23.05.14:133][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.01.21-23.05.14:272][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
-[2017.01.21-23.05.18:078][436]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
-[2017.01.21-23.05.18:078][436]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/SM_Car_Body_01.SM_Car_Body_01 Referenced by Body_GEN_VARIABLE
-[2017.01.21-23.05.18:078][436]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_Body_01.uasset.
-[2017.01.21-23.05.18:078][436]LoadErrors:Error: Error /Game/VehicleBP/Sedan/SM_Car_Body_01 : Can't find file for asset. /Game/VehicleBP/Sedan/lambert2
-[2017.01.21-23.05.18:078][436]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
-[2017.01.21-23.05.18:078][436]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_Body_01.uasset.
-[2017.01.21-23.05.18:080][436]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
-[2017.01.21-23.05.18:080][436]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/SM_Car_Door_01.SM_Car_Door_01 Referenced by Car_Door_Left_GEN_VARIABLE
-[2017.01.21-23.05.18:080][436]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_Door_01.uasset.
-[2017.01.21-23.05.18:080][436]LoadErrors:Error: Error /Game/VehicleBP/Sedan/SM_Car_Door_01 : Can't find file for asset. /Game/VehicleBP/Sedan/lambert2
-[2017.01.21-23.05.18:080][436]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
-[2017.01.21-23.05.18:080][436]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_Door_01.uasset.
-[2017.01.21-23.05.18:081][436]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
-[2017.01.21-23.05.18:081][436]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/SM_Glove_Box_Door_01.SM_Glove_Box_Door_01 Referenced by Glove_Box_Door_GEN_VARIABLE
-[2017.01.21-23.05.18:081][436]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Glove_Box_Door_01.uasset.
-[2017.01.21-23.05.18:081][436]LoadErrors:Error: Error /Game/VehicleBP/Sedan/SM_Glove_Box_Door_01 : Can't find file for asset. /Game/VehicleBP/Sedan/lambert2
-[2017.01.21-23.05.18:081][436]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
-[2017.01.21-23.05.18:082][436]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Glove_Box_Door_01.uasset.
-[2017.01.21-23.05.18:159][436]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabR' for  K2Node_InputAction_508
-[2017.01.21-23.05.18:159][436]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabL' for  K2Node_InputAction_507
-[2017.01.21-23.05.18:159][436]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
-[2017.01.21-23.05.18:160][436]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
-[2017.01.21-23.05.18:160][436]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'ResetVR' for  K2Node_InputAction_43
-[2017.01.21-23.05.18:160][436]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'Handbrake' for  K2Node_InputAction_3
-[2017.01.21-23.05.18:160][436]LogBlueprint:Warning: [Compiler Sedan] Warning Get Input Axis references unknown Axis 'LookUp' for  K2Node_GetInputAxisValue_107
-[2017.01.21-23.05.18:160][436]LogBlueprint:Warning: [Compiler Sedan] Warning Get Input Axis references unknown Axis 'LookRight' for  K2Node_GetInputAxisValue_102
-[2017.01.21-23.05.18:160][436]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'SwitchCamera' for  K2Node_InputAction_23
-[2017.01.21-23.05.18:177][436]LogBlueprint:Warning: [Compiler Sedan] Warning [0022.30] Compile of Sedan successful, but with 9 Warning(s) [in 40 ms] (/Game/VehicleBP/Sedan/Sedan.Sedan)
-[2017.01.21-23.05.18:177][436]LogBlueprint:Warning: [Compiler Sedan] Warning [0022.30] Compile of Sedan successful, but with 10 Warning(s) [in 0 ms] (/Game/VehicleBP/Sedan/Sedan.Sedan)
-[2017.01.21-23.05.18:177][436]LogBlueprint:Warning: [Compiler Sedan] Warning [0022.30] Compile of Sedan successful, but with 11 Warning(s) [in 0 ms] (/Game/VehicleBP/Sedan/Sedan.Sedan)
-[2017.01.21-23.05.18:228][436]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabR' for  K2Node_InputAction_508
-[2017.01.21-23.05.18:228][436]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabL' for  K2Node_InputAction_507
-[2017.01.21-23.05.18:229][436]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
-[2017.01.21-23.05.18:229][436]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
-[2017.01.21-23.05.18:229][436]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'ResetVR' for  K2Node_InputAction_43
-[2017.01.21-23.05.18:229][436]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'Handbrake' for  K2Node_InputAction_3
-[2017.01.21-23.05.18:229][436]LogBlueprint:Warning: [Compiler Sedan] Warning Get Input Axis references unknown Axis 'LookUp' for  K2Node_GetInputAxisValue_107
-[2017.01.21-23.05.18:229][436]LogBlueprint:Warning: [Compiler Sedan] Warning Get Input Axis references unknown Axis 'LookRight' for  K2Node_GetInputAxisValue_102
-[2017.01.21-23.05.18:229][436]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'SwitchCamera' for  K2Node_InputAction_23
-[2017.01.21-23.05.18:244][436]LogBlueprint:Warning: [Compiler Sedan] Warning [0022.37] Compile of Sedan successful, but with 9 Warning(s) [in 37 ms] (/Game/VehicleBP/Sedan/Sedan.Sedan)
-[2017.01.21-23.05.18:244][436]LogBlueprint:Warning: [Compiler Sedan] Warning [0022.37] Compile of Sedan successful, but with 10 Warning(s) [in 0 ms] (/Game/VehicleBP/Sedan/Sedan.Sedan)
-[2017.01.21-23.05.18:244][436]LogBlueprint:Warning: [Compiler Sedan] Warning [0022.37] Compile of Sedan successful, but with 11 Warning(s) [in 0 ms] (/Game/VehicleBP/Sedan/Sedan.Sedan)
-[2017.01.21-23.05.18:312][436]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
-[2017.01.21-23.05.18:312][436]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/lambert2.lambert2 Referenced by SM_Glove_Box_Door_01
-[2017.01.21-23.05.18:312][436]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading NULL.
-[2017.01.21-23.05.18:312][436]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
-[2017.01.21-23.05.18:312][436]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/lambert2.lambert2 Referenced by SM_Car_Door_01
-[2017.01.21-23.05.18:313][436]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading NULL.
-[2017.01.21-23.05.18:313][436]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
-[2017.01.21-23.05.18:313][436]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/lambert2.lambert2 Referenced by SM_Car_Body_01
-[2017.01.21-23.05.18:313][436]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading NULL.
-[2017.01.21-23.05.18:366][436]LogMaterial: Missing cached shader map for material Road, compiling. 
-[2017.01.21-23.05.18:422][436]LogMaterial: Missing cached shader map for material Pavement, compiling. 
-[2017.01.21-23.05.18:901][436]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
-[2017.01.21-23.05.24:768][436]LogAIModule: Creating AISystem for world Gamelevel
-[2017.01.21-23.05.24:814][436]Cmd: MAP LOAD FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.01.21-23.05.24:814][436]LightingResults: New page: Lighting Build
-[2017.01.21-23.05.24:814][436]LoadErrors: New page: Loading map: Gamelevel.umap
-[2017.01.21-23.05.24:815][436]MapCheck: New page: Map Check
-[2017.01.21-23.05.24:815][436]LightingResults: New page: Lighting Build
-[2017.01.21-23.05.24:886][436]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.01.21-23.05.24:949][436]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.01.21-23.05.24:999][436]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 49.646ms to complete.
-[2017.01.21-23.05.25:000][436]LogFileHelpers: Loading map 'Gamelevel' took 0.187
-[2017.01.21-23.05.33:574][444]LogTemp: Repeting last play command: Selected Viewport
-[2017.01.21-23.05.33:579][444]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
-[2017.01.21-23.05.33:579][444]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.01.21-23.05.33:580][444]PIE: New page: PIE session: Gamelevel (21 Jan 2017 23:05:33)
-[2017.01.21-23.05.33:580][444]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
-[2017.01.21-23.05.33:670][444]LogPlayLevel: PIE: StaticDuplicateObject took: (0.090335s)
-[2017.01.21-23.05.33:671][444]LogAIModule: Creating AISystem for world Gamelevel
-[2017.01.21-23.05.33:672][444]LogPlayLevel: PIE: World Init took: (0.001104s)
-[2017.01.21-23.05.33:672][444]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.091778s)
-[2017.01.21-23.05.33:688][444]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.01.21-23.05.33:696][444]LogInit: FAudioDevice initialized.
-[2017.01.21-23.05.33:738][444]LogLoad: Game class is 'VehicleGameMode_C'
-[2017.01.21-23.05.33:748][444]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.21-23.05.33
-[2017.01.21-23.05.33:748][444]LogWorld: Bringing up level for play took: 0.008490
-[2017.01.21-23.05.33:784][444]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
-[2017.01.21-23.05.33:785][444]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel 0.752
-[2017.01.21-23.05.33:785][444]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
-[2017.01.21-23.05.33:828][445]LogRenderer: Reallocating scene render targets to support 1692x804 NumSamples 1 (Frame:1451).
-[2017.01.21-23.05.40:148][198]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
-[2017.01.21-23.05.40:189][198]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
-[2017.01.21-23.05.41:413][342]LogEditorViewport: Clicking on Actor (LMB): Sedan_C (Sedan)
-[2017.01.21-23.05.43:826][575]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 111 classes and 0 folders.
-[2017.01.21-23.05.43:894][575]LogBlueprintSupport:Warning: Editor config [EditoronlyBP] settings are DEPRECATED. You're not explicitly setting any, but they've been defaulting to off. If you are relying on this functionality, then please fix it up so your Blueprints don't break in a future release.
-[2017.01.21-23.05.58:256][299]BlueprintLog: New page: Compile Sedan
-[2017.01.21-23.05.58:381][299]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabR' for  K2Node_InputAction_508
-[2017.01.21-23.05.58:381][299]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabL' for  K2Node_InputAction_507
-[2017.01.21-23.05.58:381][299]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
-[2017.01.21-23.05.58:382][299]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
-[2017.01.21-23.05.58:382][299]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'ResetVR' for  K2Node_InputAction_43
-[2017.01.21-23.05.58:382][299]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'Handbrake' for  K2Node_InputAction_3
-[2017.01.21-23.05.58:382][299]LogBlueprint:Warning: [Compiler Sedan] Warning Get Input Axis references unknown Axis 'LookUp' for  K2Node_GetInputAxisValue_107
-[2017.01.21-23.05.58:382][299]LogBlueprint:Warning: [Compiler Sedan] Warning Get Input Axis references unknown Axis 'LookRight' for  K2Node_GetInputAxisValue_102
-[2017.01.21-23.05.58:382][299]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'SwitchCamera' for  K2Node_InputAction_23
-[2017.01.21-23.05.58:568][299]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'GrabR' for  K2Node_InputAction_508
-[2017.01.21-23.05.58:568][299]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'GrabL' for  K2Node_InputAction_507
-[2017.01.21-23.05.58:568][299]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
-[2017.01.21-23.05.58:568][299]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
-[2017.01.21-23.05.58:568][299]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'ResetVR' for  K2Node_InputAction_43
-[2017.01.21-23.05.58:568][299]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Handbrake' for  K2Node_InputAction_3
-[2017.01.21-23.05.58:568][299]BlueprintEditorCompileResults:Warning: Warning Get Input Axis references unknown Axis 'LookUp' for  K2Node_GetInputAxisValue_107
-[2017.01.21-23.05.58:568][299]BlueprintEditorCompileResults:Warning: Warning Get Input Axis references unknown Axis 'LookRight' for  K2Node_GetInputAxisValue_102
-[2017.01.21-23.05.58:568][299]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'SwitchCamera' for  K2Node_InputAction_23
-[2017.01.21-23.05.58:568][299]LogBlueprint:Warning: [Compiler Sedan] Warning [0062.69] Compile of Sedan successful, but with 9 Warning(s) [in 312 ms] (/Game/VehicleBP/Sedan/Sedan.Sedan)
-[2017.01.21-23.06.07:953][852]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2017.01.21-23.06.08:038][854]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.DriveThru
+[2017.01.22-00.03.36:763][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.22-00.03.36:763][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.01.22-00.03.36:774][  0]LogInit: Computer: DESKTOP-M48P4I9
+[2017.01.22-00.03.36:774][  0]LogInit: User: MarkCully
+[2017.01.22-00.03.36:774][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.01.22-00.03.36:774][  0]LogInit: High frequency timer resolution =3.328126 MHz
+[2017.01.22-00.03.36:774][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.01.22-00.03.36:774][  0]LogMemory: Platform Memory Stats for Windows
+[2017.01.22-00.03.36:774][  0]LogMemory: Process Physical Memory: 272.59 MB used, 272.59 MB peak
+[2017.01.22-00.03.36:774][  0]LogMemory: Process Virtual Memory: 268.78 MB used, 268.78 MB peak
+[2017.01.22-00.03.36:774][  0]LogMemory: Physical Memory: 7534.15 MB used,  8812.56 MB free, 16346.71 MB total
+[2017.01.22-00.03.36:774][  0]LogMemory: Virtual Memory: 723.33 MB used,  8812.56 MB free, 134217728.00 MB total
+[2017.01.22-00.03.36:795][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2017.01.22-00.03.37:307][  0]LogD3D11RHI: D3D11 adapters:
+[2017.01.22-00.03.37:789][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
+[2017.01.22-00.03.37:789][  0]LogD3D11RHI:       3035/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.01.22-00.03.37:790][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.01.22-00.03.37:790][  0]LogD3D11RHI:       0/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.01.22-00.03.37:790][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.01.22-00.03.37:794][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.01.22-00.03.37:794][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
+[2017.01.22-00.03.37:794][  0]LogWindows: EnumDisplayDevices:
+[2017.01.22-00.03.37:794][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
+[2017.01.22-00.03.37:794][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2017.01.22-00.03.37:795][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2017.01.22-00.03.37:795][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2017.01.22-00.03.37:795][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.01.22-00.03.37:795][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
+[2017.01.22-00.03.37:795][  0]LogD3D11RHI:   Driver Version: 375.63 (internal:21.21.13.7563, unified:375.63)
+[2017.01.22-00.03.37:795][  0]LogD3D11RHI:      Driver Date: 10-21-2016
+[2017.01.22-00.03.37:795][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.01.22-00.03.38:263][  0]LogD3D11RHI: Async texture creation enabled
+[2017.01.22-00.03.38:292][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.01.22-00.03.38:293][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Intermediate/Shaders/WorkingDirectory/2944/).
+[2017.01.22-00.03.38:293][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Mark Cully/AppData/Local/Temp/UnrealShaderWorkingDir/91A1F0934C88AA508B0EC39EFF3B1FEE/'.
+[2017.01.22-00.03.38:293][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.01.22-00.03.39:197][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.01.22-00.03.39:242][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.01.22-00.03.39:287][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.01.22-00.03.39:332][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.01.22-00.03.39:379][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.01.22-00.03.39:425][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.01.22-00.03.39:470][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.01.22-00.03.39:515][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.01.22-00.03.39:551][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.01.22-00.03.39:595][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.01.22-00.03.39:638][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.01.22-00.03.39:682][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.01.22-00.03.39:725][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.01.22-00.03.39:767][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.01.22-00.03.39:814][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.01.22-00.03.39:902][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.01.22-00.03.39:902][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.01.22-00.03.39:933][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.01.22-00.03.40:005][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.01.22-00.03.40:034][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.01.22-00.03.40:078][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.01.22-00.03.40:121][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.01.22-00.03.40:166][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.01.22-00.03.40:211][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.01.22-00.03.40:211][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.01.22-00.03.40:540][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.01.22-00.03.40:583][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/Mark Cully/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.01.22-00.03.40:583][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Mark Cully/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.01.22-00.03.40:583][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.01.22-00.03.40:583][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.01.22-00.03.40:583][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.01.22-00.03.40:583][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.01.22-00.03.40:598][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.01.22-00.03.40:610][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Mark Cully/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.01.22-00.03.40:778][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.22-00.03.40:780][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.01.22-00.03.40:951][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.01.22-00.03.40:985][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.01.22-00.03.41:023][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.01.22-00.03.41:023][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.01.22-00.03.41:023][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.01.22-00.03.41:442][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: drive_thru, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3324528129
+[2017.01.22-00.03.41:494][  0]LogAssetRegistry: FAssetRegistry took 0.0216 seconds to start up
+[2017.01.22-00.03.41:547][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.033419 seconds
+[2017.01.22-00.03.41:552][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.01.22-00.03.41:552][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2017.01.22-00.03.41:552][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.01.22-00.03.41:603][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.01.22-00.03.42:216][  0]LogSlate: Using Freetype 2.6.0
+[2017.01.22-00.03.42:216][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.22-00.03.42:216][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.22-00.03.42:873][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.01.22-00.03.42:907][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.01.22-00.03.43:176][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.01.22-00.03.43:508][  0]SourceControl: Info Source control is disabled
+[2017.01.22-00.03.43:539][  0]SourceControl: Info Source control is disabled
+[2017.01.22-00.03.43:578][  0]SourceControl: Info Source control is disabled
+[2017.01.22-00.03.43:620][  0]SourceControl: Info Source control is disabled
+[2017.01.22-00.03.44:712][  0]LogEngine: Initializing Engine...
+[2017.01.22-00.03.44:712][  0]LogHMD: Oculus plugin initialized. Version: 4.14.3-3249277+++UE4+Release-4.14, LibOVR: 1.10.2, SDK: 1.8.0, built Jan  6 2017, 10:50:26
+[2017.01.22-00.03.44:816][  0]OCULUS: Debug: [HMDState] Using default profile default
+[2017.01.22-00.03.44:816][  0]OCULUS: Info: IAD changed to 61.6mm
+[2017.01.22-00.03.44:920][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.01.22-00.03.44:933][  0]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.22-00.03.44:943][  0]LogInit: FAudioDevice initialized.
+[2017.01.22-00.03.44:966][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Mark Cully/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.01.22-00.03.44:974][  0]LogInit: Texture streaming: Enabled
+[2017.01.22-00.03.45:125][  0]LogInit: Transaction tracking system initialized
+[2017.01.22-00.03.45:413][  0]BlueprintLog: New page: Editor Load
+[2017.01.22-00.03.46:139][  0]LocalizationService: Info Localization service is disabled
+[2017.01.22-00.03.46:680][  0]LogConsoleResponse:Display: 
+[2017.01.22-00.03.46:801][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.01.22-00.03.46:801][  0]LogCook:Display: Mobile HDR setting 1
+[2017.01.22-00.03.47:063][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mark Cully/Drive-Thru/Drive_Thru/Content/' took 0.01s
+[2017.01.22-00.03.47:595][  0]SourceControl: Info Source control is disabled
+[2017.01.22-00.03.47:595][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.01.22-00.03.47:595][  0]LightingResults: New page: Lighting Build
+[2017.01.22-00.03.47:627][  0]MapCheck: New page: Map Check
+[2017.01.22-00.03.47:627][  0]LightingResults: New page: Lighting Build
+[2017.01.22-00.03.47:822][  0]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
+[2017.01.22-00.03.47:822][  0]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/SM_Car_Body_01.SM_Car_Body_01 Referenced by Body_GEN_VARIABLE
+[2017.01.22-00.03.47:823][  0]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_Body_01.uasset.
+[2017.01.22-00.03.47:823][  0]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/SM_Car_Body_01.SM_Car_Body_01 Referenced by Body_GEN_VARIABLE
+[2017.01.22-00.03.47:823][  0]LoadErrors:Error: Error /Game/VehicleBP/Sedan/SM_Car_Body_01 : Can't find file for asset. /Game/VehicleBP/Sedan/lambert2
+[2017.01.22-00.03.47:823][  0]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
+[2017.01.22-00.03.47:823][  0]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/SM_Car_Body_01.SM_Car_Body_01 Referenced by Body_GEN_VARIABLE
+[2017.01.22-00.03.47:823][  0]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_Body_01.uasset.
+[2017.01.22-00.03.47:823][  0]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/SM_Car_Body_01.SM_Car_Body_01 Referenced by Body_GEN_VARIABLE
+[2017.01.22-00.03.47:823][  0]LoadErrors:Error: Error /Game/VehicleBP/Sedan/SM_Car_Body_01 : Can't find file for asset. /Game/VehicleBP/Sedan/lambert2
+[2017.01.22-00.03.47:825][  0]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
+[2017.01.22-00.03.47:825][  0]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/SM_Car_Door_01.SM_Car_Door_01 Referenced by Car_Door_Left_GEN_VARIABLE
+[2017.01.22-00.03.47:825][  0]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_Door_01.uasset.
+[2017.01.22-00.03.47:825][  0]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/SM_Car_Door_01.SM_Car_Door_01 Referenced by Car_Door_Left_GEN_VARIABLE
+[2017.01.22-00.03.47:825][  0]LoadErrors:Error: Error /Game/VehicleBP/Sedan/SM_Car_Door_01 : Can't find file for asset. /Game/VehicleBP/Sedan/lambert2
+[2017.01.22-00.03.47:825][  0]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
+[2017.01.22-00.03.47:825][  0]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/SM_Car_Door_01.SM_Car_Door_01 Referenced by Car_Door_Left_GEN_VARIABLE
+[2017.01.22-00.03.47:825][  0]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_Door_01.uasset.
+[2017.01.22-00.03.47:825][  0]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/SM_Car_Door_01.SM_Car_Door_01 Referenced by Car_Door_Left_GEN_VARIABLE
+[2017.01.22-00.03.47:825][  0]LoadErrors:Error: Error /Game/VehicleBP/Sedan/SM_Car_Door_01 : Can't find file for asset. /Game/VehicleBP/Sedan/lambert2
+[2017.01.22-00.03.47:826][  0]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
+[2017.01.22-00.03.47:826][  0]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/SM_Glove_Box_Door_01.SM_Glove_Box_Door_01 Referenced by Glove_Box_Door_GEN_VARIABLE
+[2017.01.22-00.03.47:826][  0]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Glove_Box_Door_01.uasset.
+[2017.01.22-00.03.47:826][  0]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/SM_Glove_Box_Door_01.SM_Glove_Box_Door_01 Referenced by Glove_Box_Door_GEN_VARIABLE
+[2017.01.22-00.03.47:826][  0]LoadErrors:Error: Error /Game/VehicleBP/Sedan/SM_Glove_Box_Door_01 : Can't find file for asset. /Game/VehicleBP/Sedan/lambert2
+[2017.01.22-00.03.47:827][  0]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
+[2017.01.22-00.03.47:827][  0]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/SM_Glove_Box_Door_01.SM_Glove_Box_Door_01 Referenced by Glove_Box_Door_GEN_VARIABLE
+[2017.01.22-00.03.47:827][  0]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Glove_Box_Door_01.uasset.
+[2017.01.22-00.03.47:827][  0]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/SM_Glove_Box_Door_01.SM_Glove_Box_Door_01 Referenced by Glove_Box_Door_GEN_VARIABLE
+[2017.01.22-00.03.47:827][  0]LoadErrors:Error: Error /Game/VehicleBP/Sedan/SM_Glove_Box_Door_01 : Can't find file for asset. /Game/VehicleBP/Sedan/lambert2
+[2017.01.22-00.03.48:011][  0]LogLinker:Warning: Can't find file '/Game/Maps/Gamelevel_BuiltData'
+[2017.01.22-00.03.48:011][  0]LogLinker:Warning: Can't find file for asset '/Game/Maps/Gamelevel_BuiltData' while loading ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap.
+[2017.01.22-00.03.48:011][  0]LoadErrors:Error: Error /Game/Maps/Gamelevel : Can't find file for asset. /Game/Maps/Gamelevel_BuiltData
+[2017.01.22-00.03.48:032][  0]LogLinker:Warning: Can't find file '/Game/Maps/Gamelevel_BuiltData'
+[2017.01.22-00.03.48:032][  0]LogLinker:Warning: Can't find file for asset '/Game/Maps/Gamelevel_BuiltData' while loading ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap.
+[2017.01.22-00.03.48:032][  0]LoadErrors:Error: Error /Game/Maps/Gamelevel : Can't find file for asset. /Game/Maps/Gamelevel_BuiltData
+[2017.01.22-00.03.48:037][  0]LogLinker:Warning: Can't find file '/Game/Maps/Gamelevel_BuiltData'
+[2017.01.22-00.03.48:037][  0]LogLinker:Warning: Can't find file for asset '/Game/Maps/Gamelevel_BuiltData' while loading NULL.
+[2017.01.22-00.03.48:037][  0]LogLinker:Warning: Can't find file '/Game/Maps/Gamelevel_BuiltData'
+[2017.01.22-00.03.48:037][  0]LogLinker:Warning: Can't find file for asset '/Game/Maps/Gamelevel_BuiltData' while loading NULL.
+[2017.01.22-00.03.48:065][  0]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
+[2017.01.22-00.03.48:065][  0]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/lambert2.lambert2 Referenced by SM_Glove_Box_Door_01
+[2017.01.22-00.03.48:065][  0]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading NULL.
+[2017.01.22-00.03.48:065][  0]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/lambert2.lambert2 Referenced by SM_Glove_Box_Door_01
+[2017.01.22-00.03.48:065][  0]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
+[2017.01.22-00.03.48:065][  0]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/lambert2.lambert2 Referenced by SM_Car_Door_01
+[2017.01.22-00.03.48:065][  0]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading NULL.
+[2017.01.22-00.03.48:065][  0]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/lambert2.lambert2 Referenced by SM_Car_Door_01
+[2017.01.22-00.03.48:066][  0]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
+[2017.01.22-00.03.48:066][  0]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/lambert2.lambert2 Referenced by SM_Car_Body_01
+[2017.01.22-00.03.48:066][  0]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading NULL.
+[2017.01.22-00.03.48:066][  0]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/lambert2.lambert2 Referenced by SM_Car_Body_01
+[2017.01.22-00.03.48:081][  0]LogLinker:Warning: Can't find file '/Game/Maps/Gamelevel_BuiltData'
+[2017.01.22-00.03.48:081][  0]LoadErrors: Info Failed to load /Game/Maps/Gamelevel_BuiltData.Gamelevel_BuiltData Referenced by PersistentLevel
+[2017.01.22-00.03.48:081][  0]LogLinker:Warning: Can't find file for asset '/Game/Maps/Gamelevel_BuiltData' while loading NULL.
+[2017.01.22-00.03.48:081][  0]LoadErrors: Info Failed to load /Game/Maps/Gamelevel_BuiltData.Gamelevel_BuiltData Referenced by PersistentLevel
+[2017.01.22-00.03.48:257][  0]LogStaticMesh: Building static mesh 2F_H...
+[2017.01.22-00.03.48:288][  0]LogStaticMesh: Built static mesh [0.03s] /Game/Geometry/2F_H.2F_H
+[2017.01.22-00.03.48:309][  0]LogStaticMesh: Building static mesh 2F_F_NS...
+[2017.01.22-00.03.48:326][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Geometry/2F_F_NS.2F_F_NS
+[2017.01.22-00.03.48:364][  0]LogStaticMesh: Building static mesh 1F_H_NW...
+[2017.01.22-00.03.48:380][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Geometry/1F_H_NW.1F_H_NW
+[2017.01.22-00.03.48:407][  0]LogStaticMesh: Building static mesh 1F_H_NS...
+[2017.01.22-00.03.48:416][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Geometry/1F_H_NS.1F_H_NS
+[2017.01.22-00.03.48:481][  0]LogStaticMesh: Building static mesh 1F_H_LW...
+[2017.01.22-00.03.48:503][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Geometry/1F_H_LW.1F_H_LW
+[2017.01.22-00.03.48:640][  0]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Gamelevel, Actor: /Game/Maps/Gamelevel.Gamelevel:PersistentLevel.DESTROYED_PassengerSeat_C_CHILDACTOR_1
+[2017.01.22-00.03.48:642][  0]LogMaterial: Missing cached shader map for material Neon_MAT, compiling. 
+[2017.01.22-00.03.48:689][  0]LogTexture:Display: Building textures: Texture2D_0 (BGRA8)
+[2017.01.22-00.03.48:772][  0]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.22-00.03.48:813][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.01.22-00.03.48:815][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.01.22-00.03.48:860][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.254ms to complete.
+[2017.01.22-00.03.48:860][  0]LogFileHelpers: Loading map 'Gamelevel' took 1.265
+[2017.01.22-00.03.48:925][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.01.22-00.03.48:988][  0]LogCollectionManager: Loaded 0 collections in 0.001642 seconds
+[2017.01.22-00.03.49:070][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Collections/' took 0.01s
+[2017.01.22-00.03.49:070][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Developers/MarkCully/Collections/' took 0.01s
+[2017.01.22-00.03.49:070][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Collections/' took 0.01s
+[2017.01.22-00.03.49:070][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.01.22-00.03.49:081][  0]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2190 classes and 428 folders.
+[2017.01.22-00.03.49:124][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.01.22-00.03.49:124][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.01.22-00.03.49:125][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 13 classes and 0 folders.
+[2017.01.22-00.03.49:179][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.01.22-00.03.49:218][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.01.22-00.03.49:269][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.01.22-00.03.49:326][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0006 seconds. Added 1 classes and 3 folders.
+[2017.01.22-00.03.49:433][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.01.22-00.03.49:438][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.01.22-00.03.49:518][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.01.22-00.03.49:518][  0]LogLoad: (Engine Initialization) Total time: 14.21 seconds
+[2017.01.22-00.03.49:518][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.24 seconds
+[2017.01.22-00.03.49:518][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.01.22-00.03.49:518][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.01.22-00.03.49:527][  0]LogOcInput: OculusInput pre-init called
+[2017.01.22-00.03.49:542][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.10.2
+[2017.01.22-00.03.49:561][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.01.22-00.03.49:755][  0]LogRenderer: Reallocating scene render targets to support 836x500 NumSamples 1 (Frame:2).
+[2017.01.22-00.03.49:838][  1]LogAssetRegistry: Asset discovery search completed in 8.3656 seconds
+[2017.01.22-00.03.49:838][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.01.22-00.03.49:838][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2017.01.22-00.05.34:055][167]LogEditorFactories: Performing atomic reimport of [C:/Users/Mark Cully/Downloads/SM_Car_01.fbx]
+[2017.01.22-00.05.34:078][167]LogFbx: Loading FBX Scene from C:/Users/Mark Cully/Downloads/SM_Car_01.fbx
+[2017.01.22-00.05.34:116][167]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.22-00.05.34:128][167]LogFbx:Warning: Triangulating static mesh pCube6
+[2017.01.22-00.05.34:135][167]LogFbx:Warning: Triangulating static mesh pCube8
+[2017.01.22-00.05.34:141][167]LogFbx:Warning: Triangulating static mesh pCube154
+[2017.01.22-00.05.34:147][167]LogFbx:Warning: Triangulating static mesh pCube177
+[2017.01.22-00.05.34:274][167]LogFbx:Warning: Triangulating static mesh pCube178
+[2017.01.22-00.05.34:279][167]LogFbx:Warning: Triangulating static mesh pPlane6
+[2017.01.22-00.05.34:282][167]LogFbx:Warning: Triangulating static mesh Dasboard_01
+[2017.01.22-00.05.34:366][167]LogStaticMesh: Building static mesh SM_Car_01...
+[2017.01.22-00.05.34:371][167]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.01.22-00.05.34:477][167]LogStaticMesh: Built static mesh [0.11s] /Game/VehicleBP/Sedan/SM_Car_01.SM_Car_01
+[2017.01.22-00.05.34:514][167]LogStaticMesh:Warning: SM_Car_01 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.01.22-00.05.34:519][167]LogFbx:Warning: Warning SM_Car_01 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.01.22-00.05.34:551][167]LogEditorFactories: -- imported successfully
+[2017.01.22-00.05.49:009][265]LogEditorViewport: Clicking on Actor (LMB): Sedan_C (Sedan)
+[2017.01.22-00.05.51:208][474]LogRenderer: Reallocating scene render targets to support 1432x924 NumSamples 1 (Frame:15556).
+[2017.01.22-00.06.51:802][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Car_MAT" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT.uasset" SILENT=true
+[2017.01.22-00.06.51:819][739]LogSavePackage: Save=14.82ms
+[2017.01.22-00.06.51:819][739]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Car_MAT968B13034B79A3CADB3D4E91E7C1D09C.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT.uasset'
+[2017.01.22-00.06.51:824][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT.uasset
+[2017.01.22-00.06.53:694][931]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.06.53:764][931]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.06.53:772][931]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.06.54:703][994]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.01.22-00.06.54:703][994]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.22-00.06.54:703][994]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.22-00.06.55:567][ 84]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.06.55:575][ 84]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.06.55:582][ 84]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.01.22-00.06.56:255][132]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.01.22-00.06.56:255][132]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.22-00.06.56:255][132]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.22-00.06.58:182][339]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.06.58:191][339]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.06.58:192][339]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.01.22-00.06.58:210][339]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.01.22-00.06.58:242][339]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.06.58:254][339]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.06.59:120][405]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.01.22-00.06.59:120][405]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.22-00.06.59:120][405]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.22-00.06.59:744][477]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.06.59:753][477]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.06.59:782][477]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.01.22-00.07.00:760][568]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.01.22-00.07.00:760][568]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.22-00.07.00:760][568]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.22-00.08.17:794][742]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Mark Cully/Google Drive/Puny Astronaut (1)/Game Jams/Tango and Smash/3D Assets/Car/UV_Car_Parts/Dashboard/RGB_Air_Con_01.png)
+[2017.01.22-00.08.17:840][742]LogTexture:Display: Building textures: RGB_Air_Con_01 (AutoDXT)
+[2017.01.22-00.08.17:981][742]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Mark Cully/Google Drive/Puny Astronaut (1)/Game Jams/Tango and Smash/3D Assets/Car/UV_Car_Parts/Dashboard/RGB_Computer_and_Radio_01.png)
+[2017.01.22-00.08.18:008][742]LogTexture:Display: Building textures: RGB_Computer_and_Radio_01 (AutoDXT)
+[2017.01.22-00.08.18:165][742]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Mark Cully/Google Drive/Puny Astronaut (1)/Game Jams/Tango and Smash/3D Assets/Car/UV_Car_Parts/Dashboard/RGB_Dashboard_Body_01.png)
+[2017.01.22-00.08.18:190][742]LogTexture:Display: Building textures: RGB_Dashboard_Body_01 (AutoDXT)
+[2017.01.22-00.08.18:318][742]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Mark Cully/Google Drive/Puny Astronaut (1)/Game Jams/Tango and Smash/3D Assets/Car/UV_Car_Parts/Dashboard/RGB_Keyboard_01.png)
+[2017.01.22-00.08.18:345][742]LogTexture:Display: Building textures: RGB_Keyboard_01 (AutoDXT)
+[2017.01.22-00.08.18:466][742]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Mark Cully/Google Drive/Puny Astronaut (1)/Game Jams/Tango and Smash/3D Assets/Car/UV_Car_Parts/Dashboard/RGB_Panels_01.png)
+[2017.01.22-00.08.18:493][742]LogTexture:Display: Building textures: RGB_Panels_01 (AutoDXT)
+[2017.01.22-00.08.18:619][742]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Mark Cully/Google Drive/Puny Astronaut (1)/Game Jams/Tango and Smash/3D Assets/Car/UV_Car_Parts/Dashboard/RGB_Screen_01.png)
+[2017.01.22-00.08.18:644][742]LogTexture:Display: Building textures: RGB_Screen_01 (AutoDXT)
+[2017.01.22-00.08.18:768][742]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Mark Cully/Google Drive/Puny Astronaut (1)/Game Jams/Tango and Smash/3D Assets/Car/UV_Car_Parts/Dashboard/RGB_Small_Panel_02.png)
+[2017.01.22-00.08.18:793][742]LogTexture:Display: Building textures: RGB_Small_Panel_02 (AutoDXT)
+[2017.01.22-00.08.23:287][165]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.08.23:295][165]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.08.23:296][165]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.01.22-00.08.23:329][165]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.01.22-00.08.23:357][165]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.01.22-00.08.25:259][339]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.08.25:267][339]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.08.25:269][339]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.01.22-00.08.25:279][339]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.01.22-00.08.25:311][339]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.08.25:323][339]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.08.26:187][403]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.01.22-00.08.26:187][403]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.22-00.08.26:187][403]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.22-00.08.27:431][532]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.08.27:440][532]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.08.27:469][532]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.01.22-00.08.28:118][580]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.01.22-00.08.28:118][580]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.22-00.08.28:118][580]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.22-00.08.38:799][482]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.08.38:807][482]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.08.39:594][541]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.01.22-00.08.39:594][541]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.22-00.08.39:594][541]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.22-00.08.41:221][706]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.08.41:229][706]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.08.41:231][706]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.08.41:239][706]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.08.43:223][895]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.08.43:231][895]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.08.43:233][895]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.08.43:242][895]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.08.43:877][939]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.01.22-00.08.43:877][939]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.22-00.08.43:877][939]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.22-00.08.44:912][ 44]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.08.44:920][ 44]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.08.44:922][ 44]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.08.44:930][ 44]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.08.45:573][ 90]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.01.22-00.08.45:573][ 90]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.22-00.08.45:573][ 90]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.22-00.08.48:154][336]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.08.48:161][336]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.08.50:188][511]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.01.22-00.08.50:188][511]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.22-00.08.50:188][511]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.22-00.08.52:697][743]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.08.52:706][743]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.08.52:709][743]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.08.52:717][743]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.08.53:490][795]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.01.22-00.08.53:490][795]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.22-00.08.53:490][795]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.22-00.08.55:171][965]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.08.55:179][965]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.08.55:812][ 13]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2017.01.22-00.08.55:812][ 13]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.22-00.08.55:812][ 13]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.22-00.08.57:579][180]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.08.57:588][180]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.08.58:322][235]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2017.01.22-00.08.58:322][235]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.22-00.08.58:322][235]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.22-00.08.59:471][345]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.08.59:479][345]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.08.59:519][345]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.01.22-00.09.00:626][438]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2017.01.22-00.09.00:626][438]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.22-00.09.00:626][438]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.22-00.09.07:529][104]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.09.07:537][104]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.09.07:562][104]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.01.22-00.09.08:208][149]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2017.01.22-00.09.08:208][149]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.22-00.09.08:208][149]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.22-00.09.09:175][239]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.09.09:184][239]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.09.09:216][239]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2017.01.22-00.09.09:230][239]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.01.22-00.09.09:845][282]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2017.01.22-00.09.09:845][282]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.22-00.09.09:845][282]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.22-00.09.13:785][649]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.09.13:793][649]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.09.13:824][649]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.01.22-00.09.14:449][691]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2017.01.22-00.09.14:449][691]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.22-00.09.14:449][691]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.22-00.09.20:026][224]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.09.20:035][224]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.09.20:063][224]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2017.01.22-00.09.20:674][268]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2017.01.22-00.09.20:674][268]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.22-00.09.20:674][268]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.22-00.09.21:172][313]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.09.21:180][313]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.09.21:808][359]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2017.01.22-00.09.21:808][359]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.22-00.09.21:808][359]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.22-00.09.22:206][395]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.09.22:214][395]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.09.22:842][437]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2017.01.22-00.09.22:842][437]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.22-00.09.22:842][437]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.22-00.09.27:791][912]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.09.27:799][912]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.09.28:431][954]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2017.01.22-00.09.28:431][954]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.22-00.09.28:431][954]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.22-00.09.31:902][269]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.09.31:910][269]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.09.31:940][269]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.01.22-00.09.32:982][350]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2017.01.22-00.09.32:983][350]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.22-00.09.32:983][350]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.22-00.09.39:042][883]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.09.39:050][883]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.09.39:079][883]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_5, compiling. 
+[2017.01.22-00.09.39:083][883]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2017.01.22-00.09.39:725][924]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2017.01.22-00.09.39:725][924]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.22-00.09.39:725][924]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.22-00.09.43:225][236]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.09.43:233][236]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.09.43:258][236]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2017.01.22-00.09.43:892][277]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2017.01.22-00.09.43:892][277]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.22-00.09.43:892][277]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.22-00.10.00:290][713]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.10.00:298][713]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.10.00:918][754]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2017.01.22-00.10.00:918][754]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.22-00.10.00:918][754]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.22-00.10.02:165][869]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.10.02:173][869]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.10.02:813][911]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2017.01.22-00.10.02:813][911]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.22-00.10.02:813][911]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.22-00.10.04:236][ 44]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.10.04:244][ 44]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.10.04:284][ 44]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2017.01.22-00.10.04:903][ 82]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2017.01.22-00.10.04:903][ 82]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.22-00.10.04:903][ 82]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.22-00.10.09:679][498]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.10.09:689][498]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.10.09:715][498]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.01.22-00.10.10:342][536]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2017.01.22-00.10.10:342][536]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.22-00.10.10:342][536]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.22-00.10.11:403][630]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.10.11:411][630]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.10.11:437][630]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.01.22-00.10.12:075][669]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2017.01.22-00.10.12:075][669]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.22-00.10.12:075][669]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.22-00.10.13:030][754]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.10.13:039][754]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.10.13:075][754]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.01.22-00.10.14:257][847]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2017.01.22-00.10.14:257][847]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.01.22-00.10.14:257][847]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.01.22-00.10.15:737][981]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.10.15:745][981]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.10.16:418][ 26]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2017.01.22-00.10.16:418][ 26]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.01.22-00.10.16:418][ 26]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.01.22-00.10.17:940][161]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.10.17:947][161]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.10.19:022][239]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.10.19:030][239]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.10.19:725][286]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2017.01.22-00.10.19:725][286]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.01.22-00.10.19:725][286]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.01.22-00.10.23:659][637]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.10.23:667][637]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.10.23:710][637]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.01.22-00.10.24:339][677]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2017.01.22-00.10.24:339][677]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.01.22-00.10.24:339][677]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.01.22-00.10.27:523][954]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.10.27:531][954]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.10.28:199][999]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2017.01.22-00.10.28:199][999]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.01.22-00.10.28:199][999]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.01.22-00.10.31:394][280]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.10.31:403][280]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.10.32:096][328]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2017.01.22-00.10.32:096][328]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.01.22-00.10.32:096][328]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.01.22-00.10.33:573][457]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.10.33:581][457]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.10.34:253][500]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2017.01.22-00.10.34:253][500]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.01.22-00.10.34:253][500]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.01.22-00.10.36:460][696]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.10.36:469][696]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.10.36:500][696]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.01.22-00.10.37:159][737]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 52 instructions
+[2017.01.22-00.10.37:159][737]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.01.22-00.10.37:159][737]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.01.22-00.10.38:577][857]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.10.38:586][857]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.10.39:275][902]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2017.01.22-00.10.39:275][902]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.01.22-00.10.39:275][902]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.01.22-00.10.39:907][958]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.10.39:915][958]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.10.40:585][  1]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2017.01.22-00.10.40:585][  1]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.01.22-00.10.40:585][  1]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.01.22-00.10.41:204][ 53]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.10.41:213][ 53]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.10.41:857][ 96]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2017.01.22-00.10.41:857][ 96]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.01.22-00.10.41:857][ 96]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.01.22-00.10.43:609][251]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.10.43:617][251]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.10.43:647][251]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.01.22-00.10.44:987][355]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.10.44:994][355]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.10.45:677][397]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2017.01.22-00.10.45:677][397]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.01.22-00.10.45:677][397]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.01.22-00.10.48:105][601]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.10.48:113][601]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.10.48:781][643]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2017.01.22-00.10.48:781][643]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.01.22-00.10.48:781][643]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.01.22-00.10.49:439][700]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.10.49:447][700]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.10.50:131][745]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2017.01.22-00.10.50:131][745]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.01.22-00.10.50:131][745]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.01.22-00.10.52:452][947]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.10.52:460][947]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.10.53:140][991]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2017.01.22-00.10.53:140][991]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.01.22-00.10.53:140][991]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.01.22-00.10.56:131][226]LogMaterialEditor: Applying material Car_MAT
+[2017.01.22-00.10.56:506][226]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.10.56:523][226]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.10.56:550][226]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.10.56:572][226]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.10.56:593][226]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.10.57:132][257]LogMaterialEditor: Saving and Compiling material Car_MAT
+[2017.01.22-00.10.58:371][257]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Car_MAT" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT.uasset" SILENT=true
+[2017.01.22-00.10.58:392][257]LogSavePackage: Save=14.65ms
+[2017.01.22-00.10.58:392][257]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Car_MAT54FA0E49495A49E812B45D8679F2FE84.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT.uasset'
+[2017.01.22-00.10.58:396][257]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT.uasset
+[2017.01.22-00.10.58:401][257]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.01.22-00.10.58:401][257]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.01.22-00.10.58:401][257]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.01.22-00.11.03:842][746]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.11.03:856][746]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.11.03:864][746]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.11.04:659][805]LogMaterialEditor: Applying material Car_MAT
+[2017.01.22-00.11.05:036][805]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.11.05:052][805]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.11.05:077][805]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.11.05:100][805]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-00.11.05:119][805]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-00.11.07:316][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Gamelevel" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.22-00.11.07:389][880]LogBlueprintSupport:Warning: Editor config [EditoronlyBP] settings are DEPRECATED. You're not explicitly setting any, but they've been defaulting to off. If you are relying on this functionality, then please fix it up so your Blueprints don't break in a future release.
+[2017.01.22-00.11.07:601][880]LogSavePackage: Save=264.16ms
+[2017.01.22-00.11.07:601][880]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Gamelevel08106E4849E794E8320280A8AB0BDF2E.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap'
+[2017.01.22-00.11.07:606][880]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap
+[2017.01.22-00.11.07:674][880]LogFileHelpers: Saving map 'Gamelevel' took 0.401
+[2017.01.22-00.11.07:717][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Car_MAT" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT.uasset" SILENT=true
+[2017.01.22-00.11.07:736][880]LogSavePackage: Save=14.51ms
+[2017.01.22-00.11.07:736][880]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Car_MAT97BF25BE424FB66706D5CA862FE90601.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT.uasset'
+[2017.01.22-00.11.07:740][880]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT.uasset
+[2017.01.22-00.11.07:744][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/NewMaterial" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/NewMaterial.uasset" SILENT=true
+[2017.01.22-00.11.07:752][880]LogSavePackage: Save=5.03ms
+[2017.01.22-00.11.07:752][880]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/NewMaterial2D802DE54E6BDEDE8967D8AB748C02DB.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/NewMaterial.uasset'
+[2017.01.22-00.11.07:756][880]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/NewMaterial.uasset
+[2017.01.22-00.11.07:765][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/RGB_Air_Con_01" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/RGB_Air_Con_01.uasset" SILENT=true
+[2017.01.22-00.11.07:806][880]LogSavePackage: Save=38.20ms
+[2017.01.22-00.11.07:806][880]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/RGB_Air_Con_01964F31D54D139D12C6F16CA1AB6C1EE8.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/RGB_Air_Con_01.uasset'
+[2017.01.22-00.11.07:810][880]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/RGB_Air_Con_01.uasset
+[2017.01.22-00.11.07:819][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/RGB_Computer_and_Radio_01" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/RGB_Computer_and_Radio_01.uasset" SILENT=true
+[2017.01.22-00.11.07:860][880]LogSavePackage: Save=38.82ms
+[2017.01.22-00.11.07:860][880]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/RGB_Computer_and_Radio_01E8EC48BC4737A0C92A60CB9F4A37DD1A.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/RGB_Computer_and_Radio_01.uasset'
+[2017.01.22-00.11.07:864][880]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/RGB_Computer_and_Radio_01.uasset
+[2017.01.22-00.11.07:873][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/RGB_Dashboard_Body_01" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/RGB_Dashboard_Body_01.uasset" SILENT=true
+[2017.01.22-00.11.07:914][880]LogSavePackage: Save=38.64ms
+[2017.01.22-00.11.07:914][880]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/RGB_Dashboard_Body_01722CEBFD44FEBFF385F516A7BB89A16E.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/RGB_Dashboard_Body_01.uasset'
+[2017.01.22-00.11.07:918][880]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/RGB_Dashboard_Body_01.uasset
+[2017.01.22-00.11.07:927][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/RGB_Keyboard_01" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/RGB_Keyboard_01.uasset" SILENT=true
+[2017.01.22-00.11.07:968][880]LogSavePackage: Save=38.71ms
+[2017.01.22-00.11.07:968][880]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/RGB_Keyboard_01D5468A31418A3503026B7CAF459D3308.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/RGB_Keyboard_01.uasset'
+[2017.01.22-00.11.07:971][880]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/RGB_Keyboard_01.uasset
+[2017.01.22-00.11.07:980][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/RGB_Panels_01" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/RGB_Panels_01.uasset" SILENT=true
+[2017.01.22-00.11.08:020][880]LogSavePackage: Save=38.15ms
+[2017.01.22-00.11.08:020][880]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/RGB_Panels_0137D5623B43058F268C56068024514499.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/RGB_Panels_01.uasset'
+[2017.01.22-00.11.08:023][880]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/RGB_Panels_01.uasset
+[2017.01.22-00.11.08:032][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/RGB_Screen_01" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/RGB_Screen_01.uasset" SILENT=true
+[2017.01.22-00.11.08:093][880]LogSavePackage: Save=59.30ms
+[2017.01.22-00.11.08:093][880]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/RGB_Screen_019FD6E65246C854F4841F2894752906EF.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/RGB_Screen_01.uasset'
+[2017.01.22-00.11.08:097][880]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/RGB_Screen_01.uasset
+[2017.01.22-00.11.08:105][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/RGB_Small_Panel_02" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/RGB_Small_Panel_02.uasset" SILENT=true
+[2017.01.22-00.11.08:145][880]LogSavePackage: Save=38.43ms
+[2017.01.22-00.11.08:145][880]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/RGB_Small_Panel_02A46111BA45C6F6D2C0BEA89964D9A3DC.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/RGB_Small_Panel_02.uasset'
+[2017.01.22-00.11.08:150][880]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/RGB_Small_Panel_02.uasset
+[2017.01.22-00.11.08:162][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/SM_Car_01" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_01.uasset" SILENT=true
+[2017.01.22-00.11.08:182][880]LogSavePackage: Save=11.98ms
+[2017.01.22-00.11.08:182][880]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/SM_Car_0156231B5C4F38A8172AD6EAB7DA73C1DD.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_01.uasset'
+[2017.01.22-00.11.08:186][880]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_01.uasset
+[2017.01.22-00.11.08:194][880]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 73 instructions
+[2017.01.22-00.11.08:194][880]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.01.22-00.11.08:194][880]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.01.22-00.17.39:903][861]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/SM_Car_01" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_01.uasset" SILENT=true
+[2017.01.22-00.17.39:923][861]LogSavePackage: Save=12.25ms
+[2017.01.22-00.17.39:923][861]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/SM_Car_01EBCDDFD74241A371D72366AEEE3ED6C6.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_01.uasset'
+[2017.01.22-00.17.39:928][861]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_01.uasset
+[2017.01.22-00.17.46:131][406]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.22-00.17.46:141][406]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.17.46:141][406]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-00.17.46:141][406]OCULUS: Debug: [HMDState] Using default profile default
+[2017.01.22-00.17.46:141][406]OCULUS: Info: IAD changed to 61.6mm
+[2017.01.22-00.17.46:141][406]LogHMD: New ovr session is created
+[2017.01.22-00.17.46:141][406]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2017.01.22-00.17.46:142][406]PIE: New page: PIE session: Gamelevel (22 Jan 2017 00:17:46)
+[2017.01.22-00.17.46:142][406]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
+[2017.01.22-00.17.46:221][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078562s)
+[2017.01.22-00.17.46:221][406]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.22-00.17.46:222][406]LogPlayLevel: PIE: World Init took: (0.000795s)
+[2017.01.22-00.17.46:222][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.079731s)
+[2017.01.22-00.17.46:268][406]OCULUS: Error: Prediction interval too high: 2222.970310 s, clamping at 0.100000 s
+[2017.01.22-00.17.46:268][406]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.22-00.17.46:275][406]LogInit: FAudioDevice initialized.
+[2017.01.22-00.17.46:345][406]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.22-00.17.46:354][406]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.22-00.17.46
+[2017.01.22-00.17.46:355][406]LogWorld: Bringing up level for play took: 0.008440
+[2017.01.22-00.17.46:387][406]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.01.22-00.17.46:389][406]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel -0.748
+[2017.01.22-00.17.46:389][406]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.17.48:988][654]LogHMD: Vision Tracking Acquired
+[2017.01.22-00.18.07:618][444]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.18.07:619][444]LogHMD: Destroying ovr session
+[2017.01.22-00.18.07:689][444]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.18.09:759][618]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.18.09:759][618]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-00.18.09:760][618]OCULUS: Debug: [HMDState] Using default profile default
+[2017.01.22-00.18.09:760][618]OCULUS: Info: IAD changed to 61.6mm
+[2017.01.22-00.18.09:760][618]LogHMD: New ovr session is created
+[2017.01.22-00.18.09:760][618]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2017.01.22-00.18.09:760][618]PIE: New page: PIE session: Gamelevel (22 Jan 2017 00:18:09)
+[2017.01.22-00.18.09:760][618]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
+[2017.01.22-00.18.09:832][618]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071422s)
+[2017.01.22-00.18.09:832][618]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.22-00.18.09:833][618]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2017.01.22-00.18.09:833][618]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.072619s)
+[2017.01.22-00.18.09:884][618]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.22-00.18.09:891][618]LogInit: FAudioDevice initialized.
+[2017.01.22-00.18.09:989][618]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.22-00.18.09:999][618]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.22-00.18.09
+[2017.01.22-00.18.10:000][618]LogWorld: Bringing up level for play took: 0.010084
+[2017.01.22-00.18.10:015][618]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel 0.878
+[2017.01.22-00.18.10:016][618]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.18.10:034][618]LogHMD: Reallocation of eye buffer was requested
+[2017.01.22-00.18.10:036][618]LogHMD: Allocated a new swap texture set (size 2696 x 1588, mipcount = 1), 0x000001F29DF11040
+[2017.01.22-00.18.10:071][618]LogHMD: Allocated a new mirror texture (size 1280 x 720)
+[2017.01.22-00.18.10:071][618]LogRenderer: Reallocating scene render targets to support 2696x1588 NumSamples 1 (Frame:164993).
+[2017.01.22-00.18.12:210][718]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(1c0bdall)
+[2017.01.22-00.18.22:695][189]LogHMD: Lost Vision Tracking
+[2017.01.22-00.18.22:717][190]LogHMD: Vision Tracking Acquired
+[2017.01.22-00.18.22:851][196]LogHMD: Lost Vision Tracking
+[2017.01.22-00.18.24:564][273]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.18.24:581][273]LogHMD: Destroying ovr session
+[2017.01.22-00.18.24:581][273]LogHMD: Freeing textureSet 0x000001F29DF11040
+[2017.01.22-00.18.24:744][273]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.18.36:564][345]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 111 classes and 0 folders.
+[2017.01.22-00.19.05:111][653]LogActorFactory: Actor Factory created SM_Car_01
+[2017.01.22-00.19.05:166][656]LogActorFactory: Actor Factory created SM_Car_01
+[2017.01.22-00.19.06:889][794]BlueprintLog: New page: Compile Sedan
+[2017.01.22-00.19.11:053][211]LogTemp: Repeting last play command: VR Preview
+[2017.01.22-00.19.11:066][211]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.19.11:066][211]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-00.19.11:067][211]OCULUS: Debug: [HMDState] Using default profile default
+[2017.01.22-00.19.11:067][211]OCULUS: Info: IAD changed to 61.6mm
+[2017.01.22-00.19.11:067][211]LogHMD: New ovr session is created
+[2017.01.22-00.19.11:067][211]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2017.01.22-00.19.11:067][211]PIE: New page: PIE session: Gamelevel (22 Jan 2017 00:19:11)
+[2017.01.22-00.19.11:067][211]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
+[2017.01.22-00.19.11:138][211]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070014s)
+[2017.01.22-00.19.11:139][211]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.22-00.19.11:139][211]LogPlayLevel: PIE: World Init took: (0.000865s)
+[2017.01.22-00.19.11:139][211]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.071206s)
+[2017.01.22-00.19.11:189][211]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.22-00.19.11:196][211]LogInit: FAudioDevice initialized.
+[2017.01.22-00.19.11:329][211]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.22-00.19.11:338][211]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.22-00.19.11
+[2017.01.22-00.19.11:339][211]LogWorld: Bringing up level for play took: 0.007928
+[2017.01.22-00.19.11:363][211]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel 0.226
+[2017.01.22-00.19.11:364][211]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.19.11:398][211]LogHMD: Need to reallocate eye buffer, reason: no textureset was allocated
+[2017.01.22-00.19.11:400][211]LogHMD: Allocated a new swap texture set (size 2696 x 1588, mipcount = 1), 0x000001F232123330
+[2017.01.22-00.19.11:442][211]LogHMD: Allocated a new mirror texture (size 1280 x 720)
+[2017.01.22-00.19.14:094][456]LogHMD: Vision Tracking Acquired
+[2017.01.22-00.19.17:408][782]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(150baall)
+[2017.01.22-00.20.32:807][174]LogHMD: Lost Vision Tracking
+[2017.01.22-00.20.34:764][262]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.20.34:780][262]LogHMD: Destroying ovr session
+[2017.01.22-00.20.34:781][262]LogHMD: Freeing textureSet 0x000001F232123330
+[2017.01.22-00.20.34:948][262]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.20.50:339][627]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Mark Cully\Google Drive\Puny Astronaut (1)\Game Jams\Tango and Smash\3D Assets\Car\UV_Car_Parts\Steering_Wheel\SM_Wheel_01.fbx)
+[2017.01.22-00.20.50:346][627]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.01.22-00.20.50:346][627]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.01.22-00.20.50:346][627]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.01.22-00.20.50:346][627]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.01.22-00.20.50:346][627]LogFbx: ItemName: Material, ItemCount : 1
+[2017.01.22-00.20.50:346][627]LogFbx: ItemName: Model, ItemCount : 1
+[2017.01.22-00.20.50:346][627]LogFbx: ItemName: AnimationCurveNode, ItemCount : 1
+[2017.01.22-00.20.50:350][627]LogFbx: Loading FBX Scene from C:\Users\Mark Cully\Google Drive\Puny Astronaut (1)\Game Jams\Tango and Smash\3D Assets\Car\UV_Car_Parts\Steering_Wheel\SM_Wheel_01.fbx
+[2017.01.22-00.20.50:356][627]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.22-00.20.57:851][627]LogFbx: Loading FBX Scene from C:\Users\Mark Cully\Google Drive\Puny Astronaut (1)\Game Jams\Tango and Smash\3D Assets\Car\UV_Car_Parts\Steering_Wheel\SM_Wheel_01.fbx
+[2017.01.22-00.20.57:856][627]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.22-00.20.57:859][627]LogFbx:Warning: Triangulating static mesh pCube11
+[2017.01.22-00.20.57:898][627]LogStaticMesh: Building static mesh SM_Wheel_01...
+[2017.01.22-00.20.57:910][627]LogStaticMesh: Built static mesh [0.01s] /Game/VehicleBP/Sedan/SM_Wheel_01.SM_Wheel_01
+[2017.01.22-00.20.57:931][627]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Mark Cully\Google Drive\Puny Astronaut (1)\Game Jams\Tango and Smash\3D Assets\Car\UV_Car_Parts\Steering_Wheel\RGB_Wheel_01.png)
+[2017.01.22-00.20.57:961][627]LogTexture:Display: Building textures: RGB_Wheel_01 (AutoDXT)
+[2017.01.22-00.21.28:081][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Car_MAT_Inst9" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst9.uasset" SILENT=true
+[2017.01.22-00.21.28:097][350]LogSavePackage: Save=13.18ms
+[2017.01.22-00.21.28:097][350]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Car_MAT_Inst954D205FF4A2FD30936060EB20F06DF51.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst9.uasset'
+[2017.01.22-00.21.28:101][350]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst9.uasset
+[2017.01.22-00.21.29:627][517]LogTemp: Repeting last play command: VR Preview
+[2017.01.22-00.21.29:634][517]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.21.29:634][517]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-00.21.29:635][517]OCULUS: Debug: [HMDState] Using default profile default
+[2017.01.22-00.21.29:635][517]OCULUS: Info: IAD changed to 61.6mm
+[2017.01.22-00.21.29:635][517]LogHMD: New ovr session is created
+[2017.01.22-00.21.29:635][517]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2017.01.22-00.21.29:635][517]PIE: New page: PIE session: Gamelevel (22 Jan 2017 00:21:29)
+[2017.01.22-00.21.29:635][517]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
+[2017.01.22-00.21.29:708][517]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072318s)
+[2017.01.22-00.21.29:709][517]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.22-00.21.29:709][517]LogPlayLevel: PIE: World Init took: (0.001341s)
+[2017.01.22-00.21.29:710][517]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.074243s)
+[2017.01.22-00.21.29:763][517]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.22-00.21.29:769][517]LogInit: FAudioDevice initialized.
+[2017.01.22-00.21.29:850][517]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.22-00.21.29:859][517]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.22-00.21.29
+[2017.01.22-00.21.29:860][517]LogWorld: Bringing up level for play took: 0.009447
+[2017.01.22-00.21.29:867][517]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel 0.73
+[2017.01.22-00.21.29:868][517]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.21.29:909][517]LogHMD: Need to reallocate eye buffer, reason: no textureset was allocated
+[2017.01.22-00.21.29:914][517]LogHMD: Allocated a new swap texture set (size 2696 x 1588, mipcount = 1), 0x000001F2038081A0
+[2017.01.22-00.21.29:944][517]LogHMD: Allocated a new mirror texture (size 1280 x 720)
+[2017.01.22-00.21.31:066][615]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.21.31:071][615]LogHMD: Destroying ovr session
+[2017.01.22-00.21.31:071][615]LogHMD: Freeing textureSet 0x000001F2038081A0
+[2017.01.22-00.21.31:185][615]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.21.58:458][ 54]LogActorFactory: Actor Factory created SM_Wheel_01
+[2017.01.22-00.22.11:244][179]LogActorFactory: Actor Factory created SM_Wheel_01
+[2017.01.22-00.22.11:281][180]LogActorFactory: Actor Factory created SM_Wheel_01
+[2017.01.22-00.22.14:207][350]BlueprintLog: New page: Compile Sedan
+[2017.01.22-00.22.46:683][292]BlueprintLog: New page: Compile Sedan
+[2017.01.22-00.22.47:580][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Sedan" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset" SILENT=true
+[2017.01.22-00.22.47:762][317]LogSavePackage: Save=174.81ms
+[2017.01.22-00.22.47:762][317]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Sedan93554757462640457CF9E18A65B4DB6D.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset'
+[2017.01.22-00.22.47:766][317]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset
+[2017.01.22-00.22.49:467][460]LogTemp: Repeting last play command: VR Preview
+[2017.01.22-00.22.49:475][460]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.22.49:475][460]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-00.22.49:476][460]OCULUS: Debug: [HMDState] Using default profile default
+[2017.01.22-00.22.49:476][460]OCULUS: Info: IAD changed to 61.6mm
+[2017.01.22-00.22.49:476][460]LogHMD: New ovr session is created
+[2017.01.22-00.22.49:476][460]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2017.01.22-00.22.49:476][460]PIE: New page: PIE session: Gamelevel (22 Jan 2017 00:22:49)
+[2017.01.22-00.22.49:476][460]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
+[2017.01.22-00.22.49:548][460]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071200s)
+[2017.01.22-00.22.49:549][460]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.22-00.22.49:549][460]LogPlayLevel: PIE: World Init took: (0.001124s)
+[2017.01.22-00.22.49:549][460]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.072747s)
+[2017.01.22-00.22.49:605][460]OCULUS: Error: Prediction interval too high: 75.673545 s, clamping at 0.100000 s
+[2017.01.22-00.22.49:605][460]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.22-00.22.49:611][460]LogInit: FAudioDevice initialized.
+[2017.01.22-00.22.49:699][460]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.22-00.22.49:708][460]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.22-00.22.49
+[2017.01.22-00.22.49:709][460]LogWorld: Bringing up level for play took: 0.008955
+[2017.01.22-00.22.49:720][460]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel 0.583
+[2017.01.22-00.22.49:720][460]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.22.49:757][460]LogHMD: Need to reallocate eye buffer, reason: no textureset was allocated
+[2017.01.22-00.22.49:758][460]LogHMD: Allocated a new swap texture set (size 2696 x 1588, mipcount = 1), 0x000001F2054801C0
+[2017.01.22-00.22.49:789][460]LogHMD: Allocated a new mirror texture (size 1280 x 720)
+[2017.01.22-00.22.52:130][683]LogHMD: Vision Tracking Acquired
+[2017.01.22-00.22.53:744][837]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(b0c2all)
+[2017.01.22-00.22.57:741][ 17]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.22.57:763][ 17]LogHMD: Destroying ovr session
+[2017.01.22-00.22.57:763][ 17]LogHMD: Freeing textureSet 0x000001F2054801C0
+[2017.01.22-00.22.57:770][ 17]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(b0c2all)
+[2017.01.22-00.22.57:907][ 17]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.23.01:502][ 57]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(1e0bdall)
+[2017.01.22-00.23.03:412][177]LogEditorTransaction: Undo Modify Component(s)
+[2017.01.22-00.23.03:791][194]LogEditorTransaction: Undo Modify Component(s)
+[2017.01.22-00.23.04:075][209]LogEditorTransaction: Undo Modify Component(s)
+[2017.01.22-00.23.06:293][365]LogTemp: Repeting last play command: VR Preview
+[2017.01.22-00.23.06:301][365]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.23.06:301][365]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-00.23.06:303][365]OCULUS: Debug: [HMDState] Using default profile default
+[2017.01.22-00.23.06:303][365]OCULUS: Info: IAD changed to 61.6mm
+[2017.01.22-00.23.06:303][365]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(3704bcll)
+[2017.01.22-00.23.06:303][365]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(3704bcll)
+[2017.01.22-00.23.06:303][365]LogHMD: New ovr session is created
+[2017.01.22-00.23.06:304][365]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2017.01.22-00.23.06:304][365]PIE: New page: PIE session: Gamelevel (22 Jan 2017 00:23:06)
+[2017.01.22-00.23.06:304][365]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
+[2017.01.22-00.23.06:367][365]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062922s)
+[2017.01.22-00.23.06:368][365]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.22-00.23.06:368][365]LogPlayLevel: PIE: World Init took: (0.000794s)
+[2017.01.22-00.23.06:368][365]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.064063s)
+[2017.01.22-00.23.06:427][365]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.22-00.23.06:433][365]LogInit: FAudioDevice initialized.
+[2017.01.22-00.23.06:519][365]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.22-00.23.06:530][365]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.22-00.23.06
+[2017.01.22-00.23.06:530][365]LogWorld: Bringing up level for play took: 0.010270
+[2017.01.22-00.23.06:543][365]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel -0.594
+[2017.01.22-00.23.06:543][365]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.23.06:585][365]LogHMD: Need to reallocate eye buffer, reason: no textureset was allocated
+[2017.01.22-00.23.06:586][365]LogHMD: Allocated a new swap texture set (size 2696 x 1588, mipcount = 1), 0x000001F205118D60
+[2017.01.22-00.23.06:620][365]LogHMD: Allocated a new mirror texture (size 1280 x 720)
+[2017.01.22-00.23.09:849][513]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.23.09:871][513]LogHMD: Destroying ovr session
+[2017.01.22-00.23.09:871][513]LogHMD: Freeing textureSet 0x000001F205118D60
+[2017.01.22-00.23.09:880][513]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(1a0baall)
+[2017.01.22-00.23.09:995][513]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.23.55:882][751]LogEditorFactories: Performing atomic reimport of [C:/Users/Mark Cully/Google Drive/Puny Astronaut (1)/Game Jams/Tango and Smash/3D Assets/Car/UV_Car_Parts/Steering_Wheel/SM_Wheel_01.fbx]
+[2017.01.22-00.23.55:897][751]LogFbx: Loading FBX Scene from C:/Users/Mark Cully/Google Drive/Puny Astronaut (1)/Game Jams/Tango and Smash/3D Assets/Car/UV_Car_Parts/Steering_Wheel/SM_Wheel_01.fbx
+[2017.01.22-00.23.55:903][751]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.22-00.23.55:923][751]LogFbx:Warning: Triangulating static mesh pCube11
+[2017.01.22-00.23.55:968][751]LogStaticMesh: Building static mesh SM_Wheel_01...
+[2017.01.22-00.23.55:979][751]LogStaticMesh: Built static mesh [0.01s] /Game/VehicleBP/Sedan/SM_Wheel_01.SM_Wheel_01
+[2017.01.22-00.23.56:020][751]LogEditorFactories: -- imported successfully
+[2017.01.22-00.24.06:274][661]LogEditorFactories: Performing atomic reimport of [C:/Users/Mark Cully/Google Drive/Puny Astronaut (1)/Game Jams/Tango and Smash/3D Assets/Car/UV_Car_Parts/Steering_Wheel/SM_Wheel_01.fbx]
+[2017.01.22-00.24.06:288][661]LogFbx: Loading FBX Scene from C:/Users/Mark Cully/Google Drive/Puny Astronaut (1)/Game Jams/Tango and Smash/3D Assets/Car/UV_Car_Parts/Steering_Wheel/SM_Wheel_01.fbx
+[2017.01.22-00.24.06:293][661]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.22-00.24.06:296][661]LogFbx:Warning: Triangulating static mesh pCube11
+[2017.01.22-00.24.06:343][661]LogStaticMesh: Building static mesh SM_Wheel_01...
+[2017.01.22-00.24.06:355][661]LogStaticMesh: Built static mesh [0.01s] /Game/VehicleBP/Sedan/SM_Wheel_01.SM_Wheel_01
+[2017.01.22-00.24.06:363][661]LogEditorFactories: -- imported successfully
+[2017.01.22-00.24.09:135][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/SM_Wheel_01" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Wheel_01.uasset" SILENT=true
+[2017.01.22-00.24.09:149][889]LogSavePackage: Save=11.98ms
+[2017.01.22-00.24.09:149][889]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/SM_Wheel_01B57E066348472E5AB44A5C8EE5962386.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Wheel_01.uasset'
+[2017.01.22-00.24.09:154][889]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Wheel_01.uasset
+[2017.01.22-00.24.14:370][373]LogTemp: Repeting last play command: VR Preview
+[2017.01.22-00.24.14:379][373]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.24.14:379][373]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-00.24.14:379][373]OCULUS: Debug: [HMDState] Using default profile default
+[2017.01.22-00.24.14:379][373]OCULUS: Info: IAD changed to 61.6mm
+[2017.01.22-00.24.14:380][373]LogHMD: New ovr session is created
+[2017.01.22-00.24.14:380][373]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2017.01.22-00.24.14:380][373]PIE: New page: PIE session: Gamelevel (22 Jan 2017 00:24:14)
+[2017.01.22-00.24.14:380][373]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
+[2017.01.22-00.24.14:445][373]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064708s)
+[2017.01.22-00.24.14:445][373]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.22-00.24.14:445][373]LogPlayLevel: PIE: World Init took: (0.000622s)
+[2017.01.22-00.24.14:445][373]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.065600s)
+[2017.01.22-00.24.14:491][373]LogHMD: Lost Vision Tracking
+[2017.01.22-00.24.14:498][373]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.22-00.24.14:504][373]LogInit: FAudioDevice initialized.
+[2017.01.22-00.24.14:591][373]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.22-00.24.14:599][373]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.22-00.24.14
+[2017.01.22-00.24.14:600][373]LogWorld: Bringing up level for play took: 0.008297
+[2017.01.22-00.24.14:610][373]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel -0.528
+[2017.01.22-00.24.14:610][373]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.24.14:650][373]LogHMD: Need to reallocate eye buffer, reason: no textureset was allocated
+[2017.01.22-00.24.14:651][373]LogHMD: Allocated a new swap texture set (size 2696 x 1588, mipcount = 1), 0x000001F29DF12170
+[2017.01.22-00.24.14:681][373]LogHMD: Allocated a new mirror texture (size 1280 x 720)
+[2017.01.22-00.24.17:049][584]LogHMD: Vision Tracking Acquired
+[2017.01.22-00.24.18:493][723]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(180c30ll)
+[2017.01.22-00.24.22:897][921]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.24.22:919][921]LogHMD: Destroying ovr session
+[2017.01.22-00.24.22:919][921]LogHMD: Freeing textureSet 0x000001F29DF12170
+[2017.01.22-00.24.22:927][921]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(180c30ll)
+[2017.01.22-00.24.23:066][921]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.24.34:448][757]LogEditorFactories: Performing atomic reimport of [C:/Users/Mark Cully/Google Drive/Puny Astronaut (1)/Game Jams/Tango and Smash/3D Assets/Car/UV_Car_Parts/Steering_Wheel/SM_Wheel_01.fbx]
+[2017.01.22-00.24.34:465][757]LogFbx: Loading FBX Scene from C:/Users/Mark Cully/Google Drive/Puny Astronaut (1)/Game Jams/Tango and Smash/3D Assets/Car/UV_Car_Parts/Steering_Wheel/SM_Wheel_01.fbx
+[2017.01.22-00.24.34:471][757]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.22-00.24.34:474][757]LogFbx:Warning: Triangulating static mesh pCube11
+[2017.01.22-00.24.34:518][757]LogStaticMesh: Building static mesh SM_Wheel_01...
+[2017.01.22-00.24.34:529][757]LogStaticMesh: Built static mesh [0.01s] /Game/VehicleBP/Sedan/SM_Wheel_01.SM_Wheel_01
+[2017.01.22-00.24.34:539][757]LogEditorFactories: -- imported successfully
+[2017.01.22-00.24.36:852][937]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/SM_Wheel_01" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Wheel_01.uasset" SILENT=true
+[2017.01.22-00.24.36:890][937]LogSavePackage: Save=29.94ms
+[2017.01.22-00.24.36:890][937]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/SM_Wheel_0168E441B549566F49CEAB868BA15F2DDA.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Wheel_01.uasset'
+[2017.01.22-00.24.36:895][937]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Wheel_01.uasset
+[2017.01.22-00.24.40:918][331]LogTemp: Repeting last play command: VR Preview
+[2017.01.22-00.24.40:928][331]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.24.40:928][331]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-00.24.40:930][331]OCULUS: Debug: [HMDState] Using default profile default
+[2017.01.22-00.24.40:930][331]OCULUS: Info: IAD changed to 61.6mm
+[2017.01.22-00.24.40:930][331]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(3704bcll)
+[2017.01.22-00.24.40:930][331]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(3704bcll)
+[2017.01.22-00.24.40:930][331]LogHMD: New ovr session is created
+[2017.01.22-00.24.40:930][331]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2017.01.22-00.24.40:931][331]PIE: New page: PIE session: Gamelevel (22 Jan 2017 00:24:40)
+[2017.01.22-00.24.40:931][331]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
+[2017.01.22-00.24.40:995][331]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064216s)
+[2017.01.22-00.24.40:995][331]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.22-00.24.40:996][331]LogPlayLevel: PIE: World Init took: (0.000868s)
+[2017.01.22-00.24.40:996][331]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.065472s)
+[2017.01.22-00.24.41:050][331]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.22-00.24.41:057][331]LogInit: FAudioDevice initialized.
+[2017.01.22-00.24.41:143][331]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.22-00.24.41:152][331]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.22-00.24.41
+[2017.01.22-00.24.41:154][331]LogWorld: Bringing up level for play took: 0.009338
+[2017.01.22-00.24.41:164][331]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel 0.027
+[2017.01.22-00.24.41:165][331]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.24.41:203][331]LogHMD: Need to reallocate eye buffer, reason: no textureset was allocated
+[2017.01.22-00.24.41:205][331]LogHMD: Allocated a new swap texture set (size 2696 x 1588, mipcount = 1), 0x000001F29DF11D50
+[2017.01.22-00.24.41:234][331]LogHMD: Allocated a new mirror texture (size 1280 x 720)
+[2017.01.22-00.26.32:588][338]LogHMD: Lost Vision Tracking
+[2017.01.22-00.26.38:189][590]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.26.38:206][590]LogHMD: Destroying ovr session
+[2017.01.22-00.26.38:206][590]LogHMD: Freeing textureSet 0x000001F29DF11D50
+[2017.01.22-00.26.38:326][590]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.26.42:244][962]LogEditorViewport: Clicking on Actor (LMB): Sedan_C (Sedan)
+[2017.01.22-00.26.43:443][ 70]LogEditorViewport: Clicking on Actor (LMB): Sedan_C (Sedan)
+[2017.01.22-00.26.43:763][100]LogEditorViewport: Clicking on Actor (LMB): Sedan_C (Sedan)
+[2017.01.22-00.26.53:407][688]BlueprintLog: New page: Compile Sedan
+[2017.01.22-00.26.54:933][752]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Sedan" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset" SILENT=true
+[2017.01.22-00.26.55:111][752]LogSavePackage: Save=174.34ms
+[2017.01.22-00.26.55:111][752]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Sedan210851ED47C08CFDBE1315B5FFABAE98.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset'
+[2017.01.22-00.26.55:115][752]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset
+[2017.01.22-00.26.56:019][811]LogTemp: Repeting last play command: VR Preview
+[2017.01.22-00.26.56:026][811]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.26.56:026][811]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-00.26.56:027][811]OCULUS: Debug: [HMDState] Using default profile default
+[2017.01.22-00.26.56:027][811]OCULUS: Info: IAD changed to 61.6mm
+[2017.01.22-00.26.56:027][811]LogHMD: New ovr session is created
+[2017.01.22-00.26.56:027][811]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2017.01.22-00.26.56:028][811]PIE: New page: PIE session: Gamelevel (22 Jan 2017 00:26:56)
+[2017.01.22-00.26.56:028][811]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
+[2017.01.22-00.26.56:093][811]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065164s)
+[2017.01.22-00.26.56:094][811]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.22-00.26.56:094][811]LogPlayLevel: PIE: World Init took: (0.000818s)
+[2017.01.22-00.26.56:094][811]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.066346s)
+[2017.01.22-00.26.56:147][811]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.22-00.26.56:154][811]LogInit: FAudioDevice initialized.
+[2017.01.22-00.26.56:248][811]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.22-00.26.56:258][811]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.22-00.26.56
+[2017.01.22-00.26.56:259][811]LogWorld: Bringing up level for play took: 0.009770
+[2017.01.22-00.26.56:274][811]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel 1.136
+[2017.01.22-00.26.56:274][811]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.26.56:311][811]LogHMD: Need to reallocate eye buffer, reason: no textureset was allocated
+[2017.01.22-00.26.56:315][811]LogHMD: Allocated a new swap texture set (size 2696 x 1588, mipcount = 1), 0x000001F27C822920
+[2017.01.22-00.26.56:352][811]LogHMD: Allocated a new mirror texture (size 1280 x 720)
+[2017.01.22-00.26.58:451][966]LogHMD: Vision Tracking Acquired
+[2017.01.22-00.27.00:037][ 85]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(200c1ell)
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Warning: 
 
-[2017.01.21-23.06.08:038][854]LogTemp:Display: CWD: C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\DotNet\IOS
+Script Stack:
+Sedan_C.ExecuteUbergraph_Sedan
+Sedan_C.Top Buttoms
+Sedan_C.ExecuteUbergraph_Sedan
+Sedan_C.ReceiveTick
 
-[2017.01.21-23.06.08:038][854]LogTemp:Display: Initial Dir: C:\Program Files (x86)\Epic Games\4.14
-
-[2017.01.21-23.06.08:038][854]LogTemp:Display: Env CWD: C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\DotNet\IOS
-
-[2017.01.21-23.06.08:038][854]LogTemp:Display: BranchPath = DESKTOP-LDMGO10/C/Program Files (x86)/Epic Games/4.14/Engine/Binaries --- GameBranchPath = DESKTOP-LDMGO10/C/Program Files (x86)/Epic Games/4.14/Engine/Binaries
-
-[2017.01.21-23.06.08:059][855]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Harry Haston-Dougan\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
-
-[2017.01.21-23.06.08:059][855]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
-
-[2017.01.21-23.06.08:059][855]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
-
-[2017.01.21-23.06.08:059][855]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
-
-[2017.01.21-23.06.08:059][855]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
-
-[2017.01.21-23.06.08:059][855]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
-
-[2017.01.21-23.06.43:639][262]BlueprintLog: New page: Compile Sedan
-[2017.01.21-23.06.43:762][262]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabR' for  K2Node_InputAction_508
-[2017.01.21-23.06.43:762][262]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabL' for  K2Node_InputAction_507
-[2017.01.21-23.06.43:762][262]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
-[2017.01.21-23.06.43:762][262]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
-[2017.01.21-23.06.43:762][262]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'Handbrake' for  K2Node_InputAction_3
-[2017.01.21-23.06.43:762][262]LogBlueprint:Warning: [Compiler Sedan] Warning Get Input Axis references unknown Axis 'LookUp' for  K2Node_GetInputAxisValue_107
-[2017.01.21-23.06.43:762][262]LogBlueprint:Warning: [Compiler Sedan] Warning Get Input Axis references unknown Axis 'LookRight' for  K2Node_GetInputAxisValue_102
-[2017.01.21-23.06.43:762][262]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'SwitchCamera' for  K2Node_InputAction_23
-[2017.01.21-23.06.43:908][262]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'GrabR' for  K2Node_InputAction_508
-[2017.01.21-23.06.43:908][262]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'GrabL' for  K2Node_InputAction_507
-[2017.01.21-23.06.43:908][262]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
-[2017.01.21-23.06.43:908][262]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
-[2017.01.21-23.06.43:908][262]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Handbrake' for  K2Node_InputAction_3
-[2017.01.21-23.06.43:908][262]BlueprintEditorCompileResults:Warning: Warning Get Input Axis references unknown Axis 'LookUp' for  K2Node_GetInputAxisValue_107
-[2017.01.21-23.06.43:908][262]BlueprintEditorCompileResults:Warning: Warning Get Input Axis references unknown Axis 'LookRight' for  K2Node_GetInputAxisValue_102
-[2017.01.21-23.06.43:908][262]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'SwitchCamera' for  K2Node_InputAction_23
-[2017.01.21-23.06.43:909][262]LogBlueprint:Warning: [Compiler Sedan] Warning [0108.03] Compile of Sedan successful, but with 8 Warning(s) [in 269 ms] (/Game/VehicleBP/Sedan/Sedan.Sedan)
-[2017.01.21-23.07.22:501][965]BlueprintLog: New page: Compile Sedan
-[2017.01.21-23.07.22:620][965]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabR' for  K2Node_InputAction_508
-[2017.01.21-23.07.22:621][965]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabL' for  K2Node_InputAction_507
-[2017.01.21-23.07.22:621][965]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
-[2017.01.21-23.07.22:621][965]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
-[2017.01.21-23.07.22:621][965]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'Handbrake' for  K2Node_InputAction_3
-[2017.01.21-23.07.22:621][965]LogBlueprint:Warning: [Compiler Sedan] Warning Get Input Axis references unknown Axis 'LookUp' for  K2Node_GetInputAxisValue_107
-[2017.01.21-23.07.22:621][965]LogBlueprint:Warning: [Compiler Sedan] Warning Get Input Axis references unknown Axis 'LookRight' for  K2Node_GetInputAxisValue_102
-[2017.01.21-23.07.22:770][965]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'GrabR' for  K2Node_InputAction_508
-[2017.01.21-23.07.22:770][965]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'GrabL' for  K2Node_InputAction_507
-[2017.01.21-23.07.22:770][965]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
-[2017.01.21-23.07.22:770][965]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
-[2017.01.21-23.07.22:770][965]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Handbrake' for  K2Node_InputAction_3
-[2017.01.21-23.07.22:770][965]BlueprintEditorCompileResults:Warning: Warning Get Input Axis references unknown Axis 'LookUp' for  K2Node_GetInputAxisValue_107
-[2017.01.21-23.07.22:770][965]BlueprintEditorCompileResults:Warning: Warning Get Input Axis references unknown Axis 'LookRight' for  K2Node_GetInputAxisValue_102
-[2017.01.21-23.07.22:770][965]LogBlueprint:Warning: [Compiler Sedan] Warning [0146.89] Compile of Sedan successful, but with 7 Warning(s) [in 269 ms] (/Game/VehicleBP/Sedan/Sedan.Sedan)
-[2017.01.21-23.07.58:412][292]BlueprintLog: New page: Compile Sedan
-[2017.01.21-23.07.58:531][292]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabR' for  K2Node_InputAction_508
-[2017.01.21-23.07.58:531][292]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabL' for  K2Node_InputAction_507
-[2017.01.21-23.07.58:531][292]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
-[2017.01.21-23.07.58:531][292]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
-[2017.01.21-23.07.58:532][292]LogBlueprint:Warning: [Compiler Sedan] Warning Get Input Axis references unknown Axis 'LookUp' for  K2Node_GetInputAxisValue_107
-[2017.01.21-23.07.58:532][292]LogBlueprint:Warning: [Compiler Sedan] Warning Get Input Axis references unknown Axis 'LookRight' for  K2Node_GetInputAxisValue_102
-[2017.01.21-23.07.58:683][292]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'GrabR' for  K2Node_InputAction_508
-[2017.01.21-23.07.58:683][292]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'GrabL' for  K2Node_InputAction_507
-[2017.01.21-23.07.58:683][292]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
-[2017.01.21-23.07.58:683][292]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
-[2017.01.21-23.07.58:683][292]BlueprintEditorCompileResults:Warning: Warning Get Input Axis references unknown Axis 'LookUp' for  K2Node_GetInputAxisValue_107
-[2017.01.21-23.07.58:683][292]BlueprintEditorCompileResults:Warning: Warning Get Input Axis references unknown Axis 'LookRight' for  K2Node_GetInputAxisValue_102
-[2017.01.21-23.07.58:683][292]LogBlueprint:Warning: [Compiler Sedan] Warning [0182.81] Compile of Sedan successful, but with 6 Warning(s) [in 270 ms] (/Game/VehicleBP/Sedan/Sedan.Sedan)
-[2017.01.21-23.07.59:332][329]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Sedan" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset" SILENT=true
-[2017.01.21-23.07.59:524][329]LogSavePackage: Save=183.60ms
-[2017.01.21-23.07.59:524][329]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/SedanBEDD2649432C566FF31F5DB7E2A4BF99.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset'
-[2017.01.21-23.07.59:525][329]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset
-[2017.01.21-23.08.26:783][109]BlueprintLog: New page: Compile Sedan
-[2017.01.21-23.08.26:901][109]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabR' for  K2Node_InputAction_508
-[2017.01.21-23.08.26:901][109]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabL' for  K2Node_InputAction_507
-[2017.01.21-23.08.26:901][109]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
-[2017.01.21-23.08.26:901][109]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
-[2017.01.21-23.08.27:061][109]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'GrabR' for  K2Node_InputAction_508
-[2017.01.21-23.08.27:061][109]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'GrabL' for  K2Node_InputAction_507
-[2017.01.21-23.08.27:061][109]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
-[2017.01.21-23.08.27:061][109]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
-[2017.01.21-23.08.27:061][109]LogBlueprint:Warning: [Compiler Sedan] Warning [0211.18] Compile of Sedan successful, but with 4 Warning(s) [in 277 ms] (/Game/VehicleBP/Sedan/Sedan.Sedan)
-[2017.01.21-23.08.59:676][208]BlueprintLog: New page: Compile Sedan
-[2017.01.21-23.08.59:795][208]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
-[2017.01.21-23.08.59:795][208]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
-[2017.01.21-23.08.59:955][208]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
-[2017.01.21-23.08.59:955][208]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
-[2017.01.21-23.08.59:956][208]LogBlueprint:Warning: [Compiler Sedan] Warning [0244.08] Compile of Sedan successful, but with 2 Warning(s) [in 280 ms] (/Game/VehicleBP/Sedan/Sedan.Sedan)
-[2017.01.21-23.11.20:540][457]BlueprintLog: New page: Compile Sedan
-[2017.01.21-23.11.22:713][598]LogTemp: Repeting last play command: Selected Viewport
-[2017.01.21-23.11.22:726][598]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
-[2017.01.21-23.11.22:726][598]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.01.21-23.11.22:726][598]PIE: New page: PIE session: Gamelevel (21 Jan 2017 23:11:22)
-[2017.01.21-23.11.22:726][598]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
-[2017.01.21-23.11.22:787][598]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061695s)
-[2017.01.21-23.11.22:788][598]LogAIModule: Creating AISystem for world Gamelevel
-[2017.01.21-23.11.22:788][598]LogPlayLevel: PIE: World Init took: (0.001054s)
-[2017.01.21-23.11.22:789][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.063063s)
-[2017.01.21-23.11.22:843][598]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.01.21-23.11.22:852][598]LogInit: FAudioDevice initialized.
-[2017.01.21-23.11.22:880][598]LogLoad: Game class is 'VehicleGameMode_C'
-[2017.01.21-23.11.22:887][598]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.21-23.11.22
-[2017.01.21-23.11.22:888][598]LogWorld: Bringing up level for play took: 0.007008
-[2017.01.21-23.11.22:889][598]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel -0.144
-[2017.01.21-23.11.22:890][598]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
-[2017.01.21-23.11.58:739][540]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
-[2017.01.21-23.11.58:821][540]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
-[2017.01.21-23.12.09:513][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Sedan" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset" SILENT=true
-[2017.01.21-23.12.09:715][122]LogSavePackage: Save=198.00ms
-[2017.01.21-23.12.09:715][122]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Sedan8F25F85A48D6F0022F8A329F5278D256.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset'
-[2017.01.21-23.12.09:717][122]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset
-[2017.01.21-23.12.13:113][262]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Gamelevel" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.01.21-23.12.13:353][262]LogSavePackage: Save=215.45ms
-[2017.01.21-23.12.13:353][262]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/GamelevelD6B5281E45EA2C007B84C382872E62BC.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap'
-[2017.01.21-23.12.13:356][262]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap
-[2017.01.21-23.12.13:371][262]LogFileHelpers: Saving map 'Gamelevel' took 0.304
-[2017.01.21-23.12.16:549][395]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2017.01.21-23.12.16:602][396]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.DriveThru
-
-[2017.01.21-23.12.16:602][396]LogTemp:Display: CWD: C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\DotNet\IOS
-
-[2017.01.21-23.12.16:602][396]LogTemp:Display: Initial Dir: C:\Program Files (x86)\Epic Games\4.14
-
-[2017.01.21-23.12.16:602][396]LogTemp:Display: Env CWD: C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\DotNet\IOS
-
-[2017.01.21-23.12.16:602][396]LogTemp:Display: BranchPath = DESKTOP-LDMGO10/C/Program Files (x86)/Epic Games/4.14/Engine/Binaries --- GameBranchPath = DESKTOP-LDMGO10/C/Program Files (x86)/Epic Games/4.14/Engine/Binaries
-
-[2017.01.21-23.12.16:602][396]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Harry Haston-Dougan\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
-
-[2017.01.21-23.12.16:602][396]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
-
-[2017.01.21-23.12.16:602][396]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
-
-[2017.01.21-23.12.16:602][396]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
-
-[2017.01.21-23.12.16:602][396]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
-
-[2017.01.21-23.12.16:602][396]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
-
-[2017.01.21-23.12.41:335][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Gamelevel" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.01.21-23.12.41:591][399]LogSavePackage: Save=240.83ms
-[2017.01.21-23.12.41:591][399]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Gamelevel2C7DCFDC483ED771464246945EE40B7A.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap'
-[2017.01.21-23.12.41:594][399]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap
-[2017.01.21-23.12.42:483][450]LogTemp: Repeting last play command: Selected Viewport
-[2017.01.21-23.12.42:492][450]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
-[2017.01.21-23.12.42:492][450]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.01.21-23.12.42:493][450]PIE: New page: PIE session: Gamelevel (21 Jan 2017 23:12:42)
-[2017.01.21-23.12.42:493][450]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
-[2017.01.21-23.12.42:556][450]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062746s)
-[2017.01.21-23.12.42:556][450]LogAIModule: Creating AISystem for world Gamelevel
-[2017.01.21-23.12.42:556][450]LogPlayLevel: PIE: World Init took: (0.000636s)
-[2017.01.21-23.12.42:557][450]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.063648s)
-[2017.01.21-23.12.42:608][450]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.01.21-23.12.42:616][450]LogInit: FAudioDevice initialized.
-[2017.01.21-23.12.42:647][450]LogLoad: Game class is 'VehicleGameMode_C'
-[2017.01.21-23.12.42:655][450]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.21-23.12.42
-[2017.01.21-23.12.42:655][450]LogWorld: Bringing up level for play took: 0.007053
-[2017.01.21-23.12.42:657][450]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel -0.377
-[2017.01.21-23.12.42:657][450]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
-[2017.01.21-23.12.47:483][740]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.27.05:407][328]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.001 s
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: === Handled ensure: ===
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: Ensure condition failed: PLocalPose.isValid() [File:D:\Build\++UE4+Release-4.14+Compile\Sync\Engine\Source\Runtime\Engine\Private\PhysicsEngine\BodySetup.cpp] [Line: 543]
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: Stack: 
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:407][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:408][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:408][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:408][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:408][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:408][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:408][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:408][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:408][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:408][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:408][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:408][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:408][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:408][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:408][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:408][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:408][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:408][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:408][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:408][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:408][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:408][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:408][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:408][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:408][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:408][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:408][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:408][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:408][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:408][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:408][328]LogOutputDevice:Error: 
+[2017.01.22-00.27.05:417][328]LogStats:                SubmitErrorReport -  0.000 s
+[2017.01.22-00.27.06:431][328]LogStats:                    SendNewReport -  1.014 s
+[2017.01.22-00.27.06:431][328]LogStats:             FDebug::EnsureFailed -  1.024 s
+[2017.01.22-00.27.06:556][332]OCULUS: Error: Prediction interval too high: 0.137098 s, clamping at 0.100000 s
+[2017.01.22-00.27.37:281][710]OCULUS: Error: Prediction interval too high: 0.107675 s, clamping at 0.100000 s
+[2017.01.22-00.28.01:142][782]LogHMD: Lost Vision Tracking
+[2017.01.22-00.28.01:342][791]LogHMD: Vision Tracking Acquired
+[2017.01.22-00.28.01:408][794]LogHMD: Lost Vision Tracking
+[2017.01.22-00.28.04:010][911]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.28.04:026][911]LogHMD: Destroying ovr session
+[2017.01.22-00.28.04:026][911]LogHMD: Freeing textureSet 0x000001F27C822920
+[2017.01.22-00.28.04:191][911]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.28.21:622][929]Cmd: MODE GRID=0
+[2017.01.22-00.28.22:504][983]Cmd: MODE GRID=1
+[2017.01.22-00.28.25:892][212]BlueprintLog: New page: Compile Sedan
+[2017.01.22-00.28.26:758][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Sedan" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset" SILENT=true
+[2017.01.22-00.28.26:943][237]LogSavePackage: Save=176.65ms
+[2017.01.22-00.28.26:943][237]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Sedan6F0DF3E645522F9F6273768C633959D9.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset'
+[2017.01.22-00.28.26:948][237]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset
+[2017.01.22-00.28.34:058][868]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(3704bcll)
+[2017.01.22-00.28.53:823][646]LogSavePackage: Save=287.11ms
+[2017.01.22-00.28.53:823][646]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Gamelevel_Auto1466977194431D7358A0A559C4D704F19.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/Maps/Gamelevel_Auto1.umap'
+[2017.01.22-00.28.53:826][646]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/Maps/Gamelevel_Auto1.umap
+[2017.01.22-00.28.53:829][646]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Gamelevel' took 0.324
+[2017.01.22-00.28.53:829][646]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.324
+[2017.01.22-00.28.53:831][646]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Car_MAT_Inst] ([1] browsable assets)...
+[2017.01.22-00.28.53:843][646]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/VehicleBP/Car_MAT_Inst.Car_MAT_Inst]
+[2017.01.22-00.28.53:843][646]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Car_MAT_Inst]
+[2017.01.22-00.28.53:859][646]LogSavePackage: Save=14.61ms
+[2017.01.22-00.28.53:859][646]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Car_MAT_Inst_Auto1904BB9E34584BEE0A17ADFBCAFBC90C1.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Car_MAT_Inst_Auto1.uasset'
+[2017.01.22-00.28.53:861][646]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Car_MAT_Inst_Auto1.uasset
+[2017.01.22-00.28.53:862][646]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Car_MAT_Inst2] ([1] browsable assets)...
+[2017.01.22-00.28.53:875][646]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/VehicleBP/Car_MAT_Inst2.Car_MAT_Inst2]
+[2017.01.22-00.28.53:875][646]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Car_MAT_Inst2]
+[2017.01.22-00.28.53:893][646]LogSavePackage: Save=14.92ms
+[2017.01.22-00.28.53:893][646]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Car_MAT_Inst2_Auto1D99E857C4CE1AE6B20B0A2A7D57AF369.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Car_MAT_Inst2_Auto1.uasset'
+[2017.01.22-00.28.53:895][646]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Car_MAT_Inst2_Auto1.uasset
+[2017.01.22-00.28.53:895][646]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Car_MAT_Inst3] ([1] browsable assets)...
+[2017.01.22-00.28.53:908][646]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/VehicleBP/Car_MAT_Inst3.Car_MAT_Inst3]
+[2017.01.22-00.28.53:908][646]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Car_MAT_Inst3]
+[2017.01.22-00.28.53:924][646]LogSavePackage: Save=13.71ms
+[2017.01.22-00.28.53:924][646]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Car_MAT_Inst3_Auto1E75BA3424F68F246114799A64F936D8E.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Car_MAT_Inst3_Auto1.uasset'
+[2017.01.22-00.28.53:926][646]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Car_MAT_Inst3_Auto1.uasset
+[2017.01.22-00.28.53:926][646]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Car_MAT_Inst4] ([1] browsable assets)...
+[2017.01.22-00.28.53:938][646]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/VehicleBP/Car_MAT_Inst4.Car_MAT_Inst4]
+[2017.01.22-00.28.53:938][646]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Car_MAT_Inst4]
+[2017.01.22-00.28.53:955][646]LogSavePackage: Save=13.82ms
+[2017.01.22-00.28.53:955][646]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Car_MAT_Inst4_Auto1C56FB9D743A4A08C835C94B1A54E5894.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Car_MAT_Inst4_Auto1.uasset'
+[2017.01.22-00.28.53:957][646]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Car_MAT_Inst4_Auto1.uasset
+[2017.01.22-00.28.53:957][646]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Car_MAT_Inst5] ([1] browsable assets)...
+[2017.01.22-00.28.53:972][646]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/VehicleBP/Car_MAT_Inst5.Car_MAT_Inst5]
+[2017.01.22-00.28.53:972][646]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Car_MAT_Inst5]
+[2017.01.22-00.28.53:988][646]LogSavePackage: Save=14.29ms
+[2017.01.22-00.28.53:988][646]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Car_MAT_Inst5_Auto137E60B6C40AFADF6E27719BD64EBAE6A.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Car_MAT_Inst5_Auto1.uasset'
+[2017.01.22-00.28.53:990][646]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Car_MAT_Inst5_Auto1.uasset
+[2017.01.22-00.28.53:991][646]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Car_MAT_Inst6] ([1] browsable assets)...
+[2017.01.22-00.28.54:003][646]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/VehicleBP/Car_MAT_Inst6.Car_MAT_Inst6]
+[2017.01.22-00.28.54:003][646]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Car_MAT_Inst6]
+[2017.01.22-00.28.54:019][646]LogSavePackage: Save=14.25ms
+[2017.01.22-00.28.54:019][646]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Car_MAT_Inst6_Auto12497743E4191F7021FB74EBEA7F7434D.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Car_MAT_Inst6_Auto1.uasset'
+[2017.01.22-00.28.54:021][646]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Car_MAT_Inst6_Auto1.uasset
+[2017.01.22-00.28.54:022][646]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Car_MAT_Inst7] ([1] browsable assets)...
+[2017.01.22-00.28.54:034][646]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/VehicleBP/Car_MAT_Inst7.Car_MAT_Inst7]
+[2017.01.22-00.28.54:034][646]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Car_MAT_Inst7]
+[2017.01.22-00.28.54:051][646]LogSavePackage: Save=13.73ms
+[2017.01.22-00.28.54:051][646]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Car_MAT_Inst7_Auto193A5E87645260818D0C88B84603C25C0.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Car_MAT_Inst7_Auto1.uasset'
+[2017.01.22-00.28.54:053][646]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Car_MAT_Inst7_Auto1.uasset
+[2017.01.22-00.28.54:053][646]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Car_MAT_Inst8] ([1] browsable assets)...
+[2017.01.22-00.28.54:064][646]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/VehicleBP/Car_MAT_Inst8.Car_MAT_Inst8]
+[2017.01.22-00.28.54:064][646]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Car_MAT_Inst8]
+[2017.01.22-00.28.54:080][646]LogSavePackage: Save=13.60ms
+[2017.01.22-00.28.54:080][646]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Car_MAT_Inst8_Auto15CC862BD4E691EF8A4081A86924450DC.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Car_MAT_Inst8_Auto1.uasset'
+[2017.01.22-00.28.54:083][646]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Car_MAT_Inst8_Auto1.uasset
+[2017.01.22-00.28.54:083][646]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Sedan/RGB_Wheel_01] ([1] browsable assets)...
+[2017.01.22-00.28.54:090][646]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/VehicleBP/Sedan/RGB_Wheel_01.RGB_Wheel_01]
+[2017.01.22-00.28.54:090][646]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Sedan/RGB_Wheel_01]
+[2017.01.22-00.28.54:100][646]LogSavePackage: Save=8.42ms
+[2017.01.22-00.28.54:100][646]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/RGB_Wheel_01_Auto103EE11CA4B06C859375E43BA687C5408.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/RGB_Wheel_01_Auto1.uasset'
+[2017.01.22-00.28.54:102][646]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/RGB_Wheel_01_Auto1.uasset
+[2017.01.22-00.28.54:103][646]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VehicleBP/Car_MAT_Inst9] ([1] browsable assets)...
+[2017.01.22-00.28.54:103][646]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Car_MAT_Inst9]
+[2017.01.22-00.28.54:134][646]LogSavePackage: Save=23.14ms
+[2017.01.22-00.28.54:134][646]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Car_MAT_Inst9_Auto1B7F297A241699CDEE840B3AB327A0263.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Car_MAT_Inst9_Auto1.uasset'
+[2017.01.22-00.28.54:135][646]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Car_MAT_Inst9_Auto1.uasset
+[2017.01.22-00.28.54:135][646]LogFileHelpers: Auto-saving content packages took 0.305
+[2017.01.22-00.28.55:951][821]LogTemp: Repeting last play command: VR Preview
+[2017.01.22-00.28.55:960][821]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.28.55:960][821]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-00.28.55:963][821]OCULUS: Debug: [HMDState] Using default profile default
+[2017.01.22-00.28.55:963][821]OCULUS: Info: IAD changed to 61.6mm
+[2017.01.22-00.28.55:963][821]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(3704bcll)
+[2017.01.22-00.28.55:963][821]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(3704bcll)
+[2017.01.22-00.28.55:963][821]LogHMD: New ovr session is created
+[2017.01.22-00.28.55:963][821]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2017.01.22-00.28.55:963][821]PIE: New page: PIE session: Gamelevel (22 Jan 2017 00:28:55)
+[2017.01.22-00.28.55:963][821]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
+[2017.01.22-00.28.56:031][821]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067733s)
+[2017.01.22-00.28.56:032][821]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.22-00.28.56:032][821]LogPlayLevel: PIE: World Init took: (0.000873s)
+[2017.01.22-00.28.56:033][821]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.068992s)
+[2017.01.22-00.28.56:076][821]LogHMD: Vision Tracking Acquired
+[2017.01.22-00.28.56:084][821]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.22-00.28.56:091][821]LogInit: FAudioDevice initialized.
+[2017.01.22-00.28.56:184][821]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.22-00.28.56:194][821]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.22-00.28.56
+[2017.01.22-00.28.56:195][821]LogWorld: Bringing up level for play took: 0.008968
+[2017.01.22-00.28.56:209][821]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel 1.071
+[2017.01.22-00.28.56:209][821]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.28.56:254][821]LogHMD: Need to reallocate eye buffer, reason: no textureset was allocated
+[2017.01.22-00.28.56:257][821]LogHMD: Allocated a new swap texture set (size 2696 x 1588, mipcount = 1), 0x000001F27C823000
+[2017.01.22-00.28.56:289][821]LogHMD: Allocated a new mirror texture (size 1280 x 720)
+[2017.01.22-00.32.06:395][374]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(340c0ell)
+[2017.01.22-00.32.10:221][558]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(340c0ell)
+[2017.01.22-00.32.15:397][801]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(340c0ell)
+[2017.01.22-00.32.20:884][ 56]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(340c0ell)
+[2017.01.22-00.33.09:910][268]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(340c0ell)
+[2017.01.22-00.33.23:810][907]LogHMD: Lost Vision Tracking
+[2017.01.22-00.33.23:831][908]LogHMD: Vision Tracking Acquired
+[2017.01.22-00.34.10:722][ 18]LogHMD: Lost Vision Tracking
+[2017.01.22-00.34.31:711][861]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.34.31:711][861]LogHMD: Destroying ovr session
+[2017.01.22-00.34.31:711][861]LogHMD: Freeing textureSet 0x000001F27C823000
+[2017.01.22-00.34.31:762][861]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-00.34.35:292][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Gamelevel" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.22-00.34.35:601][ 18]LogSavePackage: Save=283.39ms
+[2017.01.22-00.34.35:601][ 18]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Gamelevel438FBCA04A501BDCCB5C3AB44B7FB175.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap'
+[2017.01.22-00.34.35:610][ 18]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap
+[2017.01.22-00.34.35:631][ 18]LogFileHelpers: Saving map 'Gamelevel' took 0.382
+[2017.01.22-00.34.35:664][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Car_MAT_Inst" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst.uasset" SILENT=true
+[2017.01.22-00.34.35:679][ 18]LogSavePackage: Save=13.11ms
+[2017.01.22-00.34.35:679][ 18]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Car_MAT_InstE76957264D6EB873E4B134969DF34EE8.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst.uasset'
+[2017.01.22-00.34.35:688][ 18]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst.uasset
+[2017.01.22-00.34.35:702][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Car_MAT_Inst2" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst2.uasset" SILENT=true
+[2017.01.22-00.34.35:718][ 18]LogSavePackage: Save=13.60ms
+[2017.01.22-00.34.35:718][ 18]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Car_MAT_Inst24EE2DA294D9E090D68F7D3AF212C4B6B.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst2.uasset'
+[2017.01.22-00.34.35:726][ 18]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst2.uasset
+[2017.01.22-00.34.35:739][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Car_MAT_Inst3" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst3.uasset" SILENT=true
+[2017.01.22-00.34.35:775][ 18]LogSavePackage: Save=33.06ms
+[2017.01.22-00.34.35:775][ 18]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Car_MAT_Inst3BB0D45B44E6E29A15CA77BBA898ECFF5.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst3.uasset'
+[2017.01.22-00.34.35:782][ 18]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst3.uasset
+[2017.01.22-00.34.35:794][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Car_MAT_Inst4" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst4.uasset" SILENT=true
+[2017.01.22-00.34.35:809][ 18]LogSavePackage: Save=12.69ms
+[2017.01.22-00.34.35:809][ 18]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Car_MAT_Inst401BF4CD34C737CB13C36C6B410B6D4E4.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst4.uasset'
+[2017.01.22-00.34.35:816][ 18]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst4.uasset
+[2017.01.22-00.34.35:830][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Car_MAT_Inst5" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst5.uasset" SILENT=true
+[2017.01.22-00.34.35:847][ 18]LogSavePackage: Save=14.27ms
+[2017.01.22-00.34.35:847][ 18]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Car_MAT_Inst5D478B68B4852D06E37C4489A65BC7785.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst5.uasset'
+[2017.01.22-00.34.35:853][ 18]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst5.uasset
+[2017.01.22-00.34.35:865][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Car_MAT_Inst6" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst6.uasset" SILENT=true
+[2017.01.22-00.34.35:880][ 18]LogSavePackage: Save=13.48ms
+[2017.01.22-00.34.35:880][ 18]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Car_MAT_Inst692644B594B1970B6D0D369BABDA99F86.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst6.uasset'
+[2017.01.22-00.34.35:886][ 18]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst6.uasset
+[2017.01.22-00.34.35:899][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Car_MAT_Inst7" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst7.uasset" SILENT=true
+[2017.01.22-00.34.35:915][ 18]LogSavePackage: Save=13.91ms
+[2017.01.22-00.34.35:915][ 18]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Car_MAT_Inst71525CA1C47C72A99FB1D65B9EB7978EF.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst7.uasset'
+[2017.01.22-00.34.35:921][ 18]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst7.uasset
+[2017.01.22-00.34.35:934][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Car_MAT_Inst8" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst8.uasset" SILENT=true
+[2017.01.22-00.34.35:949][ 18]LogSavePackage: Save=12.95ms
+[2017.01.22-00.34.35:949][ 18]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Car_MAT_Inst80CE80D024E8F51B5081B8D958C269595.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst8.uasset'
+[2017.01.22-00.34.35:954][ 18]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst8.uasset
+[2017.01.22-00.34.35:957][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Car_MAT_Inst9" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst9.uasset" SILENT=true
+[2017.01.22-00.34.35:969][ 18]LogSavePackage: Save=4.74ms
+[2017.01.22-00.34.35:969][ 18]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/Car_MAT_Inst9DC08495743C230FA9EC9ACA16953DD54.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst9.uasset'
+[2017.01.22-00.34.35:975][ 18]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst9.uasset
+[2017.01.22-00.34.35:984][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/RGB_Wheel_01" FILE="../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/RGB_Wheel_01.uasset" SILENT=true
+[2017.01.22-00.34.36:022][ 18]LogSavePackage: Save=36.61ms
+[2017.01.22-00.34.36:022][ 18]LogSavePackage: Moving '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Saved/RGB_Wheel_01F79AC6324CC6B23D352333BFB5087BBC.tmp' to '../../../../../../Users/Mark Cully/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/RGB_Wheel_01.uasset'
