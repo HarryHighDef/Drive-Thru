@@ -596,3 +596,748 @@ LogInit: Object subsystem initialized
 [2017.01.22-05.16.57:906][114]LogSavePackage: Save=188.90ms
 [2017.01.22-05.16.57:906][114]LogSavePackage: Moving '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/SedanEED6D29849BAD17F33F2B3B8093D50EA.tmp' to '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset'
 [2017.01.22-05.16.57:911][114]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset
+[2017.01.22-05.16.57:944][114]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/MUSIC_VistaReach" FILE="../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/Audio/MUSIC_VistaReach.uasset" SILENT=true
+[2017.01.22-05.16.57:962][114]LogSavePackage: Save=16.27ms
+[2017.01.22-05.16.57:962][114]LogSavePackage: Moving '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/MUSIC_VistaReach4BA01C4A48E3328649645C90FAE26764.tmp' to '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/Audio/MUSIC_VistaReach.uasset'
+[2017.01.22-05.16.57:965][114]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/Audio/MUSIC_VistaReach.uasset
+[2017.01.22-05.18.03:189][647]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.22-05.18.03:199][647]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-05.18.03:199][647]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-05.18.03:200][647]PIE: New page: PIE session: Gamelevel (22 Jan 2017 05:18:03)
+[2017.01.22-05.18.03:200][647]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
+[2017.01.22-05.18.03:323][647]LogPlayLevel: PIE: StaticDuplicateObject took: (0.123516s)
+[2017.01.22-05.18.03:324][647]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.22-05.18.03:324][647]LogPlayLevel: PIE: World Init took: (0.000810s)
+[2017.01.22-05.18.03:325][647]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.124811s)
+[2017.01.22-05.18.03:374][647]LogInit: XAudio2 using 'Speakers 01 (ASIOVAD Driver)' : 2 channels at 48 kHz using 24 bits per sample (channel mask 0x3)
+[2017.01.22-05.18.03:379][647]LogInit: FAudioDevice initialized.
+[2017.01.22-05.18.03:413][647]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.22-05.18.03:422][647]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.22-05.18.03
+[2017.01.22-05.18.03:423][647]LogWorld: Bringing up level for play took: 0.009287
+[2017.01.22-05.18.03:425][647]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel 0.538
+[2017.01.22-05.18.03:425][647]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-05.20.04:919][880]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-05.20.04:975][880]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-05.20.12:392][421]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.22-05.20.12:401][421]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-05.20.12:401][421]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.01.22-05.20.12:402][421]LogPlayLevel: [PlayLevel] Compiling Sedan before play...
+[2017.01.22-05.20.12:719][421]LogPlayLevel: PlayLevel: Blueprint regeneration took 317 ms (1 blueprints)
+[2017.01.22-05.20.12:719][421]PIE: New page: PIE session: Gamelevel (22 Jan 2017 05:20:12)
+[2017.01.22-05.20.12:719][421]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
+[2017.01.22-05.20.12:791][421]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072624s)
+[2017.01.22-05.20.12:792][421]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.22-05.20.12:793][421]LogPlayLevel: PIE: World Init took: (0.001139s)
+[2017.01.22-05.20.12:793][421]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.074299s)
+[2017.01.22-05.20.12:845][421]LogInit: XAudio2 using 'Speakers 01 (ASIOVAD Driver)' : 2 channels at 48 kHz using 24 bits per sample (channel mask 0x3)
+[2017.01.22-05.20.12:850][421]LogInit: FAudioDevice initialized.
+[2017.01.22-05.20.12:887][421]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.22-05.20.12:898][421]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.22-05.20.12
+[2017.01.22-05.20.12:899][421]LogWorld: Bringing up level for play took: 0.010247
+[2017.01.22-05.20.12:900][421]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel 0.013
+[2017.01.22-05.20.12:900][421]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-05.22.26:474][343]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-05.22.26:532][343]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-05.31.14:113][878]LogSavePackage: Save=275.08ms
+[2017.01.22-05.31.14:113][878]LogSavePackage: Moving '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/Gamelevel_Auto24CF197A84D54F484A399B48C25BED049.tmp' to '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/Maps/Gamelevel_Auto2.umap'
+[2017.01.22-05.31.14:115][878]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/Maps/Gamelevel_Auto2.umap
+[2017.01.22-05.31.14:118][878]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Gamelevel' took 0.427
+[2017.01.22-05.31.14:118][878]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.427
+[2017.01.22-05.31.14:121][878]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Sedan/Sedan] ([1] browsable assets)...
+[2017.01.22-05.31.14:164][878]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VehicleBP/Sedan/Sedan.Sedan]
+[2017.01.22-05.31.14:164][878]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Sedan/Sedan]
+[2017.01.22-05.31.14:374][878]LogSavePackage: Save=202.18ms
+[2017.01.22-05.31.14:374][878]LogSavePackage: Moving '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/Sedan_Auto2C4FAA74C4CFA87986D3033B814BF9E67.tmp' to '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/Sedan_Auto2.uasset'
+[2017.01.22-05.31.14:376][878]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/Sedan_Auto2.uasset
+[2017.01.22-05.31.14:376][878]LogFileHelpers: Auto-saving content packages took 0.256
+[2017.01.22-05.47.47:948][990]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/Chris D'Arcy/Google Drive/Puny Astronaut/Game Jams/Tango and Smash/Audio/SFX/FX_CRASH_01.wav)
+[2017.01.22-05.47.47:953][990]LogAudioDerivedData:Display: Building compressed audio format OGG wave FX_CRASH_01...
+[2017.01.22-05.47.47:997][990]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/FX_CRASH_01.FX_CRASH_01.
+[2017.01.22-05.47.48:000][990]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/Chris D'Arcy/Google Drive/Puny Astronaut/Game Jams/Tango and Smash/Audio/SFX/FX_CRASH_02.wav)
+[2017.01.22-05.47.48:002][990]LogAudioDerivedData:Display: Building compressed audio format OGG wave FX_CRASH_02...
+[2017.01.22-05.47.48:013][990]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/FX_CRASH_02.FX_CRASH_02.
+[2017.01.22-05.47.48:016][990]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/Chris D'Arcy/Google Drive/Puny Astronaut/Game Jams/Tango and Smash/Audio/SFX/FX_CRASH_03.wav)
+[2017.01.22-05.47.48:018][990]LogAudioDerivedData:Display: Building compressed audio format OGG wave FX_CRASH_03...
+[2017.01.22-05.47.48:030][990]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/FX_CRASH_03.FX_CRASH_03.
+[2017.01.22-05.47.48:033][990]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/Chris D'Arcy/Google Drive/Puny Astronaut/Game Jams/Tango and Smash/Audio/SFX/FX_CRASH_04.wav)
+[2017.01.22-05.47.48:035][990]LogAudioDerivedData:Display: Building compressed audio format OGG wave FX_CRASH_04...
+[2017.01.22-05.47.48:047][990]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/FX_CRASH_04.FX_CRASH_04.
+[2017.01.22-05.47.48:049][990]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/Chris D'Arcy/Google Drive/Puny Astronaut/Game Jams/Tango and Smash/Audio/SFX/FX_CRASH_05.wav)
+[2017.01.22-05.47.48:051][990]LogAudioDerivedData:Display: Building compressed audio format OGG wave FX_CRASH_05...
+[2017.01.22-05.47.48:064][990]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/FX_CRASH_05.FX_CRASH_05.
+[2017.01.22-05.52.38:469][435]BlueprintLog: New page: Compile Sedan
+[2017.01.22-05.53.47:383][214]BlueprintLog: New page: Compile Sedan
+[2017.01.22-05.53.48:671][270]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.22-05.53.48:681][270]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-05.53.48:681][270]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-05.53.48:681][270]PIE: New page: PIE session: Gamelevel (22 Jan 2017 05:53:48)
+[2017.01.22-05.53.48:681][270]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
+[2017.01.22-05.53.48:752][270]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070461s)
+[2017.01.22-05.53.48:753][270]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.22-05.53.48:753][270]LogPlayLevel: PIE: World Init took: (0.000982s)
+[2017.01.22-05.53.48:753][270]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.072117s)
+[2017.01.22-05.53.48:810][270]LogInit: XAudio2 using 'Speakers 01 (ASIOVAD Driver)' : 2 channels at 48 kHz using 24 bits per sample (channel mask 0x3)
+[2017.01.22-05.53.48:815][270]LogInit: FAudioDevice initialized.
+[2017.01.22-05.53.48:853][270]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.22-05.53.48:862][270]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.22-05.53.48
+[2017.01.22-05.53.48:863][270]LogWorld: Bringing up level for play took: 0.009696
+[2017.01.22-05.53.48:865][270]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel -0.023
+[2017.01.22-05.53.48:865][270]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-05.54.45:924][ 55]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-05.54.46:017][ 55]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-05.55.01:847][111]BlueprintLog: New page: Compile Sedan
+[2017.01.22-05.55.02:948][166]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.22-05.55.02:959][166]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-05.55.02:959][166]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-05.55.02:959][166]PIE: New page: PIE session: Gamelevel (22 Jan 2017 05:55:02)
+[2017.01.22-05.55.02:959][166]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
+[2017.01.22-05.55.03:030][166]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070842s)
+[2017.01.22-05.55.03:031][166]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.22-05.55.03:031][166]LogPlayLevel: PIE: World Init took: (0.000894s)
+[2017.01.22-05.55.03:031][166]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.072021s)
+[2017.01.22-05.55.03:081][166]LogInit: XAudio2 using 'Speakers 01 (ASIOVAD Driver)' : 2 channels at 48 kHz using 24 bits per sample (channel mask 0x3)
+[2017.01.22-05.55.03:086][166]LogInit: FAudioDevice initialized.
+[2017.01.22-05.55.03:117][166]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.22-05.55.03:127][166]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.22-05.55.03
+[2017.01.22-05.55.03:128][166]LogWorld: Bringing up level for play took: 0.009484
+[2017.01.22-05.55.03:129][166]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel 0.242
+[2017.01.22-05.55.03:129][166]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-05.55.38:834][883]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-05.55.38:916][883]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.00.06:861][690]BlueprintLog: New page: Compile Sedan
+[2017.01.22-06.00.08:967][749]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.22-06.00.08:977][749]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.00.08:977][749]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-06.00.08:977][749]PIE: New page: PIE session: Gamelevel (22 Jan 2017 06:00:08)
+[2017.01.22-06.00.08:977][749]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
+[2017.01.22-06.00.09:046][749]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068477s)
+[2017.01.22-06.00.09:046][749]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.22-06.00.09:047][749]LogPlayLevel: PIE: World Init took: (0.000910s)
+[2017.01.22-06.00.09:047][749]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.069749s)
+[2017.01.22-06.00.09:101][749]LogInit: XAudio2 using 'Speakers 01 (ASIOVAD Driver)' : 2 channels at 48 kHz using 24 bits per sample (channel mask 0x3)
+[2017.01.22-06.00.09:106][749]LogInit: FAudioDevice initialized.
+[2017.01.22-06.00.09:140][749]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.22-06.00.09:149][749]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.22-06.00.09
+[2017.01.22-06.00.09:150][749]LogWorld: Bringing up level for play took: 0.009401
+[2017.01.22-06.00.09:152][749]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel 0.265
+[2017.01.22-06.00.09:152][749]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.00.34:810][617]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.00.34:891][617]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.01.13:941][278]BlueprintLog: New page: Compile Sedan
+[2017.01.22-06.01.15:004][324]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.22-06.01.15:014][324]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.01.15:014][324]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-06.01.15:014][324]PIE: New page: PIE session: Gamelevel (22 Jan 2017 06:01:15)
+[2017.01.22-06.01.15:014][324]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
+[2017.01.22-06.01.15:080][324]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065332s)
+[2017.01.22-06.01.15:080][324]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.22-06.01.15:081][324]LogPlayLevel: PIE: World Init took: (0.000825s)
+[2017.01.22-06.01.15:081][324]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.066503s)
+[2017.01.22-06.01.15:137][324]LogInit: XAudio2 using 'Speakers 01 (ASIOVAD Driver)' : 2 channels at 48 kHz using 24 bits per sample (channel mask 0x3)
+[2017.01.22-06.01.15:142][324]LogInit: FAudioDevice initialized.
+[2017.01.22-06.01.15:173][324]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.22-06.01.15:183][324]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.22-06.01.15
+[2017.01.22-06.01.15:184][324]LogWorld: Bringing up level for play took: 0.009466
+[2017.01.22-06.01.15:185][324]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel 0.298
+[2017.01.22-06.01.15:185][324]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.01.24:039][979]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.01.24:119][979]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.02.17:380][929]BlueprintLog: New page: Compile Sedan
+[2017.01.22-06.02.18:250][963]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.22-06.02.18:260][963]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.02.18:260][963]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-06.02.18:261][963]PIE: New page: PIE session: Gamelevel (22 Jan 2017 06:02:18)
+[2017.01.22-06.02.18:261][963]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
+[2017.01.22-06.02.18:327][963]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065925s)
+[2017.01.22-06.02.18:327][963]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.22-06.02.18:328][963]LogPlayLevel: PIE: World Init took: (0.000934s)
+[2017.01.22-06.02.18:328][963]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.067297s)
+[2017.01.22-06.02.18:387][963]LogInit: XAudio2 using 'Speakers 01 (ASIOVAD Driver)' : 2 channels at 48 kHz using 24 bits per sample (channel mask 0x3)
+[2017.01.22-06.02.18:392][963]LogInit: FAudioDevice initialized.
+[2017.01.22-06.02.18:429][963]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.22-06.02.18:439][963]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.22-06.02.18
+[2017.01.22-06.02.18:440][963]LogWorld: Bringing up level for play took: 0.009534
+[2017.01.22-06.02.18:442][963]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel -0.445
+[2017.01.22-06.02.18:442][963]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.02.36:404][363]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.02.36:488][363]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.02.41:744][730]BlueprintLog: New page: Compile Sedan
+[2017.01.22-06.02.42:879][785]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.22-06.02.42:889][785]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.02.42:889][785]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-06.02.42:889][785]PIE: New page: PIE session: Gamelevel (22 Jan 2017 06:02:42)
+[2017.01.22-06.02.42:889][785]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
+[2017.01.22-06.02.42:951][785]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062153s)
+[2017.01.22-06.02.42:951][785]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.22-06.02.42:952][785]LogPlayLevel: PIE: World Init took: (0.000540s)
+[2017.01.22-06.02.42:952][785]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.062978s)
+[2017.01.22-06.02.43:009][785]LogInit: XAudio2 using 'Speakers 01 (ASIOVAD Driver)' : 2 channels at 48 kHz using 24 bits per sample (channel mask 0x3)
+[2017.01.22-06.02.43:013][785]LogInit: FAudioDevice initialized.
+[2017.01.22-06.02.43:045][785]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.22-06.02.43:054][785]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.22-06.02.43
+[2017.01.22-06.02.43:055][785]LogWorld: Bringing up level for play took: 0.009027
+[2017.01.22-06.02.43:057][785]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel 0.169
+[2017.01.22-06.02.43:057][785]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.02.50:403][340]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.02.50:485][340]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.03.00:790][ 87]BlueprintLog: New page: Compile Sedan
+[2017.01.22-06.03.02:008][147]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.22-06.03.02:018][147]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.03.02:018][147]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-06.03.02:018][147]PIE: New page: PIE session: Gamelevel (22 Jan 2017 06:03:02)
+[2017.01.22-06.03.02:018][147]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
+[2017.01.22-06.03.02:090][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071676s)
+[2017.01.22-06.03.02:090][147]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.22-06.03.02:090][147]LogPlayLevel: PIE: World Init took: (0.000639s)
+[2017.01.22-06.03.02:091][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.072814s)
+[2017.01.22-06.03.02:146][147]LogInit: XAudio2 using 'Speakers 01 (ASIOVAD Driver)' : 2 channels at 48 kHz using 24 bits per sample (channel mask 0x3)
+[2017.01.22-06.03.02:150][147]LogInit: FAudioDevice initialized.
+[2017.01.22-06.03.02:180][147]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.22-06.03.02:189][147]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.22-06.03.02
+[2017.01.22-06.03.02:190][147]LogWorld: Bringing up level for play took: 0.008664
+[2017.01.22-06.03.02:191][147]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel -0.696
+[2017.01.22-06.03.02:191][147]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.03.04:208][300]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.03.04:284][300]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.03.26:048][887]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.22-06.03.26:059][887]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.03.26:059][887]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-06.03.26:060][887]PIE: New page: PIE session: Gamelevel (22 Jan 2017 06:03:26)
+[2017.01.22-06.03.26:060][887]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
+[2017.01.22-06.03.26:128][887]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067881s)
+[2017.01.22-06.03.26:128][887]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.22-06.03.26:129][887]LogPlayLevel: PIE: World Init took: (0.000928s)
+[2017.01.22-06.03.26:129][887]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.069216s)
+[2017.01.22-06.03.26:184][887]LogInit: XAudio2 using 'Speakers 01 (ASIOVAD Driver)' : 2 channels at 48 kHz using 24 bits per sample (channel mask 0x3)
+[2017.01.22-06.03.26:189][887]LogInit: FAudioDevice initialized.
+[2017.01.22-06.03.26:219][887]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.22-06.03.26:229][887]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.22-06.03.26
+[2017.01.22-06.03.26:230][887]LogWorld: Bringing up level for play took: 0.009585
+[2017.01.22-06.03.26:231][887]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel -0.656
+[2017.01.22-06.03.26:231][887]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.04.25:127][ 58]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.04.25:216][ 58]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.08.46:445][251]LogEditorTransaction: Undo Set actor scale
+[2017.01.22-06.08.46:526][251]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.Sedan_C_0.MovementComp) Component already registered.
+[2017.01.22-06.08.46:534][251]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Sedan_C_0.MovementComp) Component already registered.
+[2017.01.22-06.09.39:509][386]BlueprintLog: New page: Compile Sedan
+[2017.01.22-06.10.06:670][515]LogSavePackage: Save=298.33ms
+[2017.01.22-06.10.06:670][515]LogSavePackage: Moving '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/Gamelevel_Auto3A7B09F1440FA32BAC2FDF4B219E9E13C.tmp' to '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/Maps/Gamelevel_Auto3.umap'
+[2017.01.22-06.10.06:672][515]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/Maps/Gamelevel_Auto3.umap
+[2017.01.22-06.10.06:676][515]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Gamelevel' took 0.340
+[2017.01.22-06.10.06:676][515]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.340
+[2017.01.22-06.10.06:679][515]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Sedan/Sedan] ([1] browsable assets)...
+[2017.01.22-06.10.06:691][515]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VehicleBP/Sedan/Sedan.Sedan]
+[2017.01.22-06.10.06:691][515]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Sedan/Sedan]
+[2017.01.22-06.10.06:907][515]LogSavePackage: Save=208.03ms
+[2017.01.22-06.10.06:907][515]LogSavePackage: Moving '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/Sedan_Auto378DE57D94BCAA713E8F80BA5B9F2291C.tmp' to '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/Sedan_Auto3.uasset'
+[2017.01.22-06.10.06:909][515]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/Sedan_Auto3.uasset
+[2017.01.22-06.10.06:909][515]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Audio/FX_CRASH_01] ([1] browsable assets)...
+[2017.01.22-06.10.06:914][515]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Audio/FX_CRASH_01.FX_CRASH_01]
+[2017.01.22-06.10.06:914][515]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/FX_CRASH_01]
+[2017.01.22-06.10.06:921][515]LogSavePackage: Save=5.83ms
+[2017.01.22-06.10.06:921][515]LogSavePackage: Moving '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/FX_CRASH_01_Auto3875172B343781B69136D7CB83FDD0910.tmp' to '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/Audio/FX_CRASH_01_Auto3.uasset'
+[2017.01.22-06.10.06:922][515]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/Audio/FX_CRASH_01_Auto3.uasset
+[2017.01.22-06.10.06:923][515]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Audio/FX_CRASH_02] ([1] browsable assets)...
+[2017.01.22-06.10.06:928][515]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Audio/FX_CRASH_02.FX_CRASH_02]
+[2017.01.22-06.10.06:928][515]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/FX_CRASH_02]
+[2017.01.22-06.10.06:936][515]LogSavePackage: Save=5.93ms
+[2017.01.22-06.10.06:936][515]LogSavePackage: Moving '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/FX_CRASH_02_Auto382E028A4482D4DE2387BCB96EA5B9315.tmp' to '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/Audio/FX_CRASH_02_Auto3.uasset'
+[2017.01.22-06.10.06:936][515]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/Audio/FX_CRASH_02_Auto3.uasset
+[2017.01.22-06.10.06:937][515]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Audio/FX_CRASH_03] ([1] browsable assets)...
+[2017.01.22-06.10.06:942][515]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Audio/FX_CRASH_03.FX_CRASH_03]
+[2017.01.22-06.10.06:942][515]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/FX_CRASH_03]
+[2017.01.22-06.10.06:950][515]LogSavePackage: Save=6.00ms
+[2017.01.22-06.10.06:950][515]LogSavePackage: Moving '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/FX_CRASH_03_Auto3207E84A54F4400EECB1649AF24C002AE.tmp' to '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/Audio/FX_CRASH_03_Auto3.uasset'
+[2017.01.22-06.10.06:951][515]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/Audio/FX_CRASH_03_Auto3.uasset
+[2017.01.22-06.10.06:951][515]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Audio/FX_CRASH_04] ([1] browsable assets)...
+[2017.01.22-06.10.06:956][515]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Audio/FX_CRASH_04.FX_CRASH_04]
+[2017.01.22-06.10.06:956][515]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/FX_CRASH_04]
+[2017.01.22-06.10.06:964][515]LogSavePackage: Save=6.65ms
+[2017.01.22-06.10.06:964][515]LogSavePackage: Moving '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/FX_CRASH_04_Auto317F8FF7245C98E2FC7E1C5BA7AF711DD.tmp' to '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/Audio/FX_CRASH_04_Auto3.uasset'
+[2017.01.22-06.10.06:965][515]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/Audio/FX_CRASH_04_Auto3.uasset
+[2017.01.22-06.10.06:965][515]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Audio/FX_CRASH_05] ([1] browsable assets)...
+[2017.01.22-06.10.06:971][515]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Audio/FX_CRASH_05.FX_CRASH_05]
+[2017.01.22-06.10.06:971][515]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/FX_CRASH_05]
+[2017.01.22-06.10.06:980][515]LogSavePackage: Save=7.87ms
+[2017.01.22-06.10.06:980][515]LogSavePackage: Moving '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/FX_CRASH_05_Auto3D8B47E8B47EF83E32B6E9B85D402C0B5.tmp' to '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/Audio/FX_CRASH_05_Auto3.uasset'
+[2017.01.22-06.10.06:981][515]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/Audio/FX_CRASH_05_Auto3.uasset
+[2017.01.22-06.10.06:981][515]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/FX_CRASH] ([1] browsable assets)...
+[2017.01.22-06.10.06:981][515]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/FX_CRASH]
+[2017.01.22-06.10.06:988][515]LogSavePackage: Save=5.46ms
+[2017.01.22-06.10.06:988][515]LogSavePackage: Moving '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/FX_CRASH_Auto3938715BB43A64BDCEE9F4CA96BE56AE3.tmp' to '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/Audio/FX_CRASH_Auto3.uasset'
+[2017.01.22-06.10.06:989][515]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/Audio/FX_CRASH_Auto3.uasset
+[2017.01.22-06.10.06:989][515]LogFileHelpers: Auto-saving content packages took 0.312
+[2017.01.22-06.10.42:818][431]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.22-06.10.42:829][431]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.10.42:829][431]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-06.10.42:829][431]PIE: New page: PIE session: Gamelevel (22 Jan 2017 06:10:42)
+[2017.01.22-06.10.42:830][431]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
+[2017.01.22-06.10.42:901][431]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071433s)
+[2017.01.22-06.10.42:902][431]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.22-06.10.42:902][431]LogPlayLevel: PIE: World Init took: (0.001182s)
+[2017.01.22-06.10.42:903][431]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.073177s)
+[2017.01.22-06.10.42:963][431]LogInit: XAudio2 using 'Speakers 01 (ASIOVAD Driver)' : 2 channels at 48 kHz using 24 bits per sample (channel mask 0x3)
+[2017.01.22-06.10.42:968][431]LogInit: FAudioDevice initialized.
+[2017.01.22-06.10.43:000][431]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.22-06.10.43:009][431]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.22-06.10.43
+[2017.01.22-06.10.43:010][431]LogWorld: Bringing up level for play took: 0.009533
+[2017.01.22-06.10.43:012][431]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel 0.125
+[2017.01.22-06.10.43:012][431]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.11.05:391][120]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.11.05:479][120]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.11.07:542][275]BlueprintLog: New page: Compile Sedan
+[2017.01.22-06.11.10:289][415]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.22-06.11.10:299][415]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.11.10:299][415]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-06.11.10:300][415]PIE: New page: PIE session: Gamelevel (22 Jan 2017 06:11:10)
+[2017.01.22-06.11.10:300][415]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
+[2017.01.22-06.11.10:369][415]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069560s)
+[2017.01.22-06.11.10:370][415]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.22-06.11.10:371][415]LogPlayLevel: PIE: World Init took: (0.001378s)
+[2017.01.22-06.11.10:371][415]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.071349s)
+[2017.01.22-06.11.10:429][415]LogInit: XAudio2 using 'Speakers 01 (ASIOVAD Driver)' : 2 channels at 48 kHz using 24 bits per sample (channel mask 0x3)
+[2017.01.22-06.11.10:434][415]LogInit: FAudioDevice initialized.
+[2017.01.22-06.11.10:464][415]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.22-06.11.10:472][415]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.22-06.11.10
+[2017.01.22-06.11.10:473][415]LogWorld: Bringing up level for play took: 0.008825
+[2017.01.22-06.11.10:475][415]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel -0.412
+[2017.01.22-06.11.10:476][415]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.11.12:809][562]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.11.12:894][562]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.11.56:644][908]BlueprintLog: New page: Compile Sedan
+[2017.01.22-06.11.58:857][ 30]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.22-06.11.58:868][ 30]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.11.58:868][ 30]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-06.11.58:868][ 30]PIE: New page: PIE session: Gamelevel (22 Jan 2017 06:11:58)
+[2017.01.22-06.11.58:869][ 30]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
+[2017.01.22-06.11.58:938][ 30]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069821s)
+[2017.01.22-06.11.58:939][ 30]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.22-06.11.58:939][ 30]LogPlayLevel: PIE: World Init took: (0.000792s)
+[2017.01.22-06.11.58:940][ 30]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.071008s)
+[2017.01.22-06.11.59:000][ 30]LogInit: XAudio2 using 'Speakers 01 (ASIOVAD Driver)' : 2 channels at 48 kHz using 24 bits per sample (channel mask 0x3)
+[2017.01.22-06.11.59:005][ 30]LogInit: FAudioDevice initialized.
+[2017.01.22-06.11.59:038][ 30]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.22-06.11.59:047][ 30]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.22-06.11.59
+[2017.01.22-06.11.59:048][ 30]LogWorld: Bringing up level for play took: 0.008979
+[2017.01.22-06.11.59:050][ 30]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel 0.163
+[2017.01.22-06.11.59:050][ 30]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.12.00:073][ 93]Cmd: SELECT NONE
+[2017.01.22-06.12.02:631][259]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.12.02:713][259]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.12.32:870][604]BlueprintLog: New page: Compile Sedan
+[2017.01.22-06.12.36:829][866]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.22-06.12.36:838][866]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.12.36:838][866]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-06.12.36:838][866]PIE: New page: PIE session: Gamelevel (22 Jan 2017 06:12:36)
+[2017.01.22-06.12.36:838][866]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
+[2017.01.22-06.12.36:902][866]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064078s)
+[2017.01.22-06.12.36:903][866]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.22-06.12.36:903][866]LogPlayLevel: PIE: World Init took: (0.000750s)
+[2017.01.22-06.12.36:903][866]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.065203s)
+[2017.01.22-06.12.36:966][866]LogInit: XAudio2 using 'Speakers 01 (ASIOVAD Driver)' : 2 channels at 48 kHz using 24 bits per sample (channel mask 0x3)
+[2017.01.22-06.12.36:970][866]LogInit: FAudioDevice initialized.
+[2017.01.22-06.12.37:002][866]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.22-06.12.37:012][866]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.22-06.12.37
+[2017.01.22-06.12.37:013][866]LogWorld: Bringing up level for play took: 0.009639
+[2017.01.22-06.12.37:015][866]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel 0.128
+[2017.01.22-06.12.37:015][866]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.12.38:618][971]Cmd: SELECT NONE
+[2017.01.22-06.12.41:779][179]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.12.41:869][179]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.14.26:138][855]BlueprintLog: New page: Compile Sedan
+[2017.01.22-06.14.27:154][904]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.22-06.14.27:164][904]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.14.27:164][904]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-06.14.27:164][904]PIE: New page: PIE session: Gamelevel (22 Jan 2017 06:14:27)
+[2017.01.22-06.14.27:164][904]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
+[2017.01.22-06.14.27:231][904]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066747s)
+[2017.01.22-06.14.27:232][904]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.22-06.14.27:232][904]LogPlayLevel: PIE: World Init took: (0.001279s)
+[2017.01.22-06.14.27:233][904]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.068399s)
+[2017.01.22-06.14.27:288][904]LogInit: XAudio2 using 'Speakers 01 (ASIOVAD Driver)' : 2 channels at 48 kHz using 24 bits per sample (channel mask 0x3)
+[2017.01.22-06.14.27:292][904]LogInit: FAudioDevice initialized.
+[2017.01.22-06.14.27:326][904]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.22-06.14.27:336][904]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.22-06.14.27
+[2017.01.22-06.14.27:337][904]LogWorld: Bringing up level for play took: 0.009884
+[2017.01.22-06.14.27:339][904]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel 0.452
+[2017.01.22-06.14.27:339][904]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.15.12:654][519]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.15.12:745][519]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.16.06:394][544]BlueprintLog: New page: Compile Sedan
+[2017.01.22-06.16.07:324][580]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.22-06.16.07:334][580]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.16.07:334][580]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-06.16.07:335][580]PIE: New page: PIE session: Gamelevel (22 Jan 2017 06:16:07)
+[2017.01.22-06.16.07:335][580]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
+[2017.01.22-06.16.07:405][580]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070361s)
+[2017.01.22-06.16.07:406][580]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.22-06.16.07:406][580]LogPlayLevel: PIE: World Init took: (0.001145s)
+[2017.01.22-06.16.07:407][580]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.072026s)
+[2017.01.22-06.16.07:465][580]LogInit: XAudio2 using 'Speakers 01 (ASIOVAD Driver)' : 2 channels at 48 kHz using 24 bits per sample (channel mask 0x3)
+[2017.01.22-06.16.07:470][580]LogInit: FAudioDevice initialized.
+[2017.01.22-06.16.07:507][580]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.22-06.16.07:517][580]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.22-06.16.07
+[2017.01.22-06.16.07:518][580]LogWorld: Bringing up level for play took: 0.010353
+[2017.01.22-06.16.07:520][580]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel 0.633
+[2017.01.22-06.16.07:520][580]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.16.14:863][204]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.16.14:954][204]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.16.17:701][370]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.22-06.16.17:711][370]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.16.17:711][370]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.22-06.16.17:711][370]PIE: New page: PIE session: Gamelevel (22 Jan 2017 06:16:17)
+[2017.01.22-06.16.17:711][370]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
+[2017.01.22-06.16.17:773][370]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062057s)
+[2017.01.22-06.16.17:774][370]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.22-06.16.17:774][370]LogPlayLevel: PIE: World Init took: (0.000640s)
+[2017.01.22-06.16.17:774][370]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.063054s)
+[2017.01.22-06.16.17:830][370]LogInit: XAudio2 using 'Speakers 01 (ASIOVAD Driver)' : 2 channels at 48 kHz using 24 bits per sample (channel mask 0x3)
+[2017.01.22-06.16.17:834][370]LogInit: FAudioDevice initialized.
+[2017.01.22-06.16.17:867][370]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.22-06.16.17:876][370]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.22-06.16.17
+[2017.01.22-06.16.17:877][370]LogWorld: Bringing up level for play took: 0.009152
+[2017.01.22-06.16.17:879][370]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel 0.992
+[2017.01.22-06.16.17:879][370]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.16.26:225][920]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.16.26:308][920]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.18.42:959][308]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.22-06.18.42:970][308]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.18.42:970][308]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.01.22-06.18.42:970][308]LogPlayLevel: [PlayLevel] Compiling Sedan before play...
+[2017.01.22-06.18.43:920][308]LogPlayLevel: PlayLevel: Blueprint regeneration took 950 ms (1 blueprints)
+[2017.01.22-06.18.43:921][308]PIE: New page: PIE session: Gamelevel (22 Jan 2017 06:18:43)
+[2017.01.22-06.18.43:921][308]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
+[2017.01.22-06.18.43:990][308]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069622s)
+[2017.01.22-06.18.43:991][308]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.22-06.18.43:991][308]LogPlayLevel: PIE: World Init took: (0.000820s)
+[2017.01.22-06.18.43:991][308]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.070838s)
+[2017.01.22-06.18.44:050][308]LogInit: XAudio2 using 'Speakers 01 (ASIOVAD Driver)' : 2 channels at 48 kHz using 24 bits per sample (channel mask 0x3)
+[2017.01.22-06.18.44:055][308]LogInit: FAudioDevice initialized.
+[2017.01.22-06.18.44:083][308]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.22-06.18.44:094][308]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.22-06.18.44
+[2017.01.22-06.18.44:095][308]LogWorld: Bringing up level for play took: 0.009536
+[2017.01.22-06.18.44:096][308]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel 1.209
+[2017.01.22-06.18.44:096][308]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.18.47:671][584]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.18.47:757][584]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.18.58:682][418]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.22-06.18.58:693][418]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.18.58:693][418]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.01.22-06.18.58:693][418]LogPlayLevel: [PlayLevel] Compiling Sedan before play...
+[2017.01.22-06.18.59:082][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 389 ms (1 blueprints)
+[2017.01.22-06.18.59:082][418]PIE: New page: PIE session: Gamelevel (22 Jan 2017 06:18:59)
+[2017.01.22-06.18.59:083][418]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
+[2017.01.22-06.18.59:152][418]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069196s)
+[2017.01.22-06.18.59:153][418]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.22-06.18.59:153][418]LogPlayLevel: PIE: World Init took: (0.001009s)
+[2017.01.22-06.18.59:153][418]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.070873s)
+[2017.01.22-06.18.59:207][418]LogInit: XAudio2 using 'Speakers 01 (ASIOVAD Driver)' : 2 channels at 48 kHz using 24 bits per sample (channel mask 0x3)
+[2017.01.22-06.18.59:212][418]LogInit: FAudioDevice initialized.
+[2017.01.22-06.18.59:245][418]LogLoad: Game class is 'VehicleGameMode_C'
+[2017.01.22-06.18.59:255][418]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.22-06.18.59
+[2017.01.22-06.18.59:256][418]LogWorld: Bringing up level for play took: 0.009479
+[2017.01.22-06.18.59:257][418]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel 0.37
+[2017.01.22-06.18.59:257][418]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.19.26:689][262]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.19.26:772][262]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
+[2017.01.22-06.19.34:783][764]BlueprintLog: New page: Compile Sedan
+[2017.01.22-06.19.43:470][427]LogSavePackage: Save=308.09ms
+[2017.01.22-06.19.43:470][427]LogSavePackage: Moving '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/Gamelevel6A612FAE4604A0A3C0F3D1A9AE22ADCD.tmp' to '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap'
+[2017.01.22-06.19.43:477][427]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap
+[2017.01.22-06.19.43:510][427]LogFileHelpers: Saving map 'Gamelevel' took 0.745
+[2017.01.22-06.19.43:526][427]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Sedan" FILE="../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset" SILENT=true
+[2017.01.22-06.19.43:728][427]LogSavePackage: Save=194.71ms
+[2017.01.22-06.19.43:728][427]LogSavePackage: Moving '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/SedanD76610A0408055263CA2CE997CDD53B5.tmp' to '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset'
+[2017.01.22-06.19.43:734][427]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset
+[2017.01.22-06.19.43:741][427]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/FX_CRASH_01" FILE="../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/Audio/FX_CRASH_01.uasset" SILENT=true
+[2017.01.22-06.19.43:748][427]LogSavePackage: Save=6.05ms
+[2017.01.22-06.19.43:748][427]LogSavePackage: Moving '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/FX_CRASH_012C79922C40E2D8B550FE8BBA59F4C296.tmp' to '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/Audio/FX_CRASH_01.uasset'
+[2017.01.22-06.19.43:753][427]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/Audio/FX_CRASH_01.uasset
+[2017.01.22-06.19.43:760][427]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/FX_CRASH_02" FILE="../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/Audio/FX_CRASH_02.uasset" SILENT=true
+[2017.01.22-06.19.43:767][427]LogSavePackage: Save=6.04ms
+[2017.01.22-06.19.43:767][427]LogSavePackage: Moving '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/FX_CRASH_02DCF7810C46AFC770F5F80FB0442EA852.tmp' to '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/Audio/FX_CRASH_02.uasset'
+[2017.01.22-06.19.43:773][427]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/Audio/FX_CRASH_02.uasset
+[2017.01.22-06.19.43:779][427]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/FX_CRASH_03" FILE="../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/Audio/FX_CRASH_03.uasset" SILENT=true
+[2017.01.22-06.19.43:786][427]LogSavePackage: Save=5.60ms
+[2017.01.22-06.19.43:786][427]LogSavePackage: Moving '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/FX_CRASH_034CA31C8B4AFB5F12354C888CEBFA9713.tmp' to '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/Audio/FX_CRASH_03.uasset'
+[2017.01.22-06.19.43:789][427]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/Audio/FX_CRASH_03.uasset
+[2017.01.22-06.19.43:796][427]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/FX_CRASH_04" FILE="../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/Audio/FX_CRASH_04.uasset" SILENT=true
+[2017.01.22-06.19.43:803][427]LogSavePackage: Save=5.82ms
+[2017.01.22-06.19.43:803][427]LogSavePackage: Moving '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/FX_CRASH_046A4B8C194970BD20346957AD37108275.tmp' to '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/Audio/FX_CRASH_04.uasset'
+[2017.01.22-06.19.43:807][427]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/Audio/FX_CRASH_04.uasset
+[2017.01.22-06.19.43:813][427]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/FX_CRASH_05" FILE="../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/Audio/FX_CRASH_05.uasset" SILENT=true
+[2017.01.22-06.19.43:821][427]LogSavePackage: Save=6.18ms
+[2017.01.22-06.19.43:821][427]LogSavePackage: Moving '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/FX_CRASH_054C5AAE274E9A2785A270CEA2F20EF523.tmp' to '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/Audio/FX_CRASH_05.uasset'
+[2017.01.22-06.19.43:825][427]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/Audio/FX_CRASH_05.uasset
+[2017.01.22-06.19.43:827][427]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/FX_CRASH" FILE="../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/Audio/FX_CRASH.uasset" SILENT=true
+[2017.01.22-06.19.43:834][427]LogSavePackage: Save=5.28ms
+[2017.01.22-06.19.43:834][427]LogSavePackage: Moving '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/FX_CRASHC0817970488E33B66FD2FFBB03A7F95C.tmp' to '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/Audio/FX_CRASH.uasset'
+[2017.01.22-06.19.43:838][427]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/Audio/FX_CRASH.uasset
+[2017.01.22-06.19.53:041][154]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.01.22-06.19.53:300][155]Cmd: QUIT_EDITOR
+[2017.01.22-06.19.53:896][155]LogExit: Preparing to exit.
+[2017.01.22-06.19.54:664][155]LogDirectoryWatcher: A directory notification for 'C:/Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/' was aborted.
+[2017.01.22-06.19.54:779][155]LogExit: Editor shut down
+[2017.01.22-06.19.54:780][155]LogExit: Transaction tracking system shut down
+[2017.01.22-06.19.54:960][155]LogObj: Freed 0b from 0 cluster array pools.
+[2017.01.22-06.19.54:960][155]LogExit: Object subsystem successfully closed.
+[2017.01.22-06.19.54:978][155]LogD3D11RHI: Shutdown
+[2017.01.22-06.19.54:979][155]LogD3D11RHI: CleanupD3DDevice
+[2017.01.22-06.19.55:085][155]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.01.22-06.19.55:100][155]LogHttp:Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2017.01.22-06.19.55:100][155]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFB6716A4-42B0-4FCB-3D57-34A2CA95BC77%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=459687db4b1b3d2d4a0591a79696122f%7Cf8697dc8a57a4bd8a28a349234b8adcc%7C4081992f-f769-42b7-bb5e-123633c397dc&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.01.22-06.19.55:100][155]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFB6716A4-42B0-4FCB-3D57-34A2CA95BC77%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=459687db4b1b3d2d4a0591a79696122f%7Cf8697dc8a57a4bd8a28a349234b8adcc%7C4081992f-f769-42b7-bb5e-123633c397dc&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.01.22-06.19.55:134][155]LogModuleManager: Shutting down and abandoning module SoundCueEditor (245)
+[2017.01.22-06.19.55:134][155]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (244)
+[2017.01.22-06.19.55:134][155]LogModuleManager: Shutting down and abandoning module BlueprintGraph (243)
+[2017.01.22-06.19.55:134][155]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (242)
+[2017.01.22-06.19.55:134][155]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
+[2017.01.22-06.19.55:134][155]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
+[2017.01.22-06.19.55:134][155]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
+[2017.01.22-06.19.55:134][155]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
+[2017.01.22-06.19.55:134][155]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
+[2017.01.22-06.19.55:134][155]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.14/FeaturePacks/' was aborted.
+[2017.01.22-06.19.55:146][155]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
+[2017.01.22-06.19.55:146][155]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
+[2017.01.22-06.19.55:146][155]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
+[2017.01.22-06.19.55:146][155]LogDirectoryWatcher: A directory notification for 'C:/Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/Collections/' was aborted.
+[2017.01.22-06.19.55:146][155]LogDirectoryWatcher: A directory notification for 'C:/Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/Developers/ChrisDArcy/Collections/' was aborted.
+[2017.01.22-06.19.55:146][155]LogDirectoryWatcher: A directory notification for 'C:/Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Saved/Collections/' was aborted.
+[2017.01.22-06.19.55:146][155]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
+[2017.01.22-06.19.55:146][155]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
+[2017.01.22-06.19.55:146][155]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module BspMode (226)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module Media (215)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module SessionServices (208)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
+[2017.01.22-06.19.55:147][155]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
+[2017.01.22-06.19.55:739][155]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
+[2017.01.22-06.19.55:739][155]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
+[2017.01.22-06.19.55:739][155]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
+[2017.01.22-06.19.55:739][155]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
+[2017.01.22-06.19.55:739][155]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2017.01.22-06.19.55:739][155]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2017.01.22-06.19.55:739][155]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2017.01.22-06.19.55:739][155]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2017.01.22-06.19.55:739][155]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2017.01.22-06.19.55:739][155]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2017.01.22-06.19.55:739][155]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2017.01.22-06.19.55:739][155]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2017.01.22-06.19.55:739][155]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2017.01.22-06.19.55:739][155]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2017.01.22-06.19.55:739][155]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2017.01.22-06.19.55:739][155]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2017.01.22-06.19.55:739][155]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2017.01.22-06.19.55:739][155]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2017.01.22-06.19.55:739][155]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2017.01.22-06.19.55:739][155]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
+[2017.01.22-06.19.55:739][155]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
+[2017.01.22-06.19.55:739][155]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
+[2017.01.22-06.19.55:739][155]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
+[2017.01.22-06.19.55:739][155]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
+[2017.01.22-06.19.55:739][155]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
+[2017.01.22-06.19.55:739][155]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
+[2017.01.22-06.19.55:793][155]LogModuleManager: Shutting down and abandoning module AutomationController (172)
+[2017.01.22-06.19.55:793][155]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
+[2017.01.22-06.19.55:793][155]LogModuleManager: Shutting down and abandoning module Layers (170)
+[2017.01.22-06.19.55:793][155]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
+[2017.01.22-06.19.55:793][155]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
+[2017.01.22-06.19.55:793][155]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
+[2017.01.22-06.19.55:794][155]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
+[2017.01.22-06.19.55:794][155]LogModuleManager: Shutting down and abandoning module Persona (165)
+[2017.01.22-06.19.55:794][155]LogModuleManager: Shutting down and abandoning module Kismet (164)
+[2017.01.22-06.19.55:802][155]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
+[2017.01.22-06.19.55:802][155]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
+[2017.01.22-06.19.55:802][155]LogModuleManager: Shutting down and abandoning module Toolbox (161)
+[2017.01.22-06.19.55:802][155]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
+[2017.01.22-06.19.55:802][155]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
+[2017.01.22-06.19.55:802][155]LogModuleManager: Shutting down and abandoning module OutputLog (158)
+[2017.01.22-06.19.55:802][155]LogModuleManager: Shutting down and abandoning module GammaUI (157)
+[2017.01.22-06.19.55:802][155]LogModuleManager: Shutting down and abandoning module Documentation (156)
+[2017.01.22-06.19.55:802][155]LogModuleManager: Shutting down and abandoning module Niagara (155)
+[2017.01.22-06.19.55:802][155]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
+[2017.01.22-06.19.55:802][155]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
+[2017.01.22-06.19.55:803][155]LogModuleManager: Shutting down and abandoning module PortalServices (152)
+[2017.01.22-06.19.55:803][155]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
+[2017.01.22-06.19.55:803][155]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
+[2017.01.22-06.19.55:803][155]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
+[2017.01.22-06.19.55:803][155]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
+[2017.01.22-06.19.55:803][155]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2017.01.22-06.19.55:803][155]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module SteamVR (142)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module CableComponent (135)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module SourceControl (115)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
+[2017.01.22-06.19.55:936][155]LogModuleManager: Shutting down and abandoning module HotReload (108)
+[2017.01.22-06.19.55:937][155]LogModuleManager: Shutting down and abandoning module MainFrame (107)
+[2017.01.22-06.19.55:937][155]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
+[2017.01.22-06.19.55:938][155]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
+[2017.01.22-06.19.55:940][155]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
+[2017.01.22-06.19.55:940][155]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2017.01.22-06.19.56:041][155]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2017.01.22-06.19.56:141][155]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2017.01.22-06.19.56:141][155]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2017.01.22-06.19.56:141][155]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2017.01.22-06.19.56:141][155]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2017.01.22-06.19.56:141][155]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2017.01.22-06.19.56:141][155]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2017.01.22-06.19.56:141][155]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2017.01.22-06.19.56:141][155]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2017.01.22-06.19.56:141][155]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2017.01.22-06.19.56:141][155]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2017.01.22-06.19.56:141][155]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2017.01.22-06.19.56:141][155]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2017.01.22-06.19.56:141][155]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2017.01.22-06.19.56:141][155]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2017.01.22-06.19.56:141][155]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2017.01.22-06.19.56:141][155]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2017.01.22-06.19.56:141][155]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2017.01.22-06.19.56:141][155]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2017.01.22-06.19.56:141][155]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2017.01.22-06.19.56:141][155]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2017.01.22-06.19.56:141][155]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2017.01.22-06.19.56:144][155]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2017.01.22-06.19.56:144][155]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2017.01.22-06.19.56:144][155]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2017.01.22-06.19.56:144][155]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2017.01.22-06.19.56:144][155]LogModuleManager: Shutting down and abandoning module Core (75)
+[2017.01.22-06.19.56:144][155]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2017.01.22-06.19.56:145][155]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.01.22-06.19.56:145][155]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Chris D'Arcy/Desktop/VistaReachRepo/Drive-Thru/Drive_Thru/Content/' was aborted.
+[2017.01.22-06.19.56:146][155]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.01.22-06.19.56:149][155]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2017.01.22-06.19.56:324][155]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2017.01.22-06.19.56:324][155]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2017.01.22-06.19.56:324][155]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2017.01.22-06.19.56:324][155]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2017.01.22-06.19.56:324][155]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2017.01.22-06.19.56:324][155]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2017.01.22-06.19.56:324][155]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2017.01.22-06.19.56:324][155]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2017.01.22-06.19.56:354][155]LogDerivedDataCache: Shutdown
+[2017.01.22-06.19.56:354][155]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2017.01.22-06.19.56:354][155]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2017.01.22-06.19.56:354][155]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2017.01.22-06.19.56:354][155]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2017.01.22-06.19.56:354][155]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2017.01.22-06.19.56:354][155]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2017.01.22-06.19.56:354][155]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2017.01.22-06.19.56:354][155]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2017.01.22-06.19.56:354][155]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2017.01.22-06.19.56:354][155]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.01.22-06.19.56:355][155]LogOnline:Display: Unloading online subsystem: NULL
+[2017.01.22-06.19.56:355][155]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.01.22-06.19.56:357][155]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.01.22-06.19.56:357][155]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.01.22-06.19.56:357][155]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.01.22-06.19.56:357][155]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.01.22-06.19.56:357][155]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.01.22-06.19.56:357][155]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.01.22-06.19.56:366][155]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.01.22-06.19.56:366][155]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.01.22-06.19.56:366][155]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.01.22-06.19.56:366][155]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.01.22-06.19.56:366][155]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.01.22-06.19.56:366][155]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.01.22-06.19.56:366][155]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.01.22-06.19.56:366][155]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.01.22-06.19.56:366][155]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.01.22-06.19.56:366][155]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.01.22-06.19.56:368][155]LogExit: Exiting.
+[2017.01.22-06.19.56:384][155]Log file closed, 01/22/17 06:19:56
