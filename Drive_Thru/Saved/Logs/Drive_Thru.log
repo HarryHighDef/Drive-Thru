@@ -1,9 +1,9 @@
-﻿Log file open, 01/22/17 09:34:38
+﻿Log file open, 01/22/17 10:52:41
 LogInit:Display: Running engine for game: Drive_Thru
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1435621586) SRandInit(-1435621586).
+LogInit:Display: RandInit(1263899930) SRandInit(1263899930).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.077121
+LogStats: Stats thread started at 0.081832
 LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin AdvancedSessions, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/AdvancedSessions/AdvancedSessions.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
@@ -145,406 +145,953 @@ LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.01.22-09.34.38:846][  0]LogInit: Selected Device Profile: [Windows]
-[2017.01.22-09.34.38:846][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.01.22-09.34.38:855][  0]LogInit: Computer: DESKTOP-LDMGO10
-[2017.01.22-09.34.38:855][  0]LogInit: User: HarryHastonDougan
-[2017.01.22-09.34.38:855][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.01.22-09.34.38:855][  0]LogInit: High frequency timer resolution =3.328126 MHz
-[2017.01.22-09.34.38:855][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2017.01.22-09.34.38:855][  0]LogMemory: Platform Memory Stats for Windows
-[2017.01.22-09.34.38:855][  0]LogMemory: Process Physical Memory: 264.78 MB used, 264.78 MB peak
-[2017.01.22-09.34.38:855][  0]LogMemory: Process Virtual Memory: 262.77 MB used, 262.77 MB peak
-[2017.01.22-09.34.38:855][  0]LogMemory: Physical Memory: 4033.01 MB used,  12313.75 MB free, 16346.76 MB total
-[2017.01.22-09.34.38:855][  0]LogMemory: Virtual Memory: 676.41 MB used,  12313.75 MB free, 134217728.00 MB total
-[2017.01.22-09.34.38:880][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
-[2017.01.22-09.34.39:404][  0]LogD3D11RHI: D3D11 adapters:
-[2017.01.22-09.34.39:860][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
-[2017.01.22-09.34.39:860][  0]LogD3D11RHI:       3035/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.01.22-09.34.39:861][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.01.22-09.34.39:861][  0]LogD3D11RHI:       0/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.01.22-09.34.39:861][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.01.22-09.34.39:864][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.01.22-09.34.39:864][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
-[2017.01.22-09.34.39:864][  0]LogWindows: EnumDisplayDevices:
-[2017.01.22-09.34.39:864][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
-[2017.01.22-09.34.39:864][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:1)
-[2017.01.22-09.34.39:865][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
-[2017.01.22-09.34.39:865][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
-[2017.01.22-09.34.39:865][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.01.22-09.34.39:865][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
-[2017.01.22-09.34.39:865][  0]LogD3D11RHI:   Driver Version: 376.19 (internal:21.21.13.7619, unified:376.19)
-[2017.01.22-09.34.39:865][  0]LogD3D11RHI:      Driver Date: 12-1-2016
-[2017.01.22-09.34.39:865][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.01.22-09.34.40:296][  0]LogD3D11RHI: Async texture creation enabled
-[2017.01.22-09.34.40:324][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.01.22-09.34.40:324][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Repos/Drive-Thru/Drive_Thru/Intermediate/Shaders/WorkingDirectory/17148/).
-[2017.01.22-09.34.40:324][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Harry Haston-Dougan/AppData/Local/Temp/UnrealShaderWorkingDir/35AE17DB4EF2A2872C5F8192FA0E757C/'.
-[2017.01.22-09.34.40:324][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.01.22-09.34.41:181][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.01.22-09.34.41:225][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.01.22-09.34.41:268][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.01.22-09.34.41:311][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.01.22-09.34.41:355][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.01.22-09.34.41:398][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.01.22-09.34.41:441][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.01.22-09.34.41:484][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.01.22-09.34.41:519][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.01.22-09.34.41:560][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.01.22-09.34.41:603][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.01.22-09.34.41:644][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.01.22-09.34.41:687][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.01.22-09.34.41:729][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.01.22-09.34.41:771][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.01.22-09.34.41:854][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.01.22-09.34.41:854][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.01.22-09.34.41:882][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.01.22-09.34.41:952][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.01.22-09.34.41:979][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.01.22-09.34.42:024][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.01.22-09.34.42:066][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.01.22-09.34.42:107][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.01.22-09.34.42:148][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.01.22-09.34.42:148][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.01.22-09.34.42:480][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.01.22-09.34.42:521][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/Harry Haston-Dougan/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.01.22-09.34.42:521][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Harry Haston-Dougan/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
-[2017.01.22-09.34.42:521][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Repos/Drive-Thru/Drive_Thru/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.01.22-09.34.42:521][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.01.22-09.34.42:521][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Repos/Drive-Thru/Drive_Thru/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.01.22-09.34.42:521][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.01.22-09.34.42:534][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.01.22-09.34.42:547][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Harry Haston-Dougan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.01.22-09.34.42:705][  0]LogInit: Selected Device Profile: [Windows]
-[2017.01.22-09.34.42:707][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.01.22-09.34.42:873][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.01.22-09.34.42:907][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.01.22-09.34.42:945][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.01.22-09.34.42:945][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.01.22-09.34.42:945][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.01.22-09.34.43:349][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: drive_thru, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3324528129
-[2017.01.22-09.34.43:400][  0]LogAssetRegistry: FAssetRegistry took 0.0220 seconds to start up
-[2017.01.22-09.34.43:444][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.025592 seconds
-[2017.01.22-09.34.43:448][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
-[2017.01.22-09.34.43:448][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
-[2017.01.22-09.34.43:449][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.01.22-09.34.43:500][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.01.22-09.34.44:080][  0]LogSlate: Using Freetype 2.6.0
-[2017.01.22-09.34.44:080][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.01.22-09.34.44:080][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.01.22-09.34.44:700][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.01.22-09.34.44:753][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.01.22-09.34.45:015][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.01.22-09.34.45:348][  0]SourceControl: Info Source control is disabled
-[2017.01.22-09.34.45:376][  0]SourceControl: Info Source control is disabled
-[2017.01.22-09.34.45:413][  0]SourceControl: Info Source control is disabled
-[2017.01.22-09.34.45:450][  0]SourceControl: Info Source control is disabled
-[2017.01.22-09.34.46:492][  0]LogEngine: Initializing Engine...
-[2017.01.22-09.34.47:222][  0]LogHMD: Failed to initialize OpenVR with code 208
-[2017.01.22-09.34.47:415][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.01.22-09.34.47:423][  0]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.01.22-09.34.47:437][  0]LogInit: FAudioDevice initialized.
-[2017.01.22-09.34.47:457][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Harry Haston-Dougan/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.01.22-09.34.47:464][  0]LogInit: Texture streaming: Enabled
-[2017.01.22-09.34.47:619][  0]LogInit: Transaction tracking system initialized
-[2017.01.22-09.34.47:899][  0]BlueprintLog: New page: Editor Load
-[2017.01.22-09.34.48:606][  0]LocalizationService: Info Localization service is disabled
-[2017.01.22-09.34.49:159][  0]LogConsoleResponse:Display: 
-[2017.01.22-09.34.49:269][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.01.22-09.34.49:269][  0]LogCook:Display: Mobile HDR setting 1
-[2017.01.22-09.34.49:288][  0]LogFileCache: Scanning file cache for directory 'C:/Repos/Drive-Thru/Drive_Thru/Content/' took 0.01s
-[2017.01.22-09.34.50:053][  0]SourceControl: Info Source control is disabled
-[2017.01.22-09.34.50:053][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.01.22-09.34.50:053][  0]LightingResults: New page: Lighting Build
-[2017.01.22-09.34.50:086][  0]MapCheck: New page: Map Check
-[2017.01.22-09.34.50:086][  0]LightingResults: New page: Lighting Build
-[2017.01.22-09.34.50:312][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2017.01.22-09.34.50:313][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
-[2017.01.22-09.34.50:319][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.01.22-09.34.50:322][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.01.22-09.34.50:351][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 29.467ms to complete.
-[2017.01.22-09.34.50:351][  0]LogFileHelpers: Loading map 'Template_Default' took 0.298
-[2017.01.22-09.34.50:410][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.01.22-09.34.50:472][  0]LogCollectionManager: Loaded 1 collections in 0.002525 seconds
-[2017.01.22-09.34.50:543][  0]LogFileCache: Scanning file cache for directory 'C:/Repos/Drive-Thru/Drive_Thru/Saved/Collections/' took 0.01s
-[2017.01.22-09.34.50:543][  0]LogFileCache: Scanning file cache for directory 'C:/Repos/Drive-Thru/Drive_Thru/Content/Developers/HarryHastonDougan/Collections/' took 0.01s
-[2017.01.22-09.34.50:543][  0]LogFileCache: Scanning file cache for directory 'C:/Repos/Drive-Thru/Drive_Thru/Content/Collections/' took 0.01s
-[2017.01.22-09.34.50:543][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000003 seconds
-[2017.01.22-09.34.50:543][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
-[2017.01.22-09.34.50:551][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2190 classes and 428 folders.
-[2017.01.22-09.34.50:584][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.01.22-09.34.50:584][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.01.22-09.34.50:584][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 13 classes and 0 folders.
-[2017.01.22-09.34.50:634][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.01.22-09.34.50:666][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2017.01.22-09.34.50:700][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2017.01.22-09.34.50:732][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.01.22-09.34.50:737][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.01.22-09.34.50:796][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2017.01.22-09.34.50:796][  0]LogLoad: (Engine Initialization) Total time: 13.21 seconds
-[2017.01.22-09.34.50:796][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
-[2017.01.22-09.34.50:796][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.01.22-09.34.50:796][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.01.22-09.34.50:806][  0]LogOcInput: OculusInput pre-init called
-[2017.01.22-09.34.50:822][  0]LogAssetRegistry: Asset discovery search completed in 7.4450 seconds
-[2017.01.22-09.34.50:822][  0]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000003 seconds (found 0 objects)
-[2017.01.22-09.34.50:822][  0]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000014 seconds (updated 0 objects)
-[2017.01.22-09.34.50:825][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.01.22-09.34.50:962][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
-[2017.01.22-09.34.56:544][463]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2017.01.22-09.34.56:593][464]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.DriveThru
-
-[2017.01.22-09.34.56:593][464]LogTemp:Display: CWD: C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\DotNet\IOS
-
-[2017.01.22-09.34.56:593][464]LogTemp:Display: Initial Dir: C:\Program Files (x86)\Epic Games\4.14
-
-[2017.01.22-09.34.56:593][464]LogTemp:Display: Env CWD: C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\DotNet\IOS
-
-[2017.01.22-09.34.56:593][464]LogTemp:Display: BranchPath = DESKTOP-LDMGO10/C/Program Files (x86)/Epic Games/4.14/Engine/Binaries --- GameBranchPath = DESKTOP-LDMGO10/C/Program Files (x86)/Epic Games/4.14/Engine/Binaries
-
-[2017.01.22-09.34.56:619][466]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Harry Haston-Dougan\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
-
-[2017.01.22-09.34.56:619][466]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
-
-[2017.01.22-09.34.56:619][466]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
-
-[2017.01.22-09.34.56:619][466]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
-
-[2017.01.22-09.34.56:619][466]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
-
-[2017.01.22-09.34.56:619][466]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
-
-[2017.01.22-09.35.31:662][605]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2017.01.22-09.35.31:738][605]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
-[2017.01.22-09.35.31:738][605]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/SM_Car_Door_01.SM_Car_Door_01 Referenced by Car_Door_Left_GEN_VARIABLE
-[2017.01.22-09.35.31:738][605]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_Door_01.uasset.
-[2017.01.22-09.35.31:738][605]LoadErrors:Error: Error /Game/VehicleBP/Sedan/SM_Car_Door_01 : Can't find file for asset. /Game/VehicleBP/Sedan/lambert2
-[2017.01.22-09.35.31:738][605]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
-[2017.01.22-09.35.31:738][605]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_Door_01.uasset.
-[2017.01.22-09.35.31:739][605]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
-[2017.01.22-09.35.31:739][605]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/SM_Glove_Box_Door_01.SM_Glove_Box_Door_01 Referenced by Glove_Box_Door_GEN_VARIABLE
-[2017.01.22-09.35.31:739][605]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Glove_Box_Door_01.uasset.
-[2017.01.22-09.35.31:739][605]LoadErrors:Error: Error /Game/VehicleBP/Sedan/SM_Glove_Box_Door_01 : Can't find file for asset. /Game/VehicleBP/Sedan/lambert2
-[2017.01.22-09.35.31:740][605]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
-[2017.01.22-09.35.31:740][605]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Glove_Box_Door_01.uasset.
-[2017.01.22-09.35.31:817][605]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabR' for  K2Node_InputAction_508
-[2017.01.22-09.35.31:817][605]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabL' for  K2Node_InputAction_507
-[2017.01.22-09.35.31:817][605]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
-[2017.01.22-09.35.31:817][605]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
-[2017.01.22-09.35.31:817][605]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'ResetVR' for  K2Node_InputAction_43
-[2017.01.22-09.35.31:817][605]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'Handbrake' for  K2Node_InputAction_3
-[2017.01.22-09.35.31:817][605]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'SwitchCamera' for  K2Node_InputAction_23
-[2017.01.22-09.35.31:832][605]LogBlueprint:Warning: [Compiler Sedan] Warning [0054.25] Compile of Sedan successful, but with 7 Warning(s) [in 38 ms] (/Game/VehicleBP/Sedan/Sedan.Sedan)
-[2017.01.22-09.35.31:833][605]LogBlueprint:Warning: [Compiler Sedan] Warning [0054.25] Compile of Sedan successful, but with 8 Warning(s) [in 0 ms] (/Game/VehicleBP/Sedan/Sedan.Sedan)
-[2017.01.22-09.35.31:833][605]LogBlueprint:Warning: [Compiler Sedan] Warning [0054.25] Compile of Sedan successful, but with 9 Warning(s) [in 0 ms] (/Game/VehicleBP/Sedan/Sedan.Sedan)
-[2017.01.22-09.35.31:885][605]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabR' for  K2Node_InputAction_508
-[2017.01.22-09.35.31:885][605]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabL' for  K2Node_InputAction_507
-[2017.01.22-09.35.31:885][605]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
-[2017.01.22-09.35.31:885][605]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
-[2017.01.22-09.35.31:885][605]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'ResetVR' for  K2Node_InputAction_43
-[2017.01.22-09.35.31:885][605]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'Handbrake' for  K2Node_InputAction_3
-[2017.01.22-09.35.31:886][605]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'SwitchCamera' for  K2Node_InputAction_23
-[2017.01.22-09.35.31:902][605]LogBlueprint:Warning: [Compiler Sedan] Warning [0054.32] Compile of Sedan successful, but with 7 Warning(s) [in 39 ms] (/Game/VehicleBP/Sedan/Sedan.Sedan)
-[2017.01.22-09.35.31:902][605]LogBlueprint:Warning: [Compiler Sedan] Warning [0054.32] Compile of Sedan successful, but with 8 Warning(s) [in 0 ms] (/Game/VehicleBP/Sedan/Sedan.Sedan)
-[2017.01.22-09.35.31:902][605]LogBlueprint:Warning: [Compiler Sedan] Warning [0054.32] Compile of Sedan successful, but with 9 Warning(s) [in 0 ms] (/Game/VehicleBP/Sedan/Sedan.Sedan)
-[2017.01.22-09.35.31:926][605]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
-[2017.01.22-09.35.31:926][605]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/lambert2.lambert2 Referenced by SM_Car_Door_01
-[2017.01.22-09.35.31:926][605]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading NULL.
-[2017.01.22-09.35.31:935][605]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
-[2017.01.22-09.35.31:936][605]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/lambert2.lambert2 Referenced by SM_Glove_Box_Door_01
-[2017.01.22-09.35.31:936][605]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading NULL.
-[2017.01.22-09.35.31:965][605]LogTexture:Display: Building textures: RGB_Air_Con_01 (AutoDXT)
-[2017.01.22-09.35.32:087][605]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
-[2017.01.22-09.35.32:115][605]LogTexture:Display: Building textures: RGB_Keyboard_01 (AutoDXT)
-[2017.01.22-09.35.32:227][605]LogTexture:Display: Building textures: RGB_Computer_and_Radio_01 (AutoDXT)
-[2017.01.22-09.35.32:352][605]LogTexture:Display: Building textures: RGB_Dashboard_Body_01 (AutoDXT)
-[2017.01.22-09.35.32:455][605]LogTexture:Display: Building textures: RGB_Panels_01 (AutoDXT)
-[2017.01.22-09.35.32:585][605]LogStaticMesh: Building static mesh SM_Car_01...
-[2017.01.22-09.35.32:647][605]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
-[2017.01.22-09.35.32:782][605]LogStaticMesh: Built static mesh [0.22s] /Game/VehicleBP/Sedan/SM_Car_01.SM_Car_01
-[2017.01.22-09.35.32:801][605]LogTexture:Display: Building textures: RGB_Wheel_01 (AutoDXT)
-[2017.01.22-09.35.32:950][605]LogStaticMesh: Building static mesh SM_Wheel_01...
-[2017.01.22-09.35.32:962][605]LogStaticMesh: Built static mesh [0.04s] /Game/VehicleBP/Sedan/SM_Wheel_01.SM_Wheel_01
-[2017.01.22-09.35.32:978][605]LogAudioDerivedData:Display: Building compressed audio format OGG wave FX_SIREN...
-[2017.01.22-09.35.33:532][605]LogAudioDerivedData:Display: Building compressed audio format OGG wave FX_CAR_SPLUTTER...
-[2017.01.22-09.35.34:545][605]LogAudioDerivedData:Display: Building compressed audio format OGG wave FX_CAR_IDLE...
-[2017.01.22-09.35.35:465][605]LogAudioDerivedData:Display: Building compressed audio format OGG wave FX_CAR_REV...
-[2017.01.22-09.35.36:367][605]LogAudioDerivedData:Display: Building compressed audio format OGG wave FX_CAR_SCREECH...
-[2017.01.22-09.35.37:309][605]LogAudioDerivedData:Display: Building compressed audio format OGG wave MUSIC_VistaReach2...
-[2017.01.22-09.35.40:214][605]LogAudioDerivedData:Display: Building compressed audio format OGG wave FX_CRASH_02...
-[2017.01.22-09.35.40:244][605]LogAudioDerivedData:Display: Building compressed audio format OGG wave FX_CRASH_05...
-[2017.01.22-09.35.40:264][605]LogAudioDerivedData:Display: Building compressed audio format OGG wave FX_CRASH_01...
-[2017.01.22-09.35.40:285][605]LogAudioDerivedData:Display: Building compressed audio format OGG wave FX_CRASH_03...
-[2017.01.22-09.35.40:309][605]LogAudioDerivedData:Display: Building compressed audio format OGG wave FX_CRASH_04...
-[2017.01.22-09.35.51:698][949]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2017.01.22-09.36.10:880][197]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Gamelevel, Actor: /Game/Maps/Gamelevel.Gamelevel:PersistentLevel.DESTROYED_PassengerSeat_C_CHILDACTOR_5
-[2017.01.22-09.36.10:904][197]LogAIModule: Creating AISystem for world Gamelevel
-[2017.01.22-09.36.10:929][197]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Gamelevel, Actor: /Game/Maps/Gamelevel.Gamelevel:PersistentLevel.DESTROYED_PassengerSeat_C_CHILDACTOR_7
-[2017.01.22-09.36.10:990][197]Cmd: MAP LOAD FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.01.22-09.36.10:990][197]LightingResults: New page: Lighting Build
-[2017.01.22-09.36.10:990][197]LoadErrors: New page: Loading map: Gamelevel.umap
-[2017.01.22-09.36.10:991][197]MapCheck: New page: Map Check
-[2017.01.22-09.36.10:991][197]LightingResults: New page: Lighting Build
-[2017.01.22-09.36.11:029][197]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.01.22-09.36.11:043][197]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.01.22-09.36.11:085][197]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 42.013ms to complete.
-[2017.01.22-09.36.11:085][197]LogFileHelpers: Loading map 'Gamelevel' took 0.097
-[2017.01.22-09.36.26:275][  2]LogEditorViewport: Clicking on Actor (LMB): Sedan_C (Sedan)
-[2017.01.22-09.36.32:739][724]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 111 classes and 0 folders.
-[2017.01.22-09.36.32:801][724]LogBlueprintSupport:Warning: Editor config [EditoronlyBP] settings are DEPRECATED. You're not explicitly setting any, but they've been defaulting to off. If you are relying on this functionality, then please fix it up so your Blueprints don't break in a future release.
-[2017.01.22-09.36.34:913][818]LogRenderer: Reallocating scene render targets to support 1208x696 NumSamples 1 (Frame:10340).
-[2017.01.22-09.36.35:333][855]BlueprintLog: New page: Compile Sedan
-[2017.01.22-09.36.35:469][855]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabR' for  K2Node_InputAction_508
-[2017.01.22-09.36.35:469][855]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabL' for  K2Node_InputAction_507
-[2017.01.22-09.36.35:469][855]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
-[2017.01.22-09.36.35:469][855]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
-[2017.01.22-09.36.35:469][855]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'ResetVR' for  K2Node_InputAction_43
-[2017.01.22-09.36.35:469][855]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'Handbrake' for  K2Node_InputAction_3
-[2017.01.22-09.36.35:469][855]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'SwitchCamera' for  K2Node_InputAction_23
-[2017.01.22-09.36.35:636][855]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'GrabR' for  K2Node_InputAction_508
-[2017.01.22-09.36.35:636][855]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'GrabL' for  K2Node_InputAction_507
-[2017.01.22-09.36.35:636][855]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
-[2017.01.22-09.36.35:636][855]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
-[2017.01.22-09.36.35:636][855]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'ResetVR' for  K2Node_InputAction_43
-[2017.01.22-09.36.35:636][855]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Handbrake' for  K2Node_InputAction_3
-[2017.01.22-09.36.35:636][855]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'SwitchCamera' for  K2Node_InputAction_23
-[2017.01.22-09.36.35:637][855]LogBlueprint:Warning: [Compiler Sedan] Warning [0118.05] Compile of Sedan successful, but with 7 Warning(s) [in 303 ms] (/Game/VehicleBP/Sedan/Sedan.Sedan)
-[2017.01.22-09.36.52:865][205]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2017.01.22-09.37.10:204][594]BlueprintLog: New page: Compile Sedan
-[2017.01.22-09.37.10:322][594]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabR' for  K2Node_InputAction_508
-[2017.01.22-09.37.10:322][594]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabL' for  K2Node_InputAction_507
-[2017.01.22-09.37.10:323][594]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
-[2017.01.22-09.37.10:323][594]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
-[2017.01.22-09.37.10:323][594]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'ResetVR' for  K2Node_InputAction_43
-[2017.01.22-09.37.10:323][594]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'Handbrake' for  K2Node_InputAction_3
-[2017.01.22-09.37.10:323][594]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'SwitchCamera' for  K2Node_InputAction_23
-[2017.01.22-09.37.10:470][594]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'GrabR' for  K2Node_InputAction_508
-[2017.01.22-09.37.10:470][594]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'GrabL' for  K2Node_InputAction_507
-[2017.01.22-09.37.10:470][594]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
-[2017.01.22-09.37.10:470][594]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
-[2017.01.22-09.37.10:470][594]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'ResetVR' for  K2Node_InputAction_43
-[2017.01.22-09.37.10:470][594]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Handbrake' for  K2Node_InputAction_3
-[2017.01.22-09.37.10:470][594]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'SwitchCamera' for  K2Node_InputAction_23
-[2017.01.22-09.37.10:470][594]LogBlueprint:Warning: [Compiler Sedan] Warning [0152.89] Compile of Sedan successful, but with 7 Warning(s) [in 266 ms] (/Game/VehicleBP/Sedan/Sedan.Sedan)
-[2017.01.22-09.37.11:098][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Sedan" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset" SILENT=true
-[2017.01.22-09.37.11:305][633]LogSavePackage: Save=184.89ms
-[2017.01.22-09.37.11:305][633]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Sedan62A4A65941898302FE63AEAF1AF3B9B5.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset'
-[2017.01.22-09.37.11:308][633]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset
-[2017.01.22-09.37.45:956][951]BlueprintLog: New page: Compile Sedan
-[2017.01.22-09.37.46:078][951]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabR' for  K2Node_InputAction_508
-[2017.01.22-09.37.46:078][951]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabL' for  K2Node_InputAction_507
-[2017.01.22-09.37.46:078][951]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
-[2017.01.22-09.37.46:078][951]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
-[2017.01.22-09.37.46:078][951]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'ResetVR' for  K2Node_InputAction_43
-[2017.01.22-09.37.46:078][951]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'Handbrake' for  K2Node_InputAction_3
-[2017.01.22-09.37.46:079][951]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'SwitchCamera' for  K2Node_InputAction_23
-[2017.01.22-09.37.46:555][951]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'GrabR' for  K2Node_InputAction_508
-[2017.01.22-09.37.46:555][951]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'GrabL' for  K2Node_InputAction_507
-[2017.01.22-09.37.46:555][951]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
-[2017.01.22-09.37.46:555][951]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
-[2017.01.22-09.37.46:555][951]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'ResetVR' for  K2Node_InputAction_43
-[2017.01.22-09.37.46:555][951]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Handbrake' for  K2Node_InputAction_3
-[2017.01.22-09.37.46:555][951]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'SwitchCamera' for  K2Node_InputAction_23
-[2017.01.22-09.37.46:555][951]LogBlueprint:Warning: [Compiler Sedan] Warning [0188.97] Compile of Sedan successful, but with 7 Warning(s) [in 598 ms] (/Game/VehicleBP/Sedan/Sedan.Sedan)
-[2017.01.22-09.37.58:179][587]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2017.01.22-09.37.58:219][588]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.DriveThru
-
-[2017.01.22-09.37.58:219][588]LogTemp:Display: CWD: C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\DotNet\IOS
-
-[2017.01.22-09.37.58:219][588]LogTemp:Display: Initial Dir: C:\Program Files (x86)\Epic Games\4.14
-
-[2017.01.22-09.37.58:219][588]LogTemp:Display: Env CWD: C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\DotNet\IOS
-
-[2017.01.22-09.37.58:219][588]LogTemp:Display: BranchPath = DESKTOP-LDMGO10/C/Program Files (x86)/Epic Games/4.14/Engine/Binaries --- GameBranchPath = DESKTOP-LDMGO10/C/Program Files (x86)/Epic Games/4.14/Engine/Binaries
-
-[2017.01.22-09.37.58:245][589]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Harry Haston-Dougan\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
-
-[2017.01.22-09.37.58:245][589]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
-
-[2017.01.22-09.37.58:245][589]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
-
-[2017.01.22-09.37.58:245][589]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
-
-[2017.01.22-09.37.58:245][589]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
-
-[2017.01.22-09.37.58:245][589]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
-
-[2017.01.22-09.38.19:620][974]BlueprintLog: New page: Compile Sedan
-[2017.01.22-09.38.19:742][974]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabR' for  K2Node_InputAction_508
-[2017.01.22-09.38.19:742][974]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabL' for  K2Node_InputAction_507
-[2017.01.22-09.38.19:742][974]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
-[2017.01.22-09.38.19:742][974]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
-[2017.01.22-09.38.19:742][974]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'Handbrake' for  K2Node_InputAction_3
-[2017.01.22-09.38.19:742][974]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'SwitchCamera' for  K2Node_InputAction_23
-[2017.01.22-09.38.19:890][974]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'GrabR' for  K2Node_InputAction_508
-[2017.01.22-09.38.19:890][974]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'GrabL' for  K2Node_InputAction_507
-[2017.01.22-09.38.19:890][974]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
-[2017.01.22-09.38.19:890][974]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
-[2017.01.22-09.38.19:890][974]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Handbrake' for  K2Node_InputAction_3
-[2017.01.22-09.38.19:890][974]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'SwitchCamera' for  K2Node_InputAction_23
-[2017.01.22-09.38.19:890][974]LogBlueprint:Warning: [Compiler Sedan] Warning [0222.31] Compile of Sedan successful, but with 6 Warning(s) [in 270 ms] (/Game/VehicleBP/Sedan/Sedan.Sedan)
-[2017.01.22-09.38.45:883][865]BlueprintLog: New page: Compile Sedan
-[2017.01.22-09.38.46:007][865]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabR' for  K2Node_InputAction_508
-[2017.01.22-09.38.46:007][865]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabL' for  K2Node_InputAction_507
-[2017.01.22-09.38.46:007][865]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
-[2017.01.22-09.38.46:007][865]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
-[2017.01.22-09.38.46:007][865]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'Handbrake' for  K2Node_InputAction_3
-[2017.01.22-09.38.46:155][865]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'GrabR' for  K2Node_InputAction_508
-[2017.01.22-09.38.46:155][865]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'GrabL' for  K2Node_InputAction_507
-[2017.01.22-09.38.46:155][865]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
-[2017.01.22-09.38.46:155][865]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
-[2017.01.22-09.38.46:155][865]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Handbrake' for  K2Node_InputAction_3
-[2017.01.22-09.38.46:155][865]LogBlueprint:Warning: [Compiler Sedan] Warning [0248.57] Compile of Sedan successful, but with 5 Warning(s) [in 272 ms] (/Game/VehicleBP/Sedan/Sedan.Sedan)
-[2017.01.22-09.39.40:108][737]BlueprintLog: New page: Compile Sedan
-[2017.01.22-09.39.40:233][737]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabR' for  K2Node_InputAction_508
-[2017.01.22-09.39.40:233][737]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabL' for  K2Node_InputAction_507
-[2017.01.22-09.39.40:233][737]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
-[2017.01.22-09.39.40:233][737]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'Handbrake' for  K2Node_InputAction_3
-[2017.01.22-09.39.40:386][737]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'GrabR' for  K2Node_InputAction_508
-[2017.01.22-09.39.40:386][737]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'GrabL' for  K2Node_InputAction_507
-[2017.01.22-09.39.40:386][737]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
-[2017.01.22-09.39.40:386][737]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Handbrake' for  K2Node_InputAction_3
-[2017.01.22-09.39.40:386][737]LogBlueprint:Warning: [Compiler Sedan] Warning [0302.80] Compile of Sedan successful, but with 4 Warning(s) [in 277 ms] (/Game/VehicleBP/Sedan/Sedan.Sedan)
-[2017.01.22-09.40.28:460][168]BlueprintLog: New page: Compile Sedan
-[2017.01.22-09.40.28:582][168]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabR' for  K2Node_InputAction_508
-[2017.01.22-09.40.28:582][168]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabL' for  K2Node_InputAction_507
-[2017.01.22-09.40.28:582][168]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'Handbrake' for  K2Node_InputAction_3
-[2017.01.22-09.40.28:731][168]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'GrabR' for  K2Node_InputAction_508
-[2017.01.22-09.40.28:731][168]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'GrabL' for  K2Node_InputAction_507
-[2017.01.22-09.40.28:731][168]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Handbrake' for  K2Node_InputAction_3
-[2017.01.22-09.40.28:732][168]LogBlueprint:Warning: [Compiler Sedan] Warning [0351.15] Compile of Sedan successful, but with 3 Warning(s) [in 272 ms] (/Game/VehicleBP/Sedan/Sedan.Sedan)
-[2017.01.22-09.40.54:439][945]BlueprintLog: New page: Compile Sedan
-[2017.01.22-09.40.54:563][945]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabR' for  K2Node_InputAction_508
-[2017.01.22-09.40.54:563][945]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'GrabL' for  K2Node_InputAction_507
-[2017.01.22-09.40.54:711][945]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'GrabR' for  K2Node_InputAction_508
-[2017.01.22-09.40.54:711][945]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'GrabL' for  K2Node_InputAction_507
-[2017.01.22-09.40.54:712][945]LogBlueprint:Warning: [Compiler Sedan] Warning [0377.13] Compile of Sedan successful, but with 2 Warning(s) [in 272 ms] (/Game/VehicleBP/Sedan/Sedan.Sedan)
-[2017.01.22-09.41.34:938][291]BlueprintLog: New page: Compile Sedan
-[2017.01.22-09.41.38:475][486]LogTemp: Repeting last play command: Selected Viewport
-[2017.01.22-09.41.38:486][486]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
-[2017.01.22-09.41.38:486][486]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.01.22-09.41.38:486][486]PIE: New page: PIE session: Gamelevel (22 Jan 2017 09:41:38)
-[2017.01.22-09.41.38:486][486]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Gamelevel
-[2017.01.22-09.41.38:552][486]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066294s)
-[2017.01.22-09.41.38:553][486]LogAIModule: Creating AISystem for world Gamelevel
-[2017.01.22-09.41.38:553][486]LogPlayLevel: PIE: World Init took: (0.000669s)
-[2017.01.22-09.41.38:553][486]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Gamelevel.Gamelevel to /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel (0.067250s)
-[2017.01.22-09.41.38:586][486]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.01.22-09.41.38:592][486]LogInit: FAudioDevice initialized.
-[2017.01.22-09.41.38:664][486]LogLoad: Game class is 'VehicleGameMode_C'
-[2017.01.22-09.41.38:673][486]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Gamelevel.Gamelevel up for play (max tick rate 0) at 2017.01.22-09.41.38
-[2017.01.22-09.41.38:674][486]LogWorld: Bringing up level for play took: 0.008848
-[2017.01.22-09.41.38:709][486]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
-[2017.01.22-09.41.38:710][486]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Gamelevel 1.145
-[2017.01.22-09.41.38:711][486]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
-[2017.01.22-09.41.46:301][ 13]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
-[2017.01.22-09.41.46:394][ 13]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel' with GeneratedClass '/Game/Maps/Gamelevel.Gamelevel_C' with ClassGeneratedBy '/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Gamelevel'
-[2017.01.22-09.42.25:937][135]BlueprintLog: New page: Compile Gamelevel
-[2017.01.22-09.42.30:197][444]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Gamelevel" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.01.22-09.42.30:499][444]LogSavePackage: Save=272.93ms
-[2017.01.22-09.42.30:499][444]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Gamelevel808F26E841EB7D51AF65F38229BF1DE6.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap'
-[2017.01.22-09.42.30:503][444]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap
-[2017.01.22-09.42.30:519][444]LogFileHelpers: Saving map 'Gamelevel' took 0.370
-[2017.01.22-09.42.30:532][444]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Sedan" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset" SILENT=true
-[2017.01.22-09.42.30:746][444]LogSavePackage: Save=206.47ms
-[2017.01.22-09.42.30:746][444]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Sedan915A36AA4B278CE87D41588FEC01E7E9.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset'
+[2017.01.22-10.52.41:538][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.22-10.52.41:538][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.01.22-10.52.41:548][  0]LogInit: Computer: DESKTOP-LDMGO10
+[2017.01.22-10.52.41:548][  0]LogInit: User: HarryHastonDougan
+[2017.01.22-10.52.41:548][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.01.22-10.52.41:548][  0]LogInit: High frequency timer resolution =3.328126 MHz
+[2017.01.22-10.52.41:549][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.01.22-10.52.41:549][  0]LogMemory: Platform Memory Stats for Windows
+[2017.01.22-10.52.41:549][  0]LogMemory: Process Physical Memory: 264.15 MB used, 264.15 MB peak
+[2017.01.22-10.52.41:549][  0]LogMemory: Process Virtual Memory: 262.66 MB used, 262.66 MB peak
+[2017.01.22-10.52.41:549][  0]LogMemory: Physical Memory: 3712.65 MB used,  12634.11 MB free, 16346.76 MB total
+[2017.01.22-10.52.41:549][  0]LogMemory: Virtual Memory: 676.41 MB used,  12634.11 MB free, 134217728.00 MB total
+[2017.01.22-10.52.41:572][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2017.01.22-10.52.42:090][  0]LogD3D11RHI: D3D11 adapters:
+[2017.01.22-10.52.42:547][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
+[2017.01.22-10.52.42:547][  0]LogD3D11RHI:       3035/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.01.22-10.52.42:549][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.01.22-10.52.42:549][  0]LogD3D11RHI:       0/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.01.22-10.52.42:549][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.01.22-10.52.42:553][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.01.22-10.52.42:553][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
+[2017.01.22-10.52.42:553][  0]LogWindows: EnumDisplayDevices:
+[2017.01.22-10.52.42:553][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
+[2017.01.22-10.52.42:553][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:1)
+[2017.01.22-10.52.42:553][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2017.01.22-10.52.42:553][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2017.01.22-10.52.42:553][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.01.22-10.52.42:553][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
+[2017.01.22-10.52.42:553][  0]LogD3D11RHI:   Driver Version: 376.19 (internal:21.21.13.7619, unified:376.19)
+[2017.01.22-10.52.42:553][  0]LogD3D11RHI:      Driver Date: 12-1-2016
+[2017.01.22-10.52.42:553][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.01.22-10.52.43:024][  0]LogD3D11RHI: Async texture creation enabled
+[2017.01.22-10.52.53:055][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.01.22-10.52.53:055][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Repos/Drive-Thru/Drive_Thru/Intermediate/Shaders/WorkingDirectory/2648/).
+[2017.01.22-10.52.53:056][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Harry Haston-Dougan/AppData/Local/Temp/UnrealShaderWorkingDir/9A183B3D4C5C63E84912CB8FB54A37D6/'.
+[2017.01.22-10.52.53:056][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.01.22-10.52.53:922][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.01.22-10.52.53:967][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.01.22-10.52.54:013][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.01.22-10.52.54:059][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.01.22-10.52.54:103][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.01.22-10.52.54:148][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.01.22-10.52.54:193][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.01.22-10.52.54:240][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.01.22-10.52.54:277][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.01.22-10.52.54:321][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.01.22-10.52.54:364][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.01.22-10.52.54:409][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.01.22-10.52.54:453][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.01.22-10.52.54:496][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.01.22-10.52.54:540][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.01.22-10.52.54:626][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.01.22-10.52.54:626][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.01.22-10.52.54:656][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.01.22-10.52.54:728][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.01.22-10.52.54:757][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.01.22-10.52.54:798][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.01.22-10.52.54:842][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.01.22-10.52.54:884][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.01.22-10.52.54:927][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.01.22-10.52.54:927][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.01.22-10.52.55:268][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.01.22-10.52.55:311][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/Harry Haston-Dougan/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.01.22-10.52.55:311][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Harry Haston-Dougan/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.01.22-10.52.55:311][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Repos/Drive-Thru/Drive_Thru/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.01.22-10.52.55:311][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.01.22-10.52.55:311][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Repos/Drive-Thru/Drive_Thru/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.01.22-10.52.55:311][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.01.22-10.52.55:326][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.01.22-10.52.55:337][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Harry Haston-Dougan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.01.22-10.52.55:503][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.22-10.52.55:505][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.01.22-10.52.55:678][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.01.22-10.52.55:714][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.01.22-10.52.55:755][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.01.22-10.52.55:755][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.01.22-10.52.55:755][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.01.22-10.52.56:169][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: drive_thru, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3324528129
+[2017.01.22-10.52.56:219][  0]LogAssetRegistry: FAssetRegistry took 0.0210 seconds to start up
+[2017.01.22-10.52.56:260][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.021120 seconds
+[2017.01.22-10.52.56:264][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.01.22-10.52.56:264][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
+[2017.01.22-10.52.56:264][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.01.22-10.52.56:317][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.01.22-10.52.56:915][  0]LogSlate: Using Freetype 2.6.0
+[2017.01.22-10.52.56:915][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.22-10.52.56:915][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.22-10.52.57:557][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.01.22-10.52.57:594][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.01.22-10.52.57:859][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.01.22-10.52.58:193][  0]SourceControl: Info Source control is disabled
+[2017.01.22-10.52.58:221][  0]SourceControl: Info Source control is disabled
+[2017.01.22-10.52.58:259][  0]SourceControl: Info Source control is disabled
+[2017.01.22-10.52.58:298][  0]SourceControl: Info Source control is disabled
+[2017.01.22-10.52.59:368][  0]LogEngine: Initializing Engine...
+[2017.01.22-10.53.01:787][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-4541EBFF
+[2017.01.22-10.53.02:008][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.01.22-10.53.02:017][  0]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.22-10.53.02:026][  0]LogInit: FAudioDevice initialized.
+[2017.01.22-10.53.02:047][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Harry Haston-Dougan/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.01.22-10.53.02:054][  0]LogInit: Texture streaming: Enabled
+[2017.01.22-10.53.02:206][  0]LogInit: Transaction tracking system initialized
+[2017.01.22-10.53.02:496][  0]BlueprintLog: New page: Editor Load
+[2017.01.22-10.53.03:224][  0]LocalizationService: Info Localization service is disabled
+[2017.01.22-10.53.03:767][  0]LogConsoleResponse:Display: 
+[2017.01.22-10.53.03:887][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.01.22-10.53.03:887][  0]LogCook:Display: Mobile HDR setting 1
+[2017.01.22-10.53.03:914][  0]LogFileCache: Scanning file cache for directory 'C:/Repos/Drive-Thru/Drive_Thru/Content/' took 0.01s
+[2017.01.22-10.53.04:709][  0]SourceControl: Info Source control is disabled
+[2017.01.22-10.53.04:709][  0]Cmd: MAP LOAD FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.01.22-10.53.04:709][  0]LightingResults: New page: Lighting Build
+[2017.01.22-10.53.04:742][  0]MapCheck: New page: Map Check
+[2017.01.22-10.53.04:742][  0]LightingResults: New page: Lighting Build
+[2017.01.22-10.53.04:845][  0]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
+[2017.01.22-10.53.04:845][  0]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/SM_Car_Door_01.SM_Car_Door_01 Referenced by Car_Door_Left_GEN_VARIABLE
+[2017.01.22-10.53.04:845][  0]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_Door_01.uasset.
+[2017.01.22-10.53.04:845][  0]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/SM_Car_Door_01.SM_Car_Door_01 Referenced by Car_Door_Left_GEN_VARIABLE
+[2017.01.22-10.53.04:845][  0]LoadErrors:Error: Error /Game/VehicleBP/Sedan/SM_Car_Door_01 : Can't find file for asset. /Game/VehicleBP/Sedan/lambert2
+[2017.01.22-10.53.04:845][  0]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
+[2017.01.22-10.53.04:845][  0]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/SM_Car_Door_01.SM_Car_Door_01 Referenced by Car_Door_Left_GEN_VARIABLE
+[2017.01.22-10.53.04:845][  0]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_Door_01.uasset.
+[2017.01.22-10.53.04:845][  0]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/SM_Car_Door_01.SM_Car_Door_01 Referenced by Car_Door_Left_GEN_VARIABLE
+[2017.01.22-10.53.04:845][  0]LoadErrors:Error: Error /Game/VehicleBP/Sedan/SM_Car_Door_01 : Can't find file for asset. /Game/VehicleBP/Sedan/lambert2
+[2017.01.22-10.53.04:846][  0]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
+[2017.01.22-10.53.04:846][  0]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/SM_Glove_Box_Door_01.SM_Glove_Box_Door_01 Referenced by Glove_Box_Door_GEN_VARIABLE
+[2017.01.22-10.53.04:846][  0]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Glove_Box_Door_01.uasset.
+[2017.01.22-10.53.04:846][  0]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/SM_Glove_Box_Door_01.SM_Glove_Box_Door_01 Referenced by Glove_Box_Door_GEN_VARIABLE
+[2017.01.22-10.53.04:846][  0]LoadErrors:Error: Error /Game/VehicleBP/Sedan/SM_Glove_Box_Door_01 : Can't find file for asset. /Game/VehicleBP/Sedan/lambert2
+[2017.01.22-10.53.04:846][  0]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
+[2017.01.22-10.53.04:846][  0]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/SM_Glove_Box_Door_01.SM_Glove_Box_Door_01 Referenced by Glove_Box_Door_GEN_VARIABLE
+[2017.01.22-10.53.04:846][  0]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Glove_Box_Door_01.uasset.
+[2017.01.22-10.53.04:847][  0]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/SM_Glove_Box_Door_01.SM_Glove_Box_Door_01 Referenced by Glove_Box_Door_GEN_VARIABLE
+[2017.01.22-10.53.04:847][  0]LoadErrors:Error: Error /Game/VehicleBP/Sedan/SM_Glove_Box_Door_01 : Can't find file for asset. /Game/VehicleBP/Sedan/lambert2
+[2017.01.22-10.53.05:291][  0]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
+[2017.01.22-10.53.05:291][  0]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/lambert2.lambert2 Referenced by SM_Car_Door_01
+[2017.01.22-10.53.05:291][  0]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading NULL.
+[2017.01.22-10.53.05:291][  0]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/lambert2.lambert2 Referenced by SM_Car_Door_01
+[2017.01.22-10.53.05:291][  0]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
+[2017.01.22-10.53.05:291][  0]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/lambert2.lambert2 Referenced by SM_Glove_Box_Door_01
+[2017.01.22-10.53.05:291][  0]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading NULL.
+[2017.01.22-10.53.05:291][  0]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/lambert2.lambert2 Referenced by SM_Glove_Box_Door_01
+[2017.01.22-10.53.05:498][  0]LogMaterial: Missing cached shader map for material Neon_MAT, compiling. 
+[2017.01.22-10.53.05:537][  0]LogMaterial: Missing cached shader map for material Neon_MAT, compiling. 
+[2017.01.22-10.53.05:640][  0]LogAIModule: Creating AISystem for world Gamelevel
+[2017.01.22-10.53.05:678][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.01.22-10.53.05:681][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.01.22-10.53.05:724][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 42.128ms to complete.
+[2017.01.22-10.53.05:724][  0]LogFileHelpers: Loading map 'Gamelevel' took 1.015
+[2017.01.22-10.53.05:787][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.01.22-10.53.05:876][  0]LogCollectionManager: Loaded 1 collections in 0.003307 seconds
+[2017.01.22-10.53.05:968][  0]LogFileCache: Scanning file cache for directory 'C:/Repos/Drive-Thru/Drive_Thru/Saved/Collections/' took 0.01s
+[2017.01.22-10.53.05:968][  0]LogFileCache: Scanning file cache for directory 'C:/Repos/Drive-Thru/Drive_Thru/Content/Developers/HarryHastonDougan/Collections/' took 0.01s
+[2017.01.22-10.53.05:968][  0]LogFileCache: Scanning file cache for directory 'C:/Repos/Drive-Thru/Drive_Thru/Content/Collections/' took 0.01s
+[2017.01.22-10.53.05:968][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000004 seconds
+[2017.01.22-10.53.05:968][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2017.01.22-10.53.05:980][  0]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 2190 classes and 428 folders.
+[2017.01.22-10.53.06:034][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.01.22-10.53.06:034][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.01.22-10.53.06:035][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 13 classes and 0 folders.
+[2017.01.22-10.53.06:116][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.01.22-10.53.06:162][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.01.22-10.53.06:220][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.01.22-10.53.06:269][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.01.22-10.53.06:274][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.01.22-10.53.06:356][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.01.22-10.53.06:356][  0]LogLoad: (Engine Initialization) Total time: 26.14 seconds
+[2017.01.22-10.53.06:356][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.26 seconds
+[2017.01.22-10.53.06:356][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.01.22-10.53.06:356][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.01.22-10.53.06:365][  0]LogOcInput: OculusInput pre-init called
+[2017.01.22-10.53.06:385][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.01.22-10.53.06:588][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.01.22-10.53.06:665][  1]LogAssetRegistry: Asset discovery search completed in 10.4672 seconds
+[2017.01.22-10.53.06:665][  1]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000007 seconds (found 0 objects)
+[2017.01.22-10.53.06:665][  1]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000023 seconds (updated 0 objects)
+[2017.01.22-10.53.24:920][158]LogEditorViewport: Clicking on Actor (LMB): Sedan_C (Sedan)
+[2017.01.22-10.53.37:420][599]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 111 classes and 0 folders.
+[2017.01.22-10.53.37:486][599]LogBlueprintSupport:Warning: Editor config [EditoronlyBP] settings are DEPRECATED. You're not explicitly setting any, but they've been defaulting to off. If you are relying on this functionality, then please fix it up so your Blueprints don't break in a future release.
+[2017.01.22-10.53.41:111][743]LogRenderer: Reallocating scene render targets to support 1208x696 NumSamples 1 (Frame:5348).
+[2017.01.22-10.53.43:238][904]LogTexture:Display: Building textures: Rain_Texture (AutoDXT)
+[2017.01.22-10.53.43:241][904]LogMaterial: Missing cached shader map for material Rain_test, compiling. 
+[2017.01.22-10.54.03:200][452]BlueprintLog: New page: Compile Sedan
+[2017.01.22-10.54.03:378][452]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Sedan_C_0.VehicleMesh is already used by SkeletalMeshComponent /Game/Maps/Gamelevel.Gamelevel:PersistentLevel.REINST_Sedan_C_0.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.01.22-10.54.03:378][452]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Sedan_C_0.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/Maps/Gamelevel.Gamelevel:PersistentLevel.REINST_Sedan_C_0.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.01.22-10.54.05:054][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Sedan" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset" SILENT=true
+[2017.01.22-10.54.05:265][544]LogSavePackage: Save=204.78ms
+[2017.01.22-10.54.05:265][544]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Sedan0CAFE00140BB76678A5F10818E45D820.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset'
+[2017.01.22-10.54.05:268][544]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset
+[2017.01.22-10.54.10:392][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Gamelevel" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.22-10.54.10:686][ 26]LogSavePackage: Save=277.31ms
+[2017.01.22-10.54.10:686][ 26]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/GamelevelA610CDF743FC7A73A18F65A35733DE8F.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap'
+[2017.01.22-10.54.10:689][ 26]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap
+[2017.01.22-10.54.12:105][193]MapCheck: New page: Map Check
+[2017.01.22-10.54.12:115][193]Cmd: MAP REBUILD ALLVISIBLE
+[2017.01.22-10.54.12:115][193]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.01.22-10.54.18:116][193]LightingResults: New page: Lighting Build - 22 Jan 2017 10:54:18
+[2017.01.22-10.54.18:289][193]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.01.22-10.54.18:412][193]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.01.22-10.54.18:423][193]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.01.22-10.54.19:435][193]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.01.22-10.54.19:435][193]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2648
+[2017.01.22-10.54.27:581][193]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.01.22-10.54.27:581][193]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.01.22-10.54.27:581][193]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.01.22-10.54.27:581][193]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.01.22-10.54.27:581][193]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.01.22-10.54.27:773][193]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.01.22-10.54.27:773][193]MapCheck: New page: Gamelevel - 22 Jan 2017 10:54:27
+[2017.01.22-10.54.27:775][193]MapCheck:Warning: Warning TestTrack2_5 Static mesh actor has NULL StaticMesh property 
+[2017.01.22-10.54.27:775][193]MapCheck:Warning: Warning TestTrack2_5 Static mesh actor has NULL StaticMesh property 
+[2017.01.22-10.54.27:775][193]MapCheck:Warning: Warning TestTrack_2 Static mesh actor has NULL StaticMesh property 
+[2017.01.22-10.54.27:775][193]MapCheck:Warning: Warning TestTrack_2 Static mesh actor has NULL StaticMesh property 
+[2017.01.22-10.54.27:775][193]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2017.01.22-10.54.27:823][193]MapCheck: Info Map check complete: 1 Error(s), 4 Warning(s), took 49.345ms to complete.
+[2017.01.22-10.54.27:845][193]LogEditorBuildUtils: Build time 0:15
+[2017.01.22-10.54.27:873][193]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Neon_MAT_Inst3, compiling. 
+[2017.01.22-10.54.27:877][193]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Neon_MAT_Inst3, compiling. 
+[2017.01.22-10.54.27:962][194]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_66, compiling. 
+[2017.01.22-10.54.27:969][194]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_66, compiling. 
+[2017.01.22-10.54.28:000][195]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Car_MAT_Inst, compiling. 
+[2017.01.22-10.54.28:007][195]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Car_MAT_Inst, compiling. 
+[2017.01.22-10.54.45:695][497]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0005 seconds. Added 2 classes and 2 folders.
+[2017.01.22-10.54.45:737][497]LogTexture:Display: Building textures: CASC_Normal (BC5)
+[2017.01.22-10.54.45:739][497]LogTexture:Display: Building textures: CASC_Point (AutoDXT)
+[2017.01.22-10.54.45:741][497]LogTexture:Display: Building textures: CASC_Lights (BC5)
+[2017.01.22-10.54.45:743][497]LogTexture:Display: Building textures: CASC_CurveEd (AutoDXT)
+[2017.01.22-10.54.45:745][497]LogTexture:Display: Building textures: CASC_ModuleEnable (AutoDXT)
+[2017.01.22-10.54.45:747][497]LogTexture:Display: Building textures: CASC_ModuleDisable (AutoDXT)
+[2017.01.22-10.54.45:777][497]LogTexture:Display: Building textures: CASC_Solo_On (AutoDXT)
+[2017.01.22-10.54.45:780][497]LogTexture:Display: Building textures: CASC_Solo_Off (AutoDXT)
+[2017.01.22-10.54.45:782][497]LogTexture:Display: Building textures: CASC_DisabledModule (AutoDXT)
+[2017.01.22-10.54.57:498][141]LogCascade: Quitting Cascade. FXSystem=0x000002AB10320F40
+[2017.01.22-10.55.08:030][171]LightingResults:Warning: Warning TestTrack Object has overlapping UVs.
+[2017.01.22-10.55.08:030][171]LightingResults: Info TestTrack Lightmap UV are overlapping by 11.9%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.22-10.55.08:120][180]LightingResults:Warning: Warning SM_Car_01 Object has overlapping UVs.
+[2017.01.22-10.55.08:120][180]LightingResults: Info SM_Car_01 Lightmap UV are overlapping by 56.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.22-10.55.08:904][257]LightingResults:Warning: Warning SM_Car_01 Object has overlapping UVs.
+[2017.01.22-10.55.08:904][257]LightingResults: Info SM_Car_01 Lightmap UV are overlapping by 56.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.22-10.55.09:135][280]LightingResults:Warning: Warning SM_Car_01 Object has overlapping UVs.
+[2017.01.22-10.55.09:135][280]LightingResults: Info SM_Car_01 Lightmap UV are overlapping by 56.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.22-10.55.09:275][294]LightingResults:Warning: Warning SM_Car_01 Object has overlapping UVs.
+[2017.01.22-10.55.09:275][294]LightingResults: Info SM_Car_01 Lightmap UV are overlapping by 56.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.22-10.55.09:797][344]LightingResults:Warning: Warning SM_Car_01 Object has overlapping UVs.
+[2017.01.22-10.55.09:797][344]LightingResults: Info SM_Car_01 Lightmap UV are overlapping by 56.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.22-10.55.09:867][351]LightingResults:Warning: Warning SM_Car_01 Object has overlapping UVs.
+[2017.01.22-10.55.09:867][351]LightingResults: Info SM_Car_01 Lightmap UV are overlapping by 56.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.22-10.55.10:310][392]LightingResults:Warning: Warning SM_Car_01 Object has overlapping UVs.
+[2017.01.22-10.55.10:310][392]LightingResults: Info SM_Car_01 Lightmap UV are overlapping by 56.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.22-10.55.10:320][393]LightingResults:Warning: Warning SM_Car_01 Object has overlapping UVs.
+[2017.01.22-10.55.10:320][393]LightingResults: Info SM_Car_01 Lightmap UV are overlapping by 56.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.22-10.55.10:480][406]LightingResults:Warning: Warning SM_Car_01 Object has overlapping UVs.
+[2017.01.22-10.55.10:480][406]LightingResults: Info SM_Car_01 Lightmap UV are overlapping by 56.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.22-10.55.36:725][998]Job is a success!
+[2017.01.22-10.55.37:224][999]LogMaterial:Warning: Material /Game/VehicleBP/Sedan/lambert1.lambert1 needed to have new flag set bUsedWithStaticLighting !
+[2017.01.22-10.55.37:232][999]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2017.01.22-10.55.37:249][999]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-10.55.37:249][999]LogMaterial:Warning: Material /Game/VehicleBP/Car_MAT.Car_MAT needed to have new flag set bUsedWithStaticLighting !
+[2017.01.22-10.55.37:251][999]LogMaterial: Missing cached shader map for material Car_MAT, compiling. 
+[2017.01.22-10.55.37:273][999]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: SkyOcclusion0_9 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: SkyOcclusion0_10 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: SkyOcclusion0_11 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: SkyOcclusion0_12 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: SkyOcclusion0_13 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: SkyOcclusion0_14 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: SkyOcclusion0_15 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: SkyOcclusion0_16 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: SkyOcclusion0_17 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: SkyOcclusion0_18 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: SkyOcclusion0_19 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: SkyOcclusion0_20 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: SkyOcclusion0_21 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: SkyOcclusion0_22 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: SkyOcclusion0_23 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: SkyOcclusion0_24 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: LQ_Lightmap_0_24 (DXT1)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: SkyOcclusion0_25 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: HQ_Lightmap0_25 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: LQ_Lightmap_0_25 (DXT1)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: SkyOcclusion0_26 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: HQ_Lightmap0_26 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: LQ_Lightmap_0_26 (DXT1)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: SkyOcclusion0_27 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: HQ_Lightmap0_27 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: LQ_Lightmap_0_27 (DXT1)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: SkyOcclusion0_28 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: HQ_Lightmap0_28 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: LQ_Lightmap_0_28 (DXT1)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: SkyOcclusion0_29 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: HQ_Lightmap0_29 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: LQ_Lightmap_0_29 (DXT1)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: SkyOcclusion0_30 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: HQ_Lightmap0_30 (AutoDXT)
+[2017.01.22-10.55.41:298][999]LogTexture:Display: Building textures: LQ_Lightmap_0_30 (DXT1)
+[2017.01.22-10.55.43:318][999]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2017.01.22-10.55.43:318][999]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2017.01.22-10.55.43:318][999]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2017.01.22-10.55.43:318][999]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
+[2017.01.22-10.55.43:318][999]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8)
+[2017.01.22-10.55.43:318][999]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8)
+[2017.01.22-10.55.43:318][999]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8)
+[2017.01.22-10.55.43:318][999]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8)
+[2017.01.22-10.55.43:318][999]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8)
+[2017.01.22-10.55.43:318][999]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8)
+[2017.01.22-10.55.43:318][999]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8)
+[2017.01.22-10.55.43:318][999]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8)
+[2017.01.22-10.55.43:318][999]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (G8)
+[2017.01.22-10.55.43:318][999]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8)
+[2017.01.22-10.55.43:318][999]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (G8)
+[2017.01.22-10.55.43:318][999]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (G8)
+[2017.01.22-10.55.43:318][999]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (G8)
+[2017.01.22-10.55.43:318][999]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (G8)
+[2017.01.22-10.55.43:318][999]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (G8)
+[2017.01.22-10.55.43:318][999]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (G8)
+[2017.01.22-10.55.43:318][999]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (G8)
+[2017.01.22-10.55.43:318][999]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (G8)
+[2017.01.22-10.55.43:318][999]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (G8)
+[2017.01.22-10.55.43:318][999]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (G8)
+[2017.01.22-10.55.43:318][999]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (G8)
+[2017.01.22-10.55.43:318][999]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (G8)
+[2017.01.22-10.55.43:318][999]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (G8)
+[2017.01.22-10.55.43:318][999]LogTexture:Display: Building textures: ShadowMapTexture2D_27 (G8)
+[2017.01.22-10.55.43:318][999]LogTexture:Display: Building textures: ShadowMapTexture2D_28 (G8)
+[2017.01.22-10.55.43:318][999]LogTexture:Display: Building textures: ShadowMapTexture2D_29 (G8)
+[2017.01.22-10.55.43:318][999]LogTexture:Display: Building textures: ShadowMapTexture2D_30 (G8)
+[2017.01.22-10.55.43:421][999]Lightmass on DESKTOP-LDMGO10: 1:12 min total, 398 ms importing, 104 ms setup, 17.1 sec photons, 54.9 sec processing, 0 ms extra exporting [244/244 mappings]. Threads: 6:24 min total, 3:38 min processing.
+[2017.01.22-10.55.43:450][999]LogStaticLightingSystem: Illumination: 1:25 min (4.01 sec encoding lightmaps, 2.01 sec encoding shadowmaps)
+[2017.01.22-10.55.43:450][999]LogStaticLightingSystem: Lightmap texture memory:  33.0 MB (22.3 MB streaming, 10.7 MB non-streaming), 60 textures
+[2017.01.22-10.55.43:450][999]LogStaticLightingSystem: Shadowmap texture memory: 11.6 MB (6.2 MB streaming, 5.3 MB non-streaming), 31 textures
+[2017.01.22-10.55.43:617][999]DumpUnbuiltLightIteractions
+[2017.01.22-10.55.43:617][999]Lights with unbuilt interactions: 0
+[2017.01.22-10.55.43:617][999]
+[2017.01.22-10.55.43:617][999]Primitives with unbuilt interactions: 0
+[2017.01.22-10.55.43:668][  0]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.01.22-10.55.43:668][  0]MapCheck: New page: Gamelevel - 22 Jan 2017 10:55:43
+[2017.01.22-10.55.43:670][  0]MapCheck:Warning: Warning TestTrack2_5 Static mesh actor has NULL StaticMesh property 
+[2017.01.22-10.55.43:670][  0]MapCheck:Warning: Warning TestTrack2_5 Static mesh actor has NULL StaticMesh property 
+[2017.01.22-10.55.43:670][  0]MapCheck:Warning: Warning TestTrack_2 Static mesh actor has NULL StaticMesh property 
+[2017.01.22-10.55.43:670][  0]MapCheck:Warning: Warning TestTrack_2 Static mesh actor has NULL StaticMesh property 
+[2017.01.22-10.55.43:720][  0]MapCheck: Info Map check complete: 0 Error(s), 4 Warning(s), took 52.188ms to complete.
+[2017.01.22-11.00.40:827][614]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
+[2017.01.22-11.00.40:827][614]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_Body_01.uasset.
+[2017.01.22-11.00.40:827][614]LoadErrors:Error: Error /Game/VehicleBP/Sedan/SM_Car_Body_01 : Can't find file for asset. /Game/VehicleBP/Sedan/lambert2
+[2017.01.22-11.00.40:827][614]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
+[2017.01.22-11.00.40:827][614]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_Body_01.uasset.
+[2017.01.22-11.00.40:828][614]LogLinker:Warning: Can't find file '/Game/VehicleBP/Sedan/lambert2'
+[2017.01.22-11.00.40:828][614]LoadErrors: Info Failed to load /Game/VehicleBP/Sedan/lambert2.lambert2 Referenced by SM_Car_Body_01
+[2017.01.22-11.00.40:828][614]LogLinker:Warning: Can't find file for asset '/Game/VehicleBP/Sedan/lambert2' while loading NULL.
+[2017.01.22-11.00.42:871][848]LogEditorFactories: Performing atomic reimport of [C:/Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_Body_01.fbx]
+[2017.01.22-11.00.42:893][848]LogFbx: Loading FBX Scene from C:/Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_Body_01.fbx
+[2017.01.22-11.00.42:906][848]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.22-11.00.42:911][848]LogFbx:Warning: Triangulating static mesh Seat_01
+[2017.01.22-11.00.42:916][848]LogFbx:Warning: Triangulating static mesh Seat_02
+[2017.01.22-11.00.42:922][848]LogFbx:Warning: Triangulating static mesh Seat_03
+[2017.01.22-11.00.42:927][848]LogFbx:Warning: Triangulating static mesh Seat_04
+[2017.01.22-11.00.42:934][848]LogFbx:Warning: Triangulating static mesh Dasboard_01
+[2017.01.22-11.00.43:007][848]LogFbx:Warning: Triangulating static mesh Car_Shell_04
+[2017.01.22-11.00.43:106][848]LogFbx:Warning: Triangulating static mesh Rear_Mirror
+[2017.01.22-11.00.43:125][848]LogStaticMesh: Building static mesh SM_Car_Body_01...
+[2017.01.22-11.00.43:275][848]LogStaticMesh: Built static mesh [0.15s] /Game/VehicleBP/Sedan/SM_Car_Body_01.SM_Car_Body_01
+[2017.01.22-11.00.43:289][848]LogEditorFactories: -- imported successfully
+[2017.01.22-11.01.11:855][565]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Repos\Drive-Thru\Drive_Thru\Content\VehicleBP\Sedan\RGB_Car_Door_01.png)
+[2017.01.22-11.01.11:923][565]LogTexture:Display: Building textures: RGB_Car_Door_01 (AutoDXT)
+[2017.01.22-11.01.12:099][565]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Repos\Drive-Thru\Drive_Thru\Content\VehicleBP\Sedan\RGB_Glove_Box_01.png)
+[2017.01.22-11.01.12:126][565]LogTexture:Display: Building textures: RGB_Glove_Box_01 (AutoDXT)
+[2017.01.22-11.01.12:264][565]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Repos\Drive-Thru\Drive_Thru\Content\VehicleBP\Sedan\RGB_Rear_Mirror_01.png)
+[2017.01.22-11.01.12:291][565]LogTexture:Display: Building textures: RGB_Rear_Mirror_01 (AutoDXT)
+[2017.01.22-11.01.12:406][565]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Repos\Drive-Thru\Drive_Thru\Content\VehicleBP\Sedan\RGB_Seats_01.png)
+[2017.01.22-11.01.12:432][565]LogTexture:Display: Building textures: RGB_Seats_01 (AutoDXT)
+[2017.01.22-11.01.12:547][565]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Repos\Drive-Thru\Drive_Thru\Content\VehicleBP\Sedan\RGB_Side_Mirror_01.png)
+[2017.01.22-11.01.12:576][565]LogTexture:Display: Building textures: RGB_Side_Mirror_01 (AutoDXT)
+[2017.01.22-11.01.12:690][565]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Repos\Drive-Thru\Drive_Thru\Content\VehicleBP\Sedan\RGB_Wheel_Stick_01.png)
+[2017.01.22-11.01.12:716][565]LogTexture:Display: Building textures: RGB_Wheel_Stick_01 (AutoDXT)
+[2017.01.22-11.01.12:839][565]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Repos\Drive-Thru\Drive_Thru\Content\VehicleBP\Sedan\Car_Handle_01.png)
+[2017.01.22-11.01.12:869][565]LogTexture:Display: Building textures: Car_Handle_01 (AutoDXT)
+[2017.01.22-11.01.12:979][565]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Repos\Drive-Thru\Drive_Thru\Content\VehicleBP\Sedan\RGB_Buttons_01.png)
+[2017.01.22-11.01.13:008][565]LogTexture:Display: Building textures: RGB_Buttons_01 (AutoDXT)
+[2017.01.22-11.01.13:137][565]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Repos\Drive-Thru\Drive_Thru\Content\VehicleBP\Sedan\RGB_Car_Body_01.png)
+[2017.01.22-11.01.13:170][565]LogTexture:Display: Building textures: RGB_Car_Body_01 (AutoDXT)
+[2017.01.22-11.01.48:193][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Car_MAT_Inst10" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Car_MAT_Inst10.uasset" SILENT=true
+[2017.01.22-11.01.48:208][485]LogSavePackage: Save=12.92ms
+[2017.01.22-11.01.48:208][485]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Car_MAT_Inst103977BF644C3C9F1ED740A6997B248F4C.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Car_MAT_Inst10.uasset'
+[2017.01.22-11.01.48:211][485]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Car_MAT_Inst10.uasset
+[2017.01.22-11.03.13:305][550]LogRenderer: Reallocating scene render targets to support 1392x924 NumSamples 1 (Frame:80796).
+[2017.01.22-11.03.36:885][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Car_Body" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Car_Body.uasset" SILENT=true
+[2017.01.22-11.03.36:900][765]LogSavePackage: Save=13.88ms
+[2017.01.22-11.03.36:900][765]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Car_Body8A7334364D728D7E5D1F9FB04A58EE2E.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Car_Body.uasset'
+[2017.01.22-11.03.36:902][765]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Car_Body.uasset
+[2017.01.22-11.04.26:859][ 31]LogRenderer: Reallocating scene render targets to support 1432x924 NumSamples 1 (Frame:100351).
+[2017.01.22-11.06.50:887][589]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Seats" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Seats.uasset" SILENT=true
+[2017.01.22-11.06.50:902][589]LogSavePackage: Save=13.38ms
+[2017.01.22-11.06.50:902][589]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Seats0AA1BEFE4392B380DB2BE9A413759909.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Seats.uasset'
+[2017.01.22-11.06.50:904][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Seats.uasset
+[2017.01.22-11.07.39:010][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Keyboard" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Keyboard.uasset" SILENT=true
+[2017.01.22-11.07.39:024][279]LogSavePackage: Save=12.98ms
+[2017.01.22-11.07.39:024][279]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Keyboard1D3CD9B241E62612493CC7BB7D8349A7.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Keyboard.uasset'
+[2017.01.22-11.07.39:026][279]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Keyboard.uasset
+[2017.01.22-11.07.39:169][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/SM_Car_01" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_01.uasset" SILENT=true
+[2017.01.22-11.07.39:191][279]LogSavePackage: Save=13.39ms
+[2017.01.22-11.07.39:191][279]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/SM_Car_01C091F7D54E05F0D374B71A9552F62E9D.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_01.uasset'
+[2017.01.22-11.07.39:192][279]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_01.uasset
+[2017.01.22-11.07.55:604][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Air_Con" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Air_Con.uasset" SILENT=true
+[2017.01.22-11.07.55:652][496]LogSavePackage: Save=45.76ms
+[2017.01.22-11.07.55:652][496]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Air_Con2C6B59D842C552A5D6F097A0C44D1B30.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Air_Con.uasset'
+[2017.01.22-11.07.55:654][496]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Air_Con.uasset
+[2017.01.22-11.07.55:772][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/SM_Car_01" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_01.uasset" SILENT=true
+[2017.01.22-11.07.55:781][496]LogSavePackage: Save=5.39ms
+[2017.01.22-11.07.55:781][496]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/SM_Car_010B4630634D92D37AC014DA9E37424FF8.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_01.uasset'
+[2017.01.22-11.07.55:782][496]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_01.uasset
+[2017.01.22-11.08.09:790][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Computer" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Computer.uasset" SILENT=true
+[2017.01.22-11.08.09:807][494]LogSavePackage: Save=15.92ms
+[2017.01.22-11.08.09:807][494]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Computer7F3322154A2EA0172E607D876E50B1C1.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Computer.uasset'
+[2017.01.22-11.08.09:809][494]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Computer.uasset
+[2017.01.22-11.08.09:932][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/SM_Car_01" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_01.uasset" SILENT=true
+[2017.01.22-11.08.09:942][494]LogSavePackage: Save=6.63ms
+[2017.01.22-11.08.09:942][494]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/SM_Car_01092209DC491B862252E0729D9F70AB5B.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_01.uasset'
+[2017.01.22-11.08.09:942][494]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_01.uasset
+[2017.01.22-11.09.19:156][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Panels" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Panels.uasset" SILENT=true
+[2017.01.22-11.09.19:173][842]LogSavePackage: Save=16.00ms
+[2017.01.22-11.09.19:173][842]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Panels4BDAB8A643EC07AC7F144287C662A034.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Panels.uasset'
+[2017.01.22-11.09.19:175][842]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Panels.uasset
+[2017.01.22-11.09.19:298][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/SM_Car_01" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_01.uasset" SILENT=true
+[2017.01.22-11.09.19:307][842]LogSavePackage: Save=5.62ms
+[2017.01.22-11.09.19:307][842]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/SM_Car_01591E1A134A067EAC11FCFBBA2357FC4E.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_01.uasset'
+[2017.01.22-11.09.19:308][842]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_01.uasset
+[2017.01.22-11.09.28:963][538]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Wheel" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Wheel.uasset" SILENT=true
+[2017.01.22-11.09.28:978][538]LogSavePackage: Save=13.77ms
+[2017.01.22-11.09.28:978][538]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/WheelD25A0C1441373851C04567BA02E55312.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Wheel.uasset'
+[2017.01.22-11.09.28:980][538]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Wheel.uasset
+[2017.01.22-11.09.29:114][538]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/SM_Wheel_01" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Wheel_01.uasset" SILENT=true
+[2017.01.22-11.09.29:132][538]LogSavePackage: Save=12.46ms
+[2017.01.22-11.09.29:132][538]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/SM_Wheel_018F1D772C48114627088F4285DC782A31.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Wheel_01.uasset'
+[2017.01.22-11.09.29:133][538]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Wheel_01.uasset
+[2017.01.22-11.09.39:524][276]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Dashboard_Body" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Dashboard_Body.uasset" SILENT=true
+[2017.01.22-11.09.39:537][276]LogSavePackage: Save=12.03ms
+[2017.01.22-11.09.39:537][276]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Dashboard_BodyF8A4AF374DC265CAA924DE853CC104D4.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Dashboard_Body.uasset'
+[2017.01.22-11.09.39:538][276]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Dashboard_Body.uasset
+[2017.01.22-11.09.39:655][276]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/SM_Car_01" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_01.uasset" SILENT=true
+[2017.01.22-11.09.39:664][276]LogSavePackage: Save=6.46ms
+[2017.01.22-11.09.39:664][276]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/SM_Car_01FA8A96A046C84229F4986895439AA2FD.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_01.uasset'
+[2017.01.22-11.09.39:665][276]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_01.uasset
+[2017.01.22-11.10.01:135][893]LogTexture:Display: Building textures: RGB_Screen_01 (AutoDXT)
+[2017.01.22-11.11.37:525][517]LogTexture:Display: Building textures: RGB_Small_Panel_02 (AutoDXT)
+[2017.01.22-11.14.22:327][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Gamelevel" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/Maps/Gamelevel_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.01.22-11.14.22:650][  8]LogSavePackage: Save=310.50ms
+[2017.01.22-11.14.22:650][  8]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Gamelevel_Auto1357994234CA1FE8C4C822981DB9B355C.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/Maps/Gamelevel_Auto1.umap'
+[2017.01.22-11.14.22:653][  8]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/Maps/Gamelevel_Auto1.umap
+[2017.01.22-11.14.22:655][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Gamelevel_BuiltData" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel_BuiltData.uasset" SILENT=true
+[2017.01.22-11.14.22:796][  8]LogSavePackage: Save=139.60ms
+[2017.01.22-11.14.22:796][  8]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Gamelevel_BuiltData89D3B5A749E832DD59E53B909AA44351.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel_BuiltData.uasset'
+[2017.01.22-11.14.22:797][  8]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel_BuiltData.uasset
+[2017.01.22-11.14.22:798][  8]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Gamelevel' took 0.499
+[2017.01.22-11.14.22:798][  8]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.499
+[2017.01.22-11.14.22:800][  8]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Sedan/Sedan] ([1] browsable assets)...
+[2017.01.22-11.14.22:811][  8]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VehicleBP/Sedan/Sedan.Sedan]
+[2017.01.22-11.14.22:811][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Sedan/Sedan]
+[2017.01.22-11.14.22:811][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Sedan" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/Sedan_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.01.22-11.14.23:049][  8]LogSavePackage: Save=228.90ms
+[2017.01.22-11.14.23:049][  8]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Sedan_Auto171CE153F4EA2F2D6F78C1EB082C0F9B7.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/Sedan_Auto1.uasset'
+[2017.01.22-11.14.23:049][  8]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/Sedan_Auto1.uasset
+[2017.01.22-11.14.23:050][  8]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Sedan/lambert1] ([1] browsable assets)...
+[2017.01.22-11.14.23:061][  8]OBJ SavePackage:     Rendered thumbnail for [Material /Game/VehicleBP/Sedan/lambert1.lambert1]
+[2017.01.22-11.14.23:061][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Sedan/lambert1]
+[2017.01.22-11.14.23:061][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/lambert1" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/lambert1_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.01.22-11.14.23:080][  8]LogSavePackage: Save=12.21ms
+[2017.01.22-11.14.23:080][  8]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/lambert1_Auto1FFAC3E5B4B56C27CF06536BBCEC518CA.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/lambert1_Auto1.uasset'
+[2017.01.22-11.14.23:081][  8]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/lambert1_Auto1.uasset
+[2017.01.22-11.14.23:081][  8]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Air_Con] ([1] browsable assets)...
+[2017.01.22-11.14.23:091][  8]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/VehicleBP/Air_Con.Air_Con]
+[2017.01.22-11.14.23:092][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Air_Con]
+[2017.01.22-11.14.23:092][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Air_Con" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Air_Con_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.01.22-11.14.23:111][  8]LogSavePackage: Save=13.69ms
+[2017.01.22-11.14.23:111][  8]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Air_Con_Auto1D70C459444E07C3FA4D7DDA3A144DAF3.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Air_Con_Auto1.uasset'
+[2017.01.22-11.14.23:112][  8]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Air_Con_Auto1.uasset
+[2017.01.22-11.14.23:113][  8]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Car_MAT] ([1] browsable assets)...
+[2017.01.22-11.14.23:123][  8]OBJ SavePackage:     Rendered thumbnail for [Material /Game/VehicleBP/Car_MAT.Car_MAT]
+[2017.01.22-11.14.23:123][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Car_MAT]
+[2017.01.22-11.14.23:123][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Car_MAT" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Car_MAT_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.01.22-11.14.23:145][  8]LogSavePackage: Save=15.81ms
+[2017.01.22-11.14.23:145][  8]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Car_MAT_Auto12A31299946012FB8E949AE80C81D9BEC.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Car_MAT_Auto1.uasset'
+[2017.01.22-11.14.23:146][  8]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Car_MAT_Auto1.uasset
+[2017.01.22-11.14.23:147][  8]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Radio] ([1] browsable assets)...
+[2017.01.22-11.14.23:158][  8]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/VehicleBP/Radio.Radio]
+[2017.01.22-11.14.23:158][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Radio]
+[2017.01.22-11.14.23:158][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Radio" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Radio_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.01.22-11.14.23:173][  8]LogSavePackage: Save=13.73ms
+[2017.01.22-11.14.23:173][  8]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Radio_Auto12EA7F6D14594F5B529B53DBA5ED6249F.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Radio_Auto1.uasset'
+[2017.01.22-11.14.23:174][  8]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Radio_Auto1.uasset
+[2017.01.22-11.14.23:174][  8]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Screen] ([1] browsable assets)...
+[2017.01.22-11.14.23:186][  8]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/VehicleBP/Screen.Screen]
+[2017.01.22-11.14.23:186][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Screen]
+[2017.01.22-11.14.23:186][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Screen" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Screen_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.01.22-11.14.23:201][  8]LogSavePackage: Save=12.91ms
+[2017.01.22-11.14.23:201][  8]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Screen_Auto11F4B9E314566BECC75C5DEBE6B2334C7.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Screen_Auto1.uasset'
+[2017.01.22-11.14.23:202][  8]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Screen_Auto1.uasset
+[2017.01.22-11.14.23:202][  8]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Sedan/SM_Car_Body_01] ([1] browsable assets)...
+[2017.01.22-11.14.23:215][  8]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/VehicleBP/Sedan/SM_Car_Body_01.SM_Car_Body_01]
+[2017.01.22-11.14.23:215][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Sedan/SM_Car_Body_01]
+[2017.01.22-11.14.23:236][  8]LogSavePackage: Save=13.24ms
+[2017.01.22-11.14.23:236][  8]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/SM_Car_Body_01_Auto161F73A23498F0871F171B1867BC189E7.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/SM_Car_Body_01_Auto1.uasset'
+[2017.01.22-11.14.23:237][  8]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/SM_Car_Body_01_Auto1.uasset
+[2017.01.22-11.14.23:237][  8]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Sedan/Car_Body] ([1] browsable assets)...
+[2017.01.22-11.14.23:248][  8]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/VehicleBP/Sedan/Car_Body.Car_Body]
+[2017.01.22-11.14.23:248][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Sedan/Car_Body]
+[2017.01.22-11.14.23:248][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Car_Body" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/Car_Body_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.01.22-11.14.23:287][  8]LogSavePackage: Save=30.99ms
+[2017.01.22-11.14.23:287][  8]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Car_Body_Auto1B4BB870A44141E1A9E41D294FDEA489A.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/Car_Body_Auto1.uasset'
+[2017.01.22-11.14.23:288][  8]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/Car_Body_Auto1.uasset
+[2017.01.22-11.14.23:289][  8]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Sedan/RGB_Car_Door_01] ([1] browsable assets)...
+[2017.01.22-11.14.23:295][  8]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/VehicleBP/Sedan/RGB_Car_Door_01.RGB_Car_Door_01]
+[2017.01.22-11.14.23:295][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Sedan/RGB_Car_Door_01]
+[2017.01.22-11.14.23:305][  8]LogSavePackage: Save=8.35ms
+[2017.01.22-11.14.23:305][  8]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/RGB_Car_Door_01_Auto1B1A0A1C347B0128D0C52BE9EEE5D0C47.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/RGB_Car_Door_01_Auto1.uasset'
+[2017.01.22-11.14.23:306][  8]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/RGB_Car_Door_01_Auto1.uasset
+[2017.01.22-11.14.23:306][  8]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Sedan/RGB_Glove_Box_01] ([1] browsable assets)...
+[2017.01.22-11.14.23:313][  8]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/VehicleBP/Sedan/RGB_Glove_Box_01.RGB_Glove_Box_01]
+[2017.01.22-11.14.23:313][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Sedan/RGB_Glove_Box_01]
+[2017.01.22-11.14.23:322][  8]LogSavePackage: Save=7.24ms
+[2017.01.22-11.14.23:322][  8]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/RGB_Glove_Box_01_Auto1BE2CB0804EB8A79D48DBE9AA3CA88E20.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/RGB_Glove_Box_01_Auto1.uasset'
+[2017.01.22-11.14.23:323][  8]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/RGB_Glove_Box_01_Auto1.uasset
+[2017.01.22-11.14.23:323][  8]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Sedan/RGB_Rear_Mirror_01] ([1] browsable assets)...
+[2017.01.22-11.14.23:329][  8]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/VehicleBP/Sedan/RGB_Rear_Mirror_01.RGB_Rear_Mirror_01]
+[2017.01.22-11.14.23:329][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Sedan/RGB_Rear_Mirror_01]
+[2017.01.22-11.14.23:339][  8]LogSavePackage: Save=8.39ms
+[2017.01.22-11.14.23:339][  8]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/RGB_Rear_Mirror_01_Auto1369638A04A662481C71E6AB203534A8A.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/RGB_Rear_Mirror_01_Auto1.uasset'
+[2017.01.22-11.14.23:340][  8]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/RGB_Rear_Mirror_01_Auto1.uasset
+[2017.01.22-11.14.23:341][  8]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Sedan/RGB_Seats_01] ([1] browsable assets)...
+[2017.01.22-11.14.23:347][  8]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/VehicleBP/Sedan/RGB_Seats_01.RGB_Seats_01]
+[2017.01.22-11.14.23:347][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Sedan/RGB_Seats_01]
+[2017.01.22-11.14.23:375][  8]LogSavePackage: Save=27.32ms
+[2017.01.22-11.14.23:375][  8]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/RGB_Seats_01_Auto1A348F2994821EBE8278A3CA6564E8CCB.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/RGB_Seats_01_Auto1.uasset'
+[2017.01.22-11.14.23:377][  8]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/RGB_Seats_01_Auto1.uasset
+[2017.01.22-11.14.23:377][  8]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Sedan/RGB_Side_Mirror_01] ([1] browsable assets)...
+[2017.01.22-11.14.23:384][  8]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/VehicleBP/Sedan/RGB_Side_Mirror_01.RGB_Side_Mirror_01]
+[2017.01.22-11.14.23:384][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Sedan/RGB_Side_Mirror_01]
+[2017.01.22-11.14.23:393][  8]LogSavePackage: Save=6.98ms
+[2017.01.22-11.14.23:393][  8]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/RGB_Side_Mirror_01_Auto117100DAB47D8F7AA3A95D085A6D061A9.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/RGB_Side_Mirror_01_Auto1.uasset'
+[2017.01.22-11.14.23:394][  8]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/RGB_Side_Mirror_01_Auto1.uasset
+[2017.01.22-11.14.23:394][  8]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Sedan/RGB_Wheel_Stick_01] ([1] browsable assets)...
+[2017.01.22-11.14.23:400][  8]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/VehicleBP/Sedan/RGB_Wheel_Stick_01.RGB_Wheel_Stick_01]
+[2017.01.22-11.14.23:400][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Sedan/RGB_Wheel_Stick_01]
+[2017.01.22-11.14.23:410][  8]LogSavePackage: Save=7.87ms
+[2017.01.22-11.14.23:410][  8]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/RGB_Wheel_Stick_01_Auto10C7BD0FD47F2986EF650BA8CE78732C2.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/RGB_Wheel_Stick_01_Auto1.uasset'
+[2017.01.22-11.14.23:411][  8]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/RGB_Wheel_Stick_01_Auto1.uasset
+[2017.01.22-11.14.23:411][  8]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Sedan/Car_Handle_01] ([1] browsable assets)...
+[2017.01.22-11.14.23:418][  8]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/VehicleBP/Sedan/Car_Handle_01.Car_Handle_01]
+[2017.01.22-11.14.23:418][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Sedan/Car_Handle_01]
+[2017.01.22-11.14.23:428][  8]LogSavePackage: Save=7.24ms
+[2017.01.22-11.14.23:428][  8]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Car_Handle_01_Auto13E1D4A2A481256AC99178EBB20E58EAD.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/Car_Handle_01_Auto1.uasset'
+[2017.01.22-11.14.23:428][  8]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/Car_Handle_01_Auto1.uasset
+[2017.01.22-11.14.23:429][  8]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Sedan/RGB_Buttons_01] ([1] browsable assets)...
+[2017.01.22-11.14.23:435][  8]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/VehicleBP/Sedan/RGB_Buttons_01.RGB_Buttons_01]
+[2017.01.22-11.14.23:435][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Sedan/RGB_Buttons_01]
+[2017.01.22-11.14.23:445][  8]LogSavePackage: Save=8.05ms
+[2017.01.22-11.14.23:445][  8]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/RGB_Buttons_01_Auto1A04983E74302DA954B43AB83059B5223.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/RGB_Buttons_01_Auto1.uasset'
+[2017.01.22-11.14.23:446][  8]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/RGB_Buttons_01_Auto1.uasset
+[2017.01.22-11.14.23:446][  8]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Sedan/RGB_Car_Body_01] ([1] browsable assets)...
+[2017.01.22-11.14.23:453][  8]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/VehicleBP/Sedan/RGB_Car_Body_01.RGB_Car_Body_01]
+[2017.01.22-11.14.23:453][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Sedan/RGB_Car_Body_01]
+[2017.01.22-11.14.23:463][  8]LogSavePackage: Save=7.68ms
+[2017.01.22-11.14.23:463][  8]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/RGB_Car_Body_01_Auto1B6C03AEE44F41C17D65D848DF70945DD.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/RGB_Car_Body_01_Auto1.uasset'
+[2017.01.22-11.14.23:464][  8]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/RGB_Car_Body_01_Auto1.uasset
+[2017.01.22-11.14.23:464][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Car_MAT_Inst10" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Car_MAT_Inst10_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.01.22-11.14.23:469][  8]LogSavePackage: Save=3.40ms
+[2017.01.22-11.14.23:469][  8]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Car_MAT_Inst10_Auto10871047D4AAB8E0968F595BED961C7B8.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Car_MAT_Inst10_Auto1.uasset'
+[2017.01.22-11.14.23:470][  8]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Car_MAT_Inst10_Auto1.uasset
+[2017.01.22-11.14.23:471][  8]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Keyboard] ([1] browsable assets)...
+[2017.01.22-11.14.23:481][  8]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/VehicleBP/Keyboard.Keyboard]
+[2017.01.22-11.14.23:481][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Keyboard]
+[2017.01.22-11.14.23:481][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Keyboard" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Keyboard_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.01.22-11.14.23:500][  8]LogSavePackage: Save=11.48ms
+[2017.01.22-11.14.23:500][  8]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Keyboard_Auto1FF227C274F22A29B13E77FAACEE358C6.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Keyboard_Auto1.uasset'
+[2017.01.22-11.14.23:501][  8]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Keyboard_Auto1.uasset
+[2017.01.22-11.14.23:501][  8]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Small_Panel] ([1] browsable assets)...
+[2017.01.22-11.14.23:513][  8]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/VehicleBP/Small_Panel.Small_Panel]
+[2017.01.22-11.14.23:513][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Small_Panel]
+[2017.01.22-11.14.23:513][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Small_Panel" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Small_Panel_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.01.22-11.14.23:528][  8]LogSavePackage: Save=13.57ms
+[2017.01.22-11.14.23:528][  8]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Small_Panel_Auto108C6F17A4A9B332B3E3471A0DCD4AAD2.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Small_Panel_Auto1.uasset'
+[2017.01.22-11.14.23:529][  8]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Small_Panel_Auto1.uasset
+[2017.01.22-11.14.23:529][  8]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleBP/Sedan/Rear_Mirror] ([1] browsable assets)...
+[2017.01.22-11.14.23:540][  8]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/VehicleBP/Sedan/Rear_Mirror.Rear_Mirror]
+[2017.01.22-11.14.23:540][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleBP/Sedan/Rear_Mirror]
+[2017.01.22-11.14.23:554][  8]LogSavePackage: Save=12.72ms
+[2017.01.22-11.14.23:554][  8]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Rear_Mirror_Auto116BE86C54CB301B7B6929CBA0AD436AD.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/Rear_Mirror_Auto1.uasset'
+[2017.01.22-11.14.23:555][  8]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Autosaves/Game/VehicleBP/Sedan/Rear_Mirror_Auto1.uasset
+[2017.01.22-11.14.23:555][  8]LogFileHelpers: Auto-saving content packages took 0.757
+[2017.01.22-11.15.50:256][637]LogEditorFactories: Performing atomic reimport of [C:/Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_Door_01.fbx]
+[2017.01.22-11.15.50:276][637]LogFbx: Loading FBX Scene from C:/Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_Door_01.fbx
+[2017.01.22-11.15.50:284][637]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.22-11.15.50:288][637]LogFbx:Warning: Triangulating static mesh pCube188
+[2017.01.22-11.15.50:331][637]LogStaticMesh: Building static mesh SM_Car_Door_01...
+[2017.01.22-11.15.50:331][637]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.01.22-11.15.50:342][637]LogStaticMesh: Built static mesh [0.01s] /Game/VehicleBP/Sedan/SM_Car_Door_01.SM_Car_Door_01
+[2017.01.22-11.15.50:343][637]LogStaticMesh:Warning: SM_Car_Door_01 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.01.22-11.15.50:347][637]LogFbx:Warning: Warning SM_Car_Door_01 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.01.22-11.15.50:354][637]LogEditorFactories: -- imported successfully
+[2017.01.22-11.16.58:823][217]LogEditorFactories: Performing atomic reimport of [C:/Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_Door_01.fbx]
+[2017.01.22-11.16.58:843][217]LogFbx: Loading FBX Scene from C:/Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_Door_01.fbx
+[2017.01.22-11.16.58:850][217]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.22-11.16.58:853][217]LogFbx:Warning: Triangulating static mesh pCube188
+[2017.01.22-11.16.58:896][217]LogStaticMesh: Building static mesh SM_Car_Door_01...
+[2017.01.22-11.16.58:896][217]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.01.22-11.16.58:907][217]LogStaticMesh: Built static mesh [0.01s] /Game/VehicleBP/Sedan/SM_Car_Door_01.SM_Car_Door_01
+[2017.01.22-11.16.58:911][217]LogStaticMesh:Warning: SM_Car_Door_01 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.01.22-11.16.58:915][217]LogFbx:Warning: Warning SM_Car_Door_01 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.01.22-11.16.58:920][217]LogEditorFactories: -- imported successfully
+[2017.01.22-11.17.36:230][602]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Harry Haston-Dougan\Downloads\SM_Car_Door_01 (1).fbx)
+[2017.01.22-11.17.36:237][602]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.01.22-11.17.36:237][602]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.01.22-11.17.36:237][602]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.01.22-11.17.36:237][602]LogFbx: ItemName: Geometry, ItemCount : 4
+[2017.01.22-11.17.36:237][602]LogFbx: ItemName: Material, ItemCount : 3
+[2017.01.22-11.17.36:237][602]LogFbx: ItemName: Model, ItemCount : 4
+[2017.01.22-11.17.36:237][602]LogFbx: ItemName: AnimationCurveNode, ItemCount : 4
+[2017.01.22-11.17.36:242][602]LogFbx: Loading FBX Scene from C:\Users\Harry Haston-Dougan\Downloads\SM_Car_Door_01 (1).fbx
+[2017.01.22-11.17.36:249][602]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.22-11.17.38:024][602]LogFbx: Loading FBX Scene from C:\Users\Harry Haston-Dougan\Downloads\SM_Car_Door_01 (1).fbx
+[2017.01.22-11.17.38:031][602]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.22-11.17.38:034][602]LogLinker: Can't find file '/Game/VehicleBP/Sedan/Handle_MAT'
+[2017.01.22-11.17.38:035][602]LogLinker: Can't find file '/Game/VehicleBP/Sedan/Handle_MAT'
+[2017.01.22-11.17.38:051][602]LogMaterial: Missing cached shader map for material Handle_MAT, compiling. 
+[2017.01.22-11.17.38:069][602]LogFbx:Warning: Triangulating static mesh Handle
+[2017.01.22-11.17.38:080][602]LogFbx:Warning: Triangulating static mesh Handle1
+[2017.01.22-11.17.38:091][602]LogLinker: Can't find file '/Game/VehicleBP/Sedan/Car_Door_MAT1'
+[2017.01.22-11.17.38:091][602]LogLinker: Can't find file '/Game/VehicleBP/Sedan/Car_Door_MAT1'
+[2017.01.22-11.17.38:106][602]LogMaterial: Missing cached shader map for material Car_Door_MAT1, compiling. 
+[2017.01.22-11.17.38:126][602]LogFbx:Warning: Triangulating static mesh Car_Door_74
+[2017.01.22-11.17.38:142][602]LogLinker: Can't find file '/Game/VehicleBP/Sedan/Side_Mirror1'
+[2017.01.22-11.17.38:143][602]LogLinker: Can't find file '/Game/VehicleBP/Sedan/Side_Mirror1'
+[2017.01.22-11.17.38:151][602]LogMaterial: Missing cached shader map for material Side_Mirror1, compiling. 
+[2017.01.22-11.17.38:167][602]LogFbx:Warning: Triangulating static mesh Side_Mirror
+[2017.01.22-11.17.38:178][602]LogStaticMesh: Building static mesh SM_Car_Door_01__1_...
+[2017.01.22-11.17.38:194][602]LogStaticMesh: Built static mesh [0.02s] /Game/VehicleBP/Sedan/SM_Car_Door_01__1_.SM_Car_Door_01__1_
+[2017.01.22-11.18.41:329][271]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/mirrormat" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/mirrormat.uasset" SILENT=true
+[2017.01.22-11.18.41:343][271]LogSavePackage: Save=12.10ms
+[2017.01.22-11.18.41:343][271]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/mirrormat8190E4AD431DB482BDEEAA91D09CE4F6.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/mirrormat.uasset'
+[2017.01.22-11.18.41:345][271]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/mirrormat.uasset
+[2017.01.22-11.19.27:814][  0]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Harry Haston-Dougan\Downloads\Car_Handle_01 (1).png)
+[2017.01.22-11.19.27:845][  0]LogTexture:Display: Building textures: Car_Handle_01__1_ (AutoDXT)
+[2017.01.22-11.20.30:583][ 10]Cmd: TRANSACTION UNDO
+[2017.01.22-11.20.30:583][ 10]LogEditorTransaction: Undo Replace component used material
+[2017.01.22-11.20.30:619][ 10]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Gamelevel.Gamelevel:PersistentLevel.Sedan_C_0.VehicleMesh) Component already registered.
+[2017.01.22-11.20.30:633][ 10]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.Sedan_C_129.VehicleMesh) Component already registered.
+[2017.01.22-11.21.04:315][145]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Harry Haston-Dougan\Downloads\SM_Computer_Button_01.fbx)
+[2017.01.22-11.21.04:319][145]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.01.22-11.21.04:319][145]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.01.22-11.21.04:319][145]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.01.22-11.21.04:319][145]LogFbx: ItemName: NodeAttribute, ItemCount : 1
+[2017.01.22-11.21.04:319][145]LogFbx: ItemName: Model, ItemCount : 2
+[2017.01.22-11.21.04:319][145]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.01.22-11.21.04:319][145]LogFbx: ItemName: Material, ItemCount : 1
+[2017.01.22-11.21.04:319][145]LogFbx: ItemName: AnimationCurveNode, ItemCount : 1
+[2017.01.22-11.21.04:323][145]LogFbx: Loading FBX Scene from C:\Users\Harry Haston-Dougan\Downloads\SM_Computer_Button_01.fbx
+[2017.01.22-11.21.04:328][145]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.22-11.21.19:487][145]LogFbx: Loading FBX Scene from C:\Users\Harry Haston-Dougan\Downloads\SM_Computer_Button_01.fbx
+[2017.01.22-11.21.19:492][145]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.22-11.21.19:495][145]LogFbx:Warning: Triangulating static mesh polySurface70
+[2017.01.22-11.21.19:497][145]LogStaticMesh: Building static mesh SM_Computer_Button_01...
+[2017.01.22-11.21.19:499][145]LogStaticMesh: Built static mesh [0.00s] /Game/VehicleBP/Sedan/SM_Computer_Button_01.SM_Computer_Button_01
+[2017.01.22-11.21.20:592][203]BlueprintLog: New page: Compile Sedan
+[2017.01.22-11.21.21:954][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Sedan" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset" SILENT=true
+[2017.01.22-11.21.22:166][227]LogSavePackage: Save=204.73ms
+[2017.01.22-11.21.22:166][227]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Sedan3F27461448CFA7A71C8B50A083C6E318.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset'
+[2017.01.22-11.21.22:172][227]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset
+[2017.01.22-11.21.24:913][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Gamelevel" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.22-11.21.25:226][282]LogSavePackage: Save=284.92ms
+[2017.01.22-11.21.25:226][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Gamelevel6C9ABA934EE6522F69F6B4A885F1323C.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap'
+[2017.01.22-11.21.25:234][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap
+[2017.01.22-11.21.25:251][282]LogFileHelpers: Saving map 'Gamelevel' took 0.390
+[2017.01.22-11.21.25:253][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Air_Con" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Air_Con.uasset" SILENT=true
+[2017.01.22-11.21.25:264][282]LogSavePackage: Save=4.93ms
+[2017.01.22-11.21.25:264][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Air_Con6927F50E4DC80606E545DA9011A5330C.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Air_Con.uasset'
+[2017.01.22-11.21.25:269][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Air_Con.uasset
+[2017.01.22-11.21.25:272][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Car_MAT" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT.uasset" SILENT=true
+[2017.01.22-11.21.25:285][282]LogSavePackage: Save=6.88ms
+[2017.01.22-11.21.25:285][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Car_MAT4A7337CA46B078625EABD8BF767E1C75.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT.uasset'
+[2017.01.22-11.21.25:291][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT.uasset
+[2017.01.22-11.21.25:293][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Car_MAT_Inst10" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst10.uasset" SILENT=true
+[2017.01.22-11.21.25:297][282]LogSavePackage: Save=2.98ms
+[2017.01.22-11.21.25:297][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Car_MAT_Inst103926812B4861FB38C91C0FB2C4B8C55B.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst10.uasset'
+[2017.01.22-11.21.25:303][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst10.uasset
+[2017.01.22-11.21.25:315][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Car_MAT_Inst5" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst5.uasset" SILENT=true
+[2017.01.22-11.21.25:336][282]LogSavePackage: Save=13.17ms
+[2017.01.22-11.21.25:336][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Car_MAT_Inst5D3D7D9D841F5637DBBB2DCBAD54BDB62.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst5.uasset'
+[2017.01.22-11.21.25:338][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Car_MAT_Inst5.uasset
+[2017.01.22-11.21.25:340][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Dashboard_Body" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Dashboard_Body.uasset" SILENT=true
+[2017.01.22-11.21.25:351][282]LogSavePackage: Save=4.15ms
+[2017.01.22-11.21.25:351][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Dashboard_BodyAF468E26473DDDBF54007DA3F1EAF563.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Dashboard_Body.uasset'
+[2017.01.22-11.21.25:354][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Dashboard_Body.uasset
+[2017.01.22-11.21.25:356][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Keyboard" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Keyboard.uasset" SILENT=true
+[2017.01.22-11.21.25:367][282]LogSavePackage: Save=4.16ms
+[2017.01.22-11.21.25:367][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Keyboard4F3D57F54F50FABB7F08CA84E823BDB7.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Keyboard.uasset'
+[2017.01.22-11.21.25:372][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Keyboard.uasset
+[2017.01.22-11.21.25:374][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Panels" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Panels.uasset" SILENT=true
+[2017.01.22-11.21.25:397][282]LogSavePackage: Save=16.16ms
+[2017.01.22-11.21.25:397][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Panels6FABB6A540E0B40CBC0A588DFC5A2183.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Panels.uasset'
+[2017.01.22-11.21.25:400][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Panels.uasset
+[2017.01.22-11.21.25:413][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Radio" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Radio.uasset" SILENT=true
+[2017.01.22-11.21.25:428][282]LogSavePackage: Save=14.08ms
+[2017.01.22-11.21.25:428][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/RadioC12C0F09456FC520E67B869CC57AE34A.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Radio.uasset'
+[2017.01.22-11.21.25:433][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Radio.uasset
+[2017.01.22-11.21.25:446][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Screen" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Screen.uasset" SILENT=true
+[2017.01.22-11.21.25:460][282]LogSavePackage: Save=12.46ms
+[2017.01.22-11.21.25:460][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/ScreenFF199685475C79F894913297C225B89B.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Screen.uasset'
+[2017.01.22-11.21.25:465][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Screen.uasset
+[2017.01.22-11.21.25:467][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Car_Body" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Car_Body.uasset" SILENT=true
+[2017.01.22-11.21.25:479][282]LogSavePackage: Save=4.93ms
+[2017.01.22-11.21.25:479][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Car_BodyBC3A1AAA49B406F774B95F81B542A794.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Car_Body.uasset'
+[2017.01.22-11.21.25:485][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Car_Body.uasset
+[2017.01.22-11.21.25:500][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Car_Door_MAT1" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Car_Door_MAT1.uasset" SILENT=true
+[2017.01.22-11.21.25:514][282]LogSavePackage: Save=12.97ms
+[2017.01.22-11.21.25:514][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Car_Door_MAT111395612405A540476CB2EB6889097D2.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Car_Door_MAT1.uasset'
+[2017.01.22-11.21.25:516][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Car_Door_MAT1.uasset
+[2017.01.22-11.21.25:527][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Car_Handle_01" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Car_Handle_01.uasset" SILENT=true
+[2017.01.22-11.21.25:574][282]LogSavePackage: Save=45.19ms
+[2017.01.22-11.21.25:574][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Car_Handle_016F83C3CC45C8AB78AC7CADAF7C35758F.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Car_Handle_01.uasset'
+[2017.01.22-11.21.25:579][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Car_Handle_01.uasset
+[2017.01.22-11.21.25:591][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/cardoormat" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/cardoormat.uasset" SILENT=true
+[2017.01.22-11.21.25:605][282]LogSavePackage: Save=12.72ms
+[2017.01.22-11.21.25:606][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/cardoormat08AEF4864080DF77F79C56A4B57B25F7.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/cardoormat.uasset'
+[2017.01.22-11.21.25:607][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/cardoormat.uasset
+[2017.01.22-11.21.25:622][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Handle_MAT" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Handle_MAT.uasset" SILENT=true
+[2017.01.22-11.21.25:636][282]LogSavePackage: Save=13.17ms
+[2017.01.22-11.21.25:636][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Handle_MAT0B80453F4C244760B12453BCD6D10099.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Handle_MAT.uasset'
+[2017.01.22-11.21.25:638][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Handle_MAT.uasset
+[2017.01.22-11.21.25:651][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/handlemat" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/handlemat.uasset" SILENT=true
+[2017.01.22-11.21.25:665][282]LogSavePackage: Save=11.91ms
+[2017.01.22-11.21.25:665][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/handlemat942DD3CD4A6D8A6CABCAFD9AF1853364.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/handlemat.uasset'
+[2017.01.22-11.21.25:667][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/handlemat.uasset
+[2017.01.22-11.21.25:671][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/lambert1" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/lambert1.uasset" SILENT=true
+[2017.01.22-11.21.25:682][282]LogSavePackage: Save=4.79ms
+[2017.01.22-11.21.25:682][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/lambert1A306F7E044EC8119077A868029AE8551.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/lambert1.uasset'
+[2017.01.22-11.21.25:688][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/lambert1.uasset
+[2017.01.22-11.21.25:690][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/mirrormat" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/mirrormat.uasset" SILENT=true
+[2017.01.22-11.21.25:701][282]LogSavePackage: Save=4.08ms
+[2017.01.22-11.21.25:701][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/mirrormat0145D4B843BECD66B602588184DE4787.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/mirrormat.uasset'
+[2017.01.22-11.21.25:703][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/mirrormat.uasset
+[2017.01.22-11.21.25:715][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Rear_Mirror" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Rear_Mirror.uasset" SILENT=true
+[2017.01.22-11.21.25:729][282]LogSavePackage: Save=12.37ms
+[2017.01.22-11.21.25:729][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Rear_Mirror8D1358DB47F82D0F42B278AE13D550C5.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Rear_Mirror.uasset'
+[2017.01.22-11.21.25:734][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Rear_Mirror.uasset
+[2017.01.22-11.21.25:744][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/RGB_Buttons_01" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/RGB_Buttons_01.uasset" SILENT=true
+[2017.01.22-11.21.25:789][282]LogSavePackage: Save=43.36ms
+[2017.01.22-11.21.25:789][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/RGB_Buttons_01AF2913F04F90AB65EFEF65931CA1A31A.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/RGB_Buttons_01.uasset'
+[2017.01.22-11.21.25:795][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/RGB_Buttons_01.uasset
+[2017.01.22-11.21.25:803][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/RGB_Car_Body_01" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/RGB_Car_Body_01.uasset" SILENT=true
+[2017.01.22-11.21.25:848][282]LogSavePackage: Save=44.22ms
+[2017.01.22-11.21.25:849][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/RGB_Car_Body_01BE0C6D6447D5FF7E83790D9A18885062.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/RGB_Car_Body_01.uasset'
+[2017.01.22-11.21.25:853][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/RGB_Car_Body_01.uasset
+[2017.01.22-11.21.25:863][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/RGB_Car_Door_01" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/RGB_Car_Door_01.uasset" SILENT=true
+[2017.01.22-11.21.25:906][282]LogSavePackage: Save=40.99ms
+[2017.01.22-11.21.25:906][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/RGB_Car_Door_013BF2116D46D47A91AAA0B2A278632B3D.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/RGB_Car_Door_01.uasset'
+[2017.01.22-11.21.25:911][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/RGB_Car_Door_01.uasset
+[2017.01.22-11.21.25:921][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/RGB_Glove_Box_01" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/RGB_Glove_Box_01.uasset" SILENT=true
+[2017.01.22-11.21.25:962][282]LogSavePackage: Save=38.76ms
+[2017.01.22-11.21.25:962][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/RGB_Glove_Box_01B5836CF449BC6F41C270E2A7A18E197A.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/RGB_Glove_Box_01.uasset'
+[2017.01.22-11.21.25:967][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/RGB_Glove_Box_01.uasset
+[2017.01.22-11.21.25:976][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/RGB_Rear_Mirror_01" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/RGB_Rear_Mirror_01.uasset" SILENT=true
+[2017.01.22-11.21.26:013][282]LogSavePackage: Save=36.15ms
+[2017.01.22-11.21.26:013][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/RGB_Rear_Mirror_012C1AE6F84FC94CE94140CCA29BEE4B3E.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/RGB_Rear_Mirror_01.uasset'
+[2017.01.22-11.21.26:018][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/RGB_Rear_Mirror_01.uasset
+[2017.01.22-11.21.26:026][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/RGB_Seats_01" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/RGB_Seats_01.uasset" SILENT=true
+[2017.01.22-11.21.26:066][282]LogSavePackage: Save=38.51ms
+[2017.01.22-11.21.26:066][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/RGB_Seats_013291E4554B13FADED89E65839F6DFF3C.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/RGB_Seats_01.uasset'
+[2017.01.22-11.21.26:072][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/RGB_Seats_01.uasset
+[2017.01.22-11.21.26:080][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/RGB_Side_Mirror_01" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/RGB_Side_Mirror_01.uasset" SILENT=true
+[2017.01.22-11.21.26:117][282]LogSavePackage: Save=35.46ms
+[2017.01.22-11.21.26:117][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/RGB_Side_Mirror_01D5EE35F84AFEA65968900D8301619644.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/RGB_Side_Mirror_01.uasset'
+[2017.01.22-11.21.26:122][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/RGB_Side_Mirror_01.uasset
+[2017.01.22-11.21.26:132][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/RGB_Wheel_Stick_01" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/RGB_Wheel_Stick_01.uasset" SILENT=true
+[2017.01.22-11.21.26:177][282]LogSavePackage: Save=43.49ms
+[2017.01.22-11.21.26:177][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/RGB_Wheel_Stick_0157281D81451CA99C37F040B8E3C0AC1A.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/RGB_Wheel_Stick_01.uasset'
+[2017.01.22-11.21.26:183][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/RGB_Wheel_Stick_01.uasset
+[2017.01.22-11.21.26:195][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Side_Mirror1" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Side_Mirror1.uasset" SILENT=true
+[2017.01.22-11.21.26:234][282]LogSavePackage: Save=37.02ms
+[2017.01.22-11.21.26:234][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Side_Mirror181D554374654B82FDC79C9B258057F3E.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Side_Mirror1.uasset'
+[2017.01.22-11.21.26:235][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Side_Mirror1.uasset
+[2017.01.22-11.21.26:238][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/SM_Car_Body_01" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_Body_01.uasset" SILENT=true
+[2017.01.22-11.21.26:251][282]LogSavePackage: Save=5.68ms
+[2017.01.22-11.21.26:251][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/SM_Car_Body_0186B7C4E34F7716E15610629DCB7518C3.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_Body_01.uasset'
+[2017.01.22-11.21.26:255][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_Body_01.uasset
+[2017.01.22-11.21.26:267][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/SM_Car_Door_01" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_Door_01.uasset" SILENT=true
+[2017.01.22-11.21.26:287][282]LogSavePackage: Save=12.73ms
+[2017.01.22-11.21.26:287][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/SM_Car_Door_01782F744B47C12230D14C4FACC37E2349.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_Door_01.uasset'
+[2017.01.22-11.21.26:289][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_Door_01.uasset
+[2017.01.22-11.21.26:300][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/SM_Car_Door_01__1_" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_Door_01__1_.uasset" SILENT=true
+[2017.01.22-11.21.26:313][282]LogSavePackage: Save=12.16ms
+[2017.01.22-11.21.26:313][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/SM_Car_Door_01__1_2268896843470473D722B0BAB0378B83.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_Door_01__1_.uasset'
+[2017.01.22-11.21.26:315][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Car_Door_01__1_.uasset
+[2017.01.22-11.21.26:328][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/SM_Computer_Button_01" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Computer_Button_01.uasset" SILENT=true
+[2017.01.22-11.21.26:340][282]LogSavePackage: Save=10.85ms
+[2017.01.22-11.21.26:340][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/SM_Computer_Button_01386B88634886987E25C837877E1D549C.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Computer_Button_01.uasset'
+[2017.01.22-11.21.26:342][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Computer_Button_01.uasset
+[2017.01.22-11.21.26:354][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Small_Panel" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Small_Panel.uasset" SILENT=true
+[2017.01.22-11.21.26:368][282]LogSavePackage: Save=12.65ms
+[2017.01.22-11.21.26:368][282]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Small_Panel0CEAF6004BB4E64024ECC2BFFD3AE764.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Small_Panel.uasset'
+[2017.01.22-11.21.26:372][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Small_Panel.uasset
+[2017.01.22-11.22.26:031][662]LogEditorFactories: Performing atomic reimport of [C:/Users/Harry Haston-Dougan/Downloads/SM_Cup_Holder_Buttons_01.fbx]
+[2017.01.22-11.22.26:053][662]LogFbx: Loading FBX Scene from C:/Users/Harry Haston-Dougan/Downloads/SM_Cup_Holder_Buttons_01.fbx
+[2017.01.22-11.22.26:059][662]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.22-11.22.26:062][662]LogFbx:Warning: Triangulating static mesh polySurface73
+[2017.01.22-11.22.26:073][662]LogStaticMesh: Building static mesh SM_Button_03...
+[2017.01.22-11.22.26:075][662]LogStaticMesh: Built static mesh [0.00s] /Game/VehicleBP/Sedan/SM_Button_03.SM_Button_03
+[2017.01.22-11.22.26:085][662]LogEditorFactories: -- imported successfully
+[2017.01.22-11.22.40:385][109]LogEditorFactories: Performing atomic reimport of [C:/Users/Harry Haston-Dougan/Downloads/SM_Radio_Buttons_01.fbx]
+[2017.01.22-11.22.40:404][109]LogFbx: Loading FBX Scene from C:/Users/Harry Haston-Dougan/Downloads/SM_Radio_Buttons_01.fbx
+[2017.01.22-11.22.40:409][109]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.22-11.22.40:412][109]LogFbx:Warning: Triangulating static mesh polySurface71
+[2017.01.22-11.22.40:423][109]LogStaticMesh: Building static mesh SM_Button_02...
+[2017.01.22-11.22.40:425][109]LogStaticMesh: Built static mesh [0.00s] /Game/VehicleBP/Sedan/SM_Button_02.SM_Button_02
+[2017.01.22-11.22.40:433][109]LogEditorFactories: -- imported successfully
+[2017.01.22-11.22.48:488][399]LogEditorFactories: Performing atomic reimport of [C:/Users/Harry Haston-Dougan/Downloads/SM_Computer_Button_01.fbx]
+[2017.01.22-11.22.48:512][399]LogFbx: Loading FBX Scene from C:/Users/Harry Haston-Dougan/Downloads/SM_Computer_Button_01.fbx
+[2017.01.22-11.22.48:517][399]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.22-11.22.48:519][399]LogFbx:Warning: Triangulating static mesh polySurface70
+[2017.01.22-11.22.48:530][399]LogStaticMesh: Building static mesh SM_Button_01...
+[2017.01.22-11.22.48:532][399]LogStaticMesh: Built static mesh [0.00s] /Game/VehicleBP/Sedan/SM_Button_01.SM_Button_01
+[2017.01.22-11.22.48:540][399]LogEditorFactories: -- imported successfully
+[2017.01.22-11.22.57:864][741]LogEditorFactories: Performing atomic reimport of [C:/Users/Harry Haston-Dougan/Downloads/SM_Glove_Box_Door_01.fbx]
+[2017.01.22-11.22.57:888][741]LogFbx: Loading FBX Scene from C:/Users/Harry Haston-Dougan/Downloads/SM_Glove_Box_Door_01.fbx
+[2017.01.22-11.22.57:918][741]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.22-11.22.57:928][741]LogFbx:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
+[2017.01.22-11.22.57:928][741]LogFbx:Warning: Triangulating static mesh pCube184
+[2017.01.22-11.22.57:946][741]LogStaticMesh: Building static mesh SM_Glove_Box_Door_01...
+[2017.01.22-11.22.57:949][741]LogStaticMesh: Built static mesh [0.00s] /Game/VehicleBP/Sedan/SM_Glove_Box_Door_01.SM_Glove_Box_Door_01
+[2017.01.22-11.22.57:962][741]LogEditorFactories: -- imported successfully
+[2017.01.22-11.23.03:888][874]LogEditorFactories: Performing atomic reimport of [C:/Users/Harry Haston-Dougan/Downloads/SM_Keyboard_Buttons_01.fbx]
+[2017.01.22-11.23.03:910][874]LogFbx: Loading FBX Scene from C:/Users/Harry Haston-Dougan/Downloads/SM_Keyboard_Buttons_01.fbx
+[2017.01.22-11.23.03:933][874]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.22-11.23.03:936][874]LogFbx:Warning: Triangulating static mesh polySurface91
+[2017.01.22-11.23.03:977][874]LogStaticMesh: Building static mesh SM_Keyboard_Keys_01...
+[2017.01.22-11.23.04:020][874]LogStaticMesh: Built static mesh [0.04s] /Game/VehicleBP/Sedan/SM_Keyboard_Keys_01.SM_Keyboard_Keys_01
+[2017.01.22-11.23.04:028][874]LogEditorFactories: -- imported successfully
+[2017.01.22-11.24.53:512][533]BlueprintLog: New page: Compile Sedan
+[2017.01.22-11.24.54:484][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Sedan" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset" SILENT=true
+[2017.01.22-11.24.54:694][550]LogSavePackage: Save=206.89ms
+[2017.01.22-11.24.54:694][550]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/SedanE92BC28A4D68981E033F5A8A00E31B28.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset'
+[2017.01.22-11.24.54:697][550]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset
+[2017.01.22-11.25.02:202][905]BlueprintLog: New page: Compile Sedan
+[2017.01.22-11.25.03:133][923]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Sedan" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset" SILENT=true
+[2017.01.22-11.25.03:342][923]LogSavePackage: Save=206.13ms
+[2017.01.22-11.25.03:342][923]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Sedan36264861424D04BF7ED9BCADA10D70FD.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset'
+[2017.01.22-11.25.03:349][923]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset
+[2017.01.22-11.25.05:506][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Gamelevel" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.22-11.25.05:829][977]LogSavePackage: Save=304.31ms
+[2017.01.22-11.25.05:829][977]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/GamelevelB3DB6BBE46D303B510F85A80B80B87B4.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap'
+[2017.01.22-11.25.05:832][977]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap
+[2017.01.22-11.25.05:846][977]LogFileHelpers: Saving map 'Gamelevel' took 0.393
+[2017.01.22-11.25.05:857][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Buttonmat" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Buttonmat.uasset" SILENT=true
+[2017.01.22-11.25.05:870][977]LogSavePackage: Save=11.97ms
+[2017.01.22-11.25.05:870][977]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Buttonmat8FDA78FF46E58C7F14D320873D1BD7FB.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Buttonmat.uasset'
+[2017.01.22-11.25.05:872][977]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Buttonmat.uasset
+[2017.01.22-11.25.05:883][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/GloveMat" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/GloveMat.uasset" SILENT=true
+[2017.01.22-11.25.05:897][977]LogSavePackage: Save=11.80ms
+[2017.01.22-11.25.05:897][977]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/GloveMat96F287F4497C4F9D2236E283F7BBB644.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/GloveMat.uasset'
+[2017.01.22-11.25.05:898][977]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/GloveMat.uasset
+[2017.01.22-11.25.05:912][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/SM_Button_01" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Button_01.uasset" SILENT=true
+[2017.01.22-11.25.05:929][977]LogSavePackage: Save=10.84ms
+[2017.01.22-11.25.05:929][977]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/SM_Button_018B9C47554C0AA0B0ACA16B919E05D56F.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Button_01.uasset'
+[2017.01.22-11.25.05:931][977]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Button_01.uasset
+[2017.01.22-11.25.05:943][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/SM_Button_02" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Button_02.uasset" SILENT=true
+[2017.01.22-11.25.05:961][977]LogSavePackage: Save=12.63ms
+[2017.01.22-11.25.05:961][977]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/SM_Button_02F26D975F4FA5A4D326B2808BD5945912.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Button_02.uasset'
+[2017.01.22-11.25.05:963][977]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Button_02.uasset
+[2017.01.22-11.25.05:976][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/SM_Button_03" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Button_03.uasset" SILENT=true
+[2017.01.22-11.25.05:995][977]LogSavePackage: Save=12.18ms
+[2017.01.22-11.25.05:996][977]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/SM_Button_037C054A4A44A537D3E92582B2069A682A.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Button_03.uasset'
+[2017.01.22-11.25.05:998][977]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Button_03.uasset
+[2017.01.22-11.25.06:011][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/SM_Glove_Box_Door_01" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Glove_Box_Door_01.uasset" SILENT=true
+[2017.01.22-11.25.06:030][977]LogSavePackage: Save=12.26ms
+[2017.01.22-11.25.06:030][977]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/SM_Glove_Box_Door_01E7F2A36840F4083DB2C39EB7D74BF3DD.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Glove_Box_Door_01.uasset'
+[2017.01.22-11.25.06:032][977]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Glove_Box_Door_01.uasset
+[2017.01.22-11.25.06:045][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/SM_Keyboard_Keys_01" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Keyboard_Keys_01.uasset" SILENT=true
+[2017.01.22-11.25.06:065][977]LogSavePackage: Save=12.44ms
+[2017.01.22-11.25.06:065][977]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/SM_Keyboard_Keys_01A4A99C65433E810D07842289C54D0651.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Keyboard_Keys_01.uasset'
+[2017.01.22-11.25.06:066][977]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/SM_Keyboard_Keys_01.uasset
+[2017.01.22-11.25.37:734][563]BlueprintLog: New page: Compile Sedan
+[2017.01.22-11.25.38:672][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Sedan" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset" SILENT=true
+[2017.01.22-11.25.38:883][580]LogSavePackage: Save=206.83ms
+[2017.01.22-11.25.38:883][580]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/Sedan6E0620194AEF510E7EEFFA8294542F8F.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset'
+[2017.01.22-11.25.38:886][580]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset
+[2017.01.22-11.25.52:087][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Gamelevel" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.22-11.25.52:418][406]LogSavePackage: Save=312.56ms
+[2017.01.22-11.25.52:418][406]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/GamelevelC7E04954423A65ACC76C8B848CED40AD.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap'
+[2017.01.22-11.25.52:421][406]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap
+[2017.01.22-11.25.52:436][406]LogFileHelpers: Saving map 'Gamelevel' took 0.402
+[2017.01.22-11.26.27:292][983]BlueprintLog: New page: Compile Sedan
+[2017.01.22-11.26.28:242][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleBP/Sedan/Sedan" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset" SILENT=true
+[2017.01.22-11.26.28:455][ 11]LogSavePackage: Save=205.99ms
+[2017.01.22-11.26.28:455][ 11]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/SedanB31261524C94D6C7D1D8D29AD0270331.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset'
+[2017.01.22-11.26.28:458][ 11]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/Drive-Thru/Drive_Thru/Content/VehicleBP/Sedan/Sedan.uasset
+[2017.01.22-11.26.30:714][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Gamelevel" FILE="../../../../../../Repos/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.22-11.26.31:017][ 93]LogSavePackage: Save=278.05ms
+[2017.01.22-11.26.31:017][ 93]LogSavePackage: Moving '../../../../../../Repos/Drive-Thru/Drive_Thru/Saved/GamelevelBC19DE8944E6D249CF88C38B6E486F9D.tmp' to '../../../../../../Repos/Drive-Thru/Drive_Thru/Content/Maps/Gamelevel.umap'
